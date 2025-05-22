@@ -24,8 +24,9 @@ export const gilroy = localFont({
   weight: '700'
 });
 
+// Error was been created by spelling mistakes
 export const gilroy_semibold = localFont({
-  src: '/fonts/gilroy/Gilroy-semiBold.ttf',
+  src: '/fonts/gilroy/Gilroy-SemiBold.ttf', 
   variable: "--font-gilroy",
   weight: '700'
 });
