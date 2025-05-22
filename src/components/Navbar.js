@@ -4,7 +4,7 @@ import Image from 'next/image'
 import React, { useState } from 'react'
 import Link from 'next/link';
 import { SearchIcon, X, Menu } from 'lucide-react';
-import { gotham } from '@/lib/font';
+// import { gotham } from '@/lib/font';
 
 // const gotham = localFont({
 //   src: '../styles/fonts/gotham/gotham-font/GOTHAM-MEDIUM.ttf',

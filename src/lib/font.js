@@ -7,29 +7,29 @@ export const montserrat = Montserrat({
 })
 
 export const original = localFont({
-  src: './fonts/Original-Regular.ttf',
+  src: './fonts/original/TTF/Original-Regular.ttf',
   variable: "--font-original",
   weight: '700'
 });
 export const helvetica_neue = localFont({
-  src: './fonts/HelveticaNeueLTStd-Cn.otf',
+  src: './fonts/helvetica_neue/HelveticaNeueLTStd-Cn.otf',
   variable: "--font-original",
   weight: '700'
 });
 
 export const gilroy = localFont({
-  src: '../../public/fonts/Gilroy-bold.ttf',
+  src: './fonts/gilroy/Gilroy-bold.ttf',
   variable: "--font-gilroy",
   weight: '700'
 });
 export const gilroy_semibold = localFont({
-  src: './fonts/Gilroy-semibold.ttf',
+  src: './fonts/gilroy/Gilroy-semibold.ttf',
   variable: "--font-gilroy",
   weight: '700'
 });
 
 export const gotham = localFont({
-  src: './fonts/GOTHAM-MEDIUM.ttf',
+  src: './fonts/gotham/gotham-font/GOTHAM-MEDIUM.ttf',
   variable: "--font-gotham",
   weight: '700'
 });
