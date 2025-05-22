@@ -37,7 +37,7 @@ const FAQSection = () => {
         </h3>
       </div>
 
-      <Accordion type="single" collapsible className="w-full max-w-4xl xl:max-w-5xl mx-auto space-y-4">
+      <Accordion type="single" collapsible className="w-full max-w-5xl xl:max-w-6xl mx-auto space-y-4">
         {faqItems.map((item, index) => (
           <AccordionItem
             key={index}

@@ -125,7 +125,7 @@
 .element {
   background: radial-gradient(
     #EDB669 , 
-    #ffffff 80%);
+    #EDB66900);
 }
 
 [data-state="open"] .accordion-chevron {

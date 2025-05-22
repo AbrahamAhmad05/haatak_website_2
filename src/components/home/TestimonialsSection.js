@@ -53,8 +53,8 @@ const TestimonialsSection = () => {
   return (
     <div className='w-full bg-[url(/home_imgs/testimonial_bg.png)] bg-cover bg-center'>
         <div className="bg-[#FFE0BFCC] flex flex-col justify-center items-center text-center pt-20 pb-24 px-4 md:px-8">
-            <h5 className={`${gilroy.className} text-3xl text-[#2E0A49]`}>Did you know?</h5>
-            <h2 className='text-4xl md:text-6xl font-bold text-[#2E0A49] pt-4 md:pt-6'>They talk about us!</h2>
+            <h5 className={`${gilroy.className} text-4xl text-[#2E0A49]`}>Did you know?</h5>
+            <h2 className='text-6xl md:text-8xl font-medium text-[#2E0A49] pt-4 md:pt-6'>They talk about us!</h2>
             
             <Carousel 
                 opts={{ 
