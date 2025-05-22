@@ -11,6 +11,7 @@ export const original = localFont({
   variable: "--font-original",
   weight: '700'
 });
+
 export const helvetica_neue = localFont({
   src: '/fonts/helvetica_neue/HelveticaNeueLTStd-Cn.otf',
   variable: "--font-original",
@@ -18,18 +19,19 @@ export const helvetica_neue = localFont({
 });
 
 export const gilroy = localFont({
-  src: '/fonts/gilroy/Gilroy-bold.ttf',
+  src: '/fonts/gilroy/Gilroy-Bold.ttf',
   variable: "--font-gilroy",
   weight: '700'
 });
+
 export const gilroy_semibold = localFont({
-  src: '/fonts/gilroy/Gilroy-semibold.ttf',
+  src: '/fonts/gilroy/Gilroy-semiBold.ttf',
   variable: "--font-gilroy",
   weight: '700'
 });
 
 export const gotham = localFont({
-  src: '/fonts/gotham/gotham-font/GOTHAM-MEDIUM.ttf',
+  src: '/fonts/gotham/gotham-font/Gotham-Medium.otf',
   variable: "--font-gotham",
   weight: '700'
 });
