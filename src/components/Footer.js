@@ -31,8 +31,8 @@ const Footer = () => {
                 <div className='grid grid-cols-1 md:grid-cols-3 lg:grid-cols-[1fr_1fr_1fr_30%] gap-8 mt-4'>
 
                     {/* About */}
-                    <div className="space-y-2">
-                        <h5 className={`${helvetica_neue.className} text-xl text-[#2E0A49] uppercase`}>About</h5>
+                    <div className="space-y-4">
+                        <h5 className={`${helvetica_neue.className} text-2xl font-medium  leading-relaxed text-[#2E0A49] uppercase`}>About</h5>
                         <div className="border-t border-[#2E0A49]" />
                         <p className="text-[#2E0A49] uppercase">Buy gold</p>
                         <p className="text-[#2E0A49] uppercase">About us</p>
@@ -41,8 +41,8 @@ const Footer = () => {
                     </div>
 
                     {/* Help */}
-                    <div className="space-y-2">
-                        <h5 className={`${helvetica_neue.className} text-xl text-[#2E0A49] uppercase`}>Help</h5>
+                    <div className="space-y-4">
+                        <h5 className={`${helvetica_neue.className} text-2xl font-medium  leading-relaxed text-[#2E0A49] uppercase`}>Help</h5>
                         <div className="border-t border-[#2E0A49]" />
                         <p className="text-[#2E0A49] uppercase">Shipping & Return</p>
                         <p className="text-[#2E0A49] uppercase">Terms & Conditions</p>
@@ -51,19 +51,25 @@ const Footer = () => {
                     </div>
 
                     {/* Contact */}
-                    <div className="space-y-2">
-                        <h5 className={`${helvetica_neue.className} text-xl text-[#2E0A49] uppercase`}>Contact</h5>
+                    <div className="space-y-4">
+                        <h5 className={`${helvetica_neue.className} text-2xl font-medium leading-relaxed text-[#2E0A49] uppercase`}>Contact</h5>
                         <div className="border-t border-[#2E0A49]" />
                         <div className="flex items-start gap-3">
+                            <div className='pt-[2px]'>
                             <Phone className="text-[#2E0A49]" size={20} />
+                            </div>
                             <p className="text-[#2E0A49]">+91 63640 00414</p>
                         </div>
                         <div className="flex items-start gap-3">
+                            <div className='pt-[2px]'>
                             <Mail className="text-[#2E0A49]" size={20} />
+                            </div>
                             <p className="text-[#2E0A49] uppercase">hello@haatak.com</p>
                         </div>
                         <div className="flex items-start gap-3">
-                            <MapPin className="text-[#2E0A49]" size={32} />
+                            <div className='pt-[2px]'>
+                            <MapPin className="text-[#2E0A49]" size={20} />
+                            </div>
                             <p className="text-[#2E0A49] uppercase">
                                 #558, 9th Cross, 3rd Phase, J P Nagar, Bengaluru 560078
                             </p>
@@ -71,8 +77,8 @@ const Footer = () => {
                     </div>
 
                     {/* Company Info */}
-                    <div className="space-y-4 lg:border-l-2 border-[#2E0A49] lg:pl-8 xl:pl-10">
-                        <div className="w-full max-w-[280px]">  {/* Adjusted width */}
+                    <div className="space-y-6 lg:border-l-2 border-[#2E0A49] ">
+                        <div className="w-full min:min-w-[200px] md:min-w-[350px] xl:min-w-[400px] lg:pl-7 xl:pl-9">  {/* Adjusted width */}
                             <Image
                                 src="/home_imgs/haatak_logo.png"
                                 width={537}
@@ -81,10 +87,12 @@ const Footer = () => {
                                 className="w-full h-auto"
                             />
                         </div>
-                        <p className="text-[#2E0A49]/80 text-base leading-relaxed">
+                        <div className='lg:pl-8 xl:pl-10'>
+                        <p className="text-[#2E0A49]/80 text-2xl leading-relaxed line">
                             Making gold investment accessible, secure, and effortless for everyone.
                         </p>
-                        <div className="flex gap-4 pt-2 flex-wrap">
+                        </div>
+                        <div className="flex gap-4 pt-2 flex-wrap lg:pl-8 xl:pl-10">
                             <Link href='http://www.facebook.com/HaatakOfficial'>
                                 <Image src="/home_imgs/facebook_icon.png" width={32} height={32} alt="facebook" />
                             </Link>

@@ -13,7 +13,7 @@ export const original = localFont({
 });
 
 export const helvetica_neue = localFont({
-  src: '/fonts/helvetica_neue/HelveticaNeueLTStd-Cn.otf',
+  src: '/fonts/helvetica_neue/HelveticaNeueLTStd-Md.otf',
   variable: "--font-original",
   weight: '700'
 });
