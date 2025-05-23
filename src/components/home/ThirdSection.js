@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 const ThirdSection = () => {
   return (
-    <div className='flex relative min-h-screen flex-row justify-between px-6 md:px-14 py-20 bg-gradient-to-r from-[#FFD8AE00] from-10% via-[#FFD8AE] via-20% to-[#FFD8AE]/10 to-50%'>
+    <div className='flex relative min-h-screen flex-col md:flex-row justify-between px-6 md:px-14 py-20 bg-gradient-to-r from-[#FFD8AE00] from-10% via-[#FFD8AE] via-20% to-[#FFD8AE]/10 to-50%'>
       
         <div className='text-start'>
             <h3 className={`text-[#2E0A49] ${gilroy.className} text-4xl md:text-5xl lg:text-6xl font-normal`}>Set & Forget Savings</h3>

@@ -34,7 +34,7 @@ const ReferSection = () => {
 
 const ReferCard = ({ icon, title }) => {
     return (
-        <div className="relative min-h-[160px] xl:min-h-[200px] w-full max-w-4xl text-center flex flex-col items-center justify-end bg-[radial-gradient(circle_at_bottom,#EDB669_0%,_transparent_70%)] border border-[#E39A35]  shadow-2xl">
+        <div className="relative max-h-[200px] w-full max-w-4xl text-center flex flex-col items-center justify-end bg-[radial-gradient(circle_at_bottom,#EDB669_0%,_transparent_70%)] border-[2px] border-[#E39A35] shadow-2xl">
             {/* Icon Container */}
             <div className="w-28 h-28 xl:w-32 xl:h-32 rounded-full bg-[#F6CE69] flex items-center justify-center absolute -top-12 xl:-top-14">
                 <Image 
@@ -47,7 +47,7 @@ const ReferCard = ({ icon, title }) => {
             </div>
 
             {/* Content */}
-            <div className="pt-28 xl:pt-32 pb-8 px-12  text-center">
+            <div className="pt-28 xl:pt-32 pb-8 px-12 md:px- lg:px-14  text-center">
                 <h6 className={`${gilroy_semibold.className} text-xl lg:text-2xl xl:text-3xl font-semibold text-[#2E0A49]`}>
                     {title}
                 </h6>
