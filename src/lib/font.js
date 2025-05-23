@@ -36,3 +36,9 @@ export const gotham = localFont({
   variable: "--font-gotham",
   weight: '700'
 });
+
+export const albra_grotesk = localFont({
+  src: '/fonts/albra_grotesk/Albra-Trial-Grotesk-Regular.otf',
+  variable: "--font-albra",
+  weight: '400'
+});

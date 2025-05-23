@@ -21,7 +21,7 @@ const ReferSection = () => {
                     </p>
 
                     {/* Steps */}
-                    <div className="grid grid-cols-1 md:grid-cols-3 place-items-center gap-16 lg:gap-20 xl:gap-28 mt-28">
+                    <div className="w-full grid grid-cols-1 md:grid-cols-3 place-items-center gap-16 lg:gap-20 mt-28">
                         <ReferCard icon='/home_imgs/link_icon.png' title='Share Your Referral Link' />
                         <ReferCard icon='/home_imgs/friends_icon.png' title='Friend Joins & Starts Saving' />
                         <ReferCard icon='/home_imgs/bonus_icon.png' title='You Both Earn Bonus Gold' />
@@ -34,20 +34,20 @@ const ReferSection = () => {
 
 const ReferCard = ({ icon, title }) => {
     return (
-        <div className="relative min-h-[200px] xl:min-h-[240px] w-full max-w-[360px] text-center flex flex-col items-center justify-end element border border-[#E39A35] rounded-2xl xl:rounded-3xl shadow-md">
+        <div className="relative min-h-[160px] xl:min-h-[200px] w-full max-w-4xl text-center flex flex-col items-center justify-end bg-[radial-gradient(circle_at_bottom,#EDB669_0%,_transparent_70%)] border border-[#E39A35]  shadow-2xl">
             {/* Icon Container */}
-            <div className="w-24 h-24 xl:w-28 xl:h-28 rounded-full bg-[#F6CE69] flex items-center justify-center absolute -top-12 xl:-top-14">
+            <div className="w-28 h-28 xl:w-32 xl:h-32 rounded-full bg-[#F6CE69] flex items-center justify-center absolute -top-12 xl:-top-14">
                 <Image 
                     src={icon} 
-                    width={64} 
-                    height={64} 
+                    width={110} 
+                    height={110} 
                     alt='step icon'
                     className="object-contain p-3"
                 />
             </div>
 
             {/* Content */}
-            <div className="pt-28 xl:pt-32 pb-8 px-4  text-center">
+            <div className="pt-28 xl:pt-32 pb-8 px-12  text-center">
                 <h6 className={`${gilroy_semibold.className} text-xl lg:text-2xl xl:text-3xl font-semibold text-[#2E0A49]`}>
                     {title}
                 </h6>

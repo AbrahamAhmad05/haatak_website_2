@@ -66,8 +66,8 @@ const SecondSection = () => {
                 </div>
 
                 {/* Text content */}
-                <div className="text-center w-full h-[80vh] pt-20 md:pt-2 gap-6 z-10 px-4 bg-[url(/home_imgs/bg-second.png)]">
-                <div className="text-center">
+                <div className="text-center w-full h-[80vh] md:h-[60vh] pt-20 md:pt-2 gap-6 z-10 px-4 bg-[url(/home_imgs/bg-second.png)]">
+                <div className="text-center ">
                     <h3 className='text-4xl md:text-6xl font-bold text-[#2E0A49] '>Tap. Done.</h3>
                     <h2 className='text-5xl md:text-8xl font-bold text-[#2E0A49] pt-4 md:pt-6'>Buy Gold in Seconds</h2>
                     <h5 className={`${montserrat.className} text-2xl md:text-4xl text-[#2E0A49] font-medium md:px-80 pt-4 md:pt-6`}>
