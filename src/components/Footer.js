@@ -8,7 +8,7 @@ import Link from 'next/link';
 const Footer = () => {
     return (
         <div className="w-full bg-gradient-to-b from-[#FFFFFF] to-[#EDB669] pt-20">
-            <div className="px-12">
+            <div className="px-2 md:px-12">
                 {/* Newsletter */}
                 <div className={`${original.className} text-center mb-20`}>
                     <h4 className="text-3xl sm:text-4xl md:text-5xl text-[#2E0A49] mb-4">Join our tribe</h4>
@@ -81,8 +81,8 @@ const Footer = () => {
                     </div>
 
                     {/* Company Info */}
-                    <div className="space-y-6 lg:border-l-2 border-[#2E0A49] pl-12">
-                        <div className="w-full min-w-[200px] md:min-w-[250px] xl:min-w-[350px] ">  {/* Adjusted width */}
+                    <div className="space-y-6 lg:border-l-2 border-[#2E0A49] md:pl-12">
+                        <div className="max-w-[200px] md:min-w-[250px] xl:min-w-[350px] ">  {/* Adjusted width */}
                             <Image
                                 src="/home_imgs/haatak_logo.png"
                                 width={537}
@@ -96,9 +96,9 @@ const Footer = () => {
                                 Making gold investment accessible, secure, and effortless for everyone.
                             </p>
 
-                            <div className="flex gap-8 pt-2 flex-wrap ">
+                            <div className="flex gap-5 md:gap-8 pt-2 flex-wrap ">
                                 <Link href='http://www.facebook.com/HaatakOfficial'>
-                                    <div className="rounded-md w-[40px] h-[40px] overflow-hidden bg-white">
+                                    <div className="rounded-md w-9 h-9 md:w-10 md:h-10 overflow-hidden bg-white">
                                         <Image
                                             src="/icons/facebook_icon.png"
                                             width={64}
@@ -109,7 +109,7 @@ const Footer = () => {
                                     </div>
                                 </Link>
                                 <Link href='http://www.instagram.com/haatakofficial'>
-                                    <div className="rounded-md w-[40px] h-[40px] overflow-hidden bg-white">
+                                    <div className="rounded-md w-9 h-9 md:w-10 md:h-10 overflow-hidden bg-white">
                                         <Image
                                             src="/icons/instagram_icon.png"
                                             width={64}
@@ -120,7 +120,7 @@ const Footer = () => {
                                     </div>
                                 </Link>
                                 <Link href='http://www.twitter.com/HaatakOfficial'>
-                                    <div className="rounded-md w-[40px] h-[40px] overflow-hidden bg-white">
+                                    <div className="rounded-md w-9 h-9 md:w-10 md:h-10 overflow-hidden bg-white">
                                         <Image
                                             src="/icons/twitter_icon.jpg"
                                             width={64}
@@ -131,7 +131,7 @@ const Footer = () => {
                                     </div>
                                 </Link>
                                 <Link href='http://www.youtube.com/@HaatakOfficial'>
-                                    <div className="rounded-md w-[40px] h-[40px] overflow-hidden bg-white">
+                                    <div className="rounded-md w-9 h-9 md:w-10 md:h-10 overflow-hidden bg-white">
                                         <Image
                                             src="/icons/youtube_icon.jpg"
                                             width={64}
@@ -142,7 +142,7 @@ const Footer = () => {
                                     </div>
                                 </Link>
                                 <Link href='https://www.linkedin.com/company/haatakofficial/'>
-                                    <div className="rounded-md w-[40px] h-[40px] overflow-hidden bg-white">
+                                    <div className="rounded-md w-9 h-9 md:w-10 md:h-10 overflow-hidden bg-white">
                                         <Image
                                             src="/home_imgs/linked_in_icon.png"
                                             width={64}

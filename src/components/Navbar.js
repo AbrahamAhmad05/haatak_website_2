@@ -4,6 +4,7 @@ import Image from 'next/image'
 import React, { useState } from 'react'
 import Link from 'next/link';
 import { SearchIcon, X, Menu } from 'lucide-react';
+import { gotham } from '@/lib/font';
 // import { gotham } from '@/lib/font';
 
 // const gotham = localFont({
@@ -16,7 +17,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className={`font-Gotham absolute inset-x-0 top-0 z-50 h-20 flex justify-between items-center bg-transparent px-4 md:px-14 py-5`}>
+    <div className={`${gotham.className} uppercase text absolute inset-x-0 top-0 z-50 h-20 flex justify-between items-center bg-transparent px-4 md:px-14 py-5`}>
       {/* Logo */}
       <div className='w-48 md:w-72 h-40 flex items-center'>
         <Image 
@@ -38,7 +39,7 @@ const Navbar = () => {
 
       {/* Desktop Navigation */}
       <nav className='hidden md:block'>
-        <ul className='flex gap-8 lg:gap-16 text-[16px] lg:text-[20px] font-bold text-black'>
+        <ul className='flex gap-8 lg:gap-16 text-xl lg:text-[20px] font-bold text-black'>
           {links.map((link) => (
             <Link key={link.href} href={link.href}>
               <li className='hover:text-gray-600 transition-colors'>{link.label}</li>
@@ -50,7 +51,7 @@ const Navbar = () => {
       {/* Mobile Navigation */}
       {isOpen && (
         <div className='md:hidden absolute top-full left-0 right-0 bg-gradient-to-r from-[#FFD8AE00] via-[#FFD8AE] to-[#FFD8AE00]  shadow-xl'>
-          <ul className='flex flex-col items-center gap-6 py-8 text-[18px] text-black'>
+          <ul className='flex flex-col items-center gap-6 py-8 text-xl text-black'>
             {links.map((link) => (
               <Link key={link.href} href={link.href} onClick={() => setIsOpen(false)}>
                 <li className='hover:text-gray-600 transition-colors'>{link.label}</li>
@@ -73,9 +74,9 @@ const Navbar = () => {
 
 const links = [
   { href: '/', label: 'Home' },
-  { href: '/#about', label: 'About us' },
+  // { href: '/#about', label: 'About us' },
   { href: '/#howitworks', label: "How it's work" },
-  { href: '/#blog', label: 'Blog' },
+  // { href: '/#blog', label: 'Blog' },
   { href: '/contact', label: 'Contact' },
 ];
 
