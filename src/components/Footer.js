@@ -34,41 +34,45 @@ const Footer = () => {
                     <div className="space-y-4">
                         <h5 className={`${helvetica_neue.className} text-2xl font-medium  leading-relaxed text-[#2E0A49] uppercase`}>About</h5>
                         <div className="border-t border-[#2E0A49]" />
-                        <p className="text-[#2E0A49] uppercase">Buy gold</p>
-                        <p className="text-[#2E0A49] uppercase">About us</p>
-                        <p className="text-[#2E0A49] uppercase">Features</p>
-                        <p className="text-[#2E0A49] uppercase">Blog</p>
+                        <div className='space-y-3'>
+                            <p className="text-[#2E0A49] uppercase">Buy gold</p>
+                            <p className="text-[#2E0A49] uppercase">About us</p>
+                            <p className="text-[#2E0A49] uppercase">Features</p>
+                            <p className="text-[#2E0A49] uppercase">Blog</p>
+                        </div>
                     </div>
 
                     {/* Help */}
                     <div className="space-y-4">
                         <h5 className={`${helvetica_neue.className} text-2xl font-medium  leading-relaxed text-[#2E0A49] uppercase`}>Help</h5>
                         <div className="border-t border-[#2E0A49]" />
-                        <p className="text-[#2E0A49] uppercase">Shipping & Return</p>
-                        <p className="text-[#2E0A49] uppercase">Terms & Conditions</p>
-                        <p className="text-[#2E0A49] uppercase">Privacy Policies</p>
-                        <p className="text-[#2E0A49] uppercase">Contact Us</p>
+                        <div className='space-y-3'>
+                            <p className="text-[#2E0A49] uppercase">Shipping & Return</p>
+                            <p className="text-[#2E0A49] uppercase">Terms & Conditions</p>
+                            <p className="text-[#2E0A49] uppercase">Privacy Policies</p>
+                            <p className="text-[#2E0A49] uppercase">Contact Us</p>
+                        </div>
                     </div>
 
                     {/* Contact */}
                     <div className="space-y-4">
                         <h5 className={`${helvetica_neue.className} text-2xl font-medium leading-relaxed text-[#2E0A49] uppercase`}>Contact</h5>
-                        <div className="border-t border-[#2E0A49]" />
+                        <div className="border-t border-[#2E0A49] space-y-3" />
                         <div className="flex items-start gap-3">
                             <div className='pt-[2px]'>
-                            <Phone className="text-[#2E0A49]" size={20} />
+                                <Phone className="text-[#2E0A49]" size={20} />
                             </div>
                             <p className="text-[#2E0A49]">+91 63640 00414</p>
                         </div>
                         <div className="flex items-start gap-3">
                             <div className='pt-[2px]'>
-                            <Mail className="text-[#2E0A49]" size={20} />
+                                <Mail className="text-[#2E0A49]" size={20} />
                             </div>
                             <p className="text-[#2E0A49] uppercase">hello@haatak.com</p>
                         </div>
                         <div className="flex items-start gap-3">
                             <div className='pt-[2px]'>
-                            <MapPin className="text-[#2E0A49]" size={20} />
+                                <MapPin className="text-[#2E0A49]" size={20} />
                             </div>
                             <p className="text-[#2E0A49] uppercase">
                                 #558, 9th Cross, 3rd Phase, J P Nagar, Bengaluru 560078
@@ -87,26 +91,66 @@ const Footer = () => {
                                 className="w-full h-auto"
                             />
                         </div>
-                        <div className='lg:pl-8 xl:pl-10'>
-                        <p className="text-[#2E0A49]/80 text-2xl leading-relaxed line">
-                            Making gold investment accessible, secure, and effortless for everyone.
-                        </p>
+                        <div className='lg:pl-9 xl:pl-11'>
+                            <p className="text-[#2E0A49]/80 text-2xl leading-relaxed line">
+                                Making gold investment accessible, secure, and effortless for everyone.
+                            </p>
                         </div>
-                        <div className="flex gap-4 pt-2 flex-wrap lg:pl-8 xl:pl-10">
+                        <div className="flex gap-6 pt-2 flex-wrap lg:pl-9 xl:pl-11">
                             <Link href='http://www.facebook.com/HaatakOfficial'>
-                                <Image src="/home_imgs/facebook_icon.png" width={32} height={32} alt="facebook" />
+                                <div className="rounded-md w-[40px] h-[40px] overflow-hidden bg-white">
+                                    <Image
+                                        src="/icons/facebook_icon.png"
+                                        width={64}
+                                        height={64}
+                                        alt="facebook"
+                                        className="w-full h-full"
+                                    />
+                                </div>
                             </Link>
                             <Link href='http://www.instagram.com/haatakofficial'>
-                            <Image src="/home_imgs/instagram_icon.png" width={32} height={32} alt="instagram" />
+                                <div className="rounded-md w-[40px] h-[40px] overflow-hidden bg-white">
+                                    <Image
+                                        src="/icons/instagram_icon.png"
+                                        width={64}
+                                        height={64}
+                                        alt="instagram"
+                                        className="w-full h-full"
+                                    />
+                                </div>
                             </Link>
                             <Link href='http://www.twitter.com/HaatakOfficial'>
-                            <Image src="/home_imgs/twitter_icon.png" width={32} height={32} alt="twitter" />
+                                <div className="rounded-md w-[40px] h-[40px] overflow-hidden bg-white">
+                                    <Image
+                                        src="/icons/twitter_icon.jpg"
+                                        width={64}
+                                        height={64}
+                                        alt="twitter"
+                                        className="w-full h-full"
+                                    />
+                                </div>
                             </Link>
                             <Link href='http://www.youtube.com/@HaatakOfficial'>
-                            <Image src="/home_imgs/youtube_icon.png" width={32} height={32} alt="youtube" />
+                                <div className="rounded-md w-[40px] h-[40px] overflow-hidden bg-white">
+                                    <Image
+                                        src="/icons/youtube_icon.jpg"
+                                        width={64}
+                                        height={64}
+                                        alt="youtube"
+                                        className="w-full h-full"
+                                    />
+                                </div>
                             </Link>
                             <Link href='https://www.linkedin.com/company/haatakofficial/'>
-                            <Image src="/home_imgs/linked_in_icon.png" width={32} height={32} alt="LinkedIn" />
+                                <div className="rounded-md w-[40px] h-[40px] overflow-hidden bg-white">
+                                    <Image
+                                        src="/home_imgs/linked_in_icon.png"
+                                        width={64}
+                                        height={64}
+                                        alt="LinkedIn"
+                                        className="w-full h-full"
+                                    />
+                                </div>
                             </Link>
                         </div>
                     </div>

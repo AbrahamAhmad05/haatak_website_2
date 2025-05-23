@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Haatak -Buy 24K Gold",
+  title: "Haatak - Buy 24K Gold",
   description: "Making gold investment accessible, secure, and effortless for everyone.",
 };
 
