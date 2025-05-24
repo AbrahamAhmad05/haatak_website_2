@@ -4,7 +4,7 @@ import gsap from 'gsap'
 import ScrollTrigger from 'gsap/dist/ScrollTrigger'
 import Image from 'next/image'
 
-const NetworkGraph = () => {
+const GraphAnimation = () => {
     const graphRef = useRef(null)
     const arrowRef = useRef(null)
     const containerRef = useRef(null)
@@ -61,7 +61,7 @@ const NetworkGraph = () => {
                 <div className="relative h-full w-full flex items-end justify-end gap-8">
                     <div
                         ref={arrowRef}
-                        className="absolute bottom-25 left-44  2xl:left-80  pointer-events-none"
+                        className="absolute bottom-20 -left-20 md:bottom-25 md:left-44  2xl:left-80  pointer-events-none"
                         style={{
                             transformOrigin: '0% 200%', // Reinforce bottom-left origin
                             transform: "translateZ(0)" // Enable GPU acceleration
@@ -98,4 +98,4 @@ const NetworkGraph = () => {
     )
 }
 
-export default NetworkGraph
+export default GraphAnimation
