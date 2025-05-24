@@ -83,7 +83,7 @@ function Contact() {
     
 
     return (
-        <div className={`${poppins.className} py-28 md:py-40 px-4 flex flex-col justify-center items-center`}>
+        <div className={`${poppins.className} py-28 md:py-40 px-4 flex flex-col justify-center items-center lg:mx-10`}>
             <h1 className={`${original.className} text-4xl md:text-7xl lg:text-8xl text-[#2E0A49] text-center mb-4`}>
                 Contact Us
             </h1>
@@ -92,9 +92,9 @@ function Contact() {
             </h6>
 
             <div className="w-full 2xl:px-0">
-                <div className="flex flex-col md:flex-row border-[0.5px] rounded-2xl border-[#2E0A49]/66 p-2">
+                <div className="flex flex-col md:flex-row border-[0.5px] rounded-2xl border-[#2E0A49]/66 p-2 ">
                     {/* Left Column */}
-                    <div className="relative flex flex-col justify-between overflow-hidden h-screen space-y-4 bg-[#2E0A49] px-6 pt-8 xl:px-10 xl:pt-12 rounded-lg">
+                    <div className="relative xl:min-w-[45%] flex flex-col justify-between overflow-hidden h-screen space-y-4 bg-[#2E0A49] px-6 pt-8 xl:px-10 xl:pt-12 rounded-lg">
                         <div>
                             <h2 className="text-2xl md:text-4xl font-semibold mb-2 xl:mb-2 text-white">Contact Information</h2>
                             <p className="text-white/90 mb-4 xl:mb-6 text-lg md:text-2xl font-normal">Say something to start a live chat!</p>
