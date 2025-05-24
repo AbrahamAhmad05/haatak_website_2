@@ -1,6 +1,8 @@
 import React from 'react'
 import { gilroy, gilroy_semibold } from '@/lib/font'
 import Image from 'next/image'
+import NetworkGraph from '../animations/GraphAnimation'
+// import AnimatedGraph from '../animations/GraphAnimation'
 
 const ThirdSection = () => {
   return (
@@ -13,6 +15,7 @@ const ThirdSection = () => {
         </div>
         <div className=''>
             <Image src="/home_imgs/third_section_anim.png" width={746} height={572} alt="graph Image" />
+            {/* <NetworkGraph /> */}
         </div>
     </div>
   )

@@ -75,7 +75,7 @@ const Navbar = () => {
 const links = [
   { href: '/', label: 'Home' },
   // { href: '/#about', label: 'About us' },
-  { href: '/#howitworks', label: "How it's work" },
+  // { href: '/#howitworks', label: "How it's work" },
   // { href: '/#blog', label: 'Blog' },
   { href: '/contact', label: 'Contact' },
 ];
