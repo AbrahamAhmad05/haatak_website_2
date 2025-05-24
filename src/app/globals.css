@@ -154,3 +154,7 @@ html {
 .animate-pulse {
   animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
 }
+
+.clip-curve {
+  clip-path: inset(0 0 66% 0);
+}
