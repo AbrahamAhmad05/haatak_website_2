@@ -16,16 +16,18 @@ export async function POST(request) {
 
     // Create transporter
     const transporter = nodemailer.createTransport({
-      service: 'Gmail',
-      auth: {
-        user: process.env.EMAIL_USER,
-        pass: process.env.EMAIL_PASSWORD,
-      },
+      service: 'gmail',
+    host: 'smtp.gmail.com',
+    secure: false, // true for 465, false for other ports
+    auth: {
+      user: process.env.GMAIL_FROM,
+      pass: process.env.GMAIL_APP_PASSWORD
+    }
     });
 
     // Email content
     const mailOptions = {
-      from: process.env.EMAIL_USER,
+      from: process.env.GMAIL_FROM,
       to: process.env.RECIPIENT_EMAIL,
       subject: `New Contact Form Submission: ${subject}`,
       html: `

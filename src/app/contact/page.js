@@ -1,17 +1,16 @@
 "use client"
 
 import { original } from '@/lib/font';
-import React, { useState } from 'react';
+import React, { useActionState, useState } from 'react';
 import { Poppins } from 'next/font/google';
 import Image from 'next/image';
 import { Check } from 'lucide-react';
+import { useFormStatus } from 'react-dom';
 
 const poppins = Poppins({
     weight: ['400'],
     subsets: ['latin']
 });
-
-import { useFormState, useFormStatus } from 'react-dom';
 
 async function submitForm(prevState, formData) {
     const rawFormData = {
@@ -23,6 +22,15 @@ async function submitForm(prevState, formData) {
         message: formData.get('message'),
         otherText: formData.get('otherText'),
     };
+
+    // Client-side validation
+    if (!rawFormData.firstName || !rawFormData.lastName || !rawFormData.email || !rawFormData.subject || !rawFormData.message) {
+        return { success: false, message: 'All required fields must be filled' };
+    }
+
+    if (rawFormData.subject === 'Other' && !rawFormData.otherText) {
+        return { success: false, message: 'Please specify your subject' };
+    }
 
     try {
         const response = await fetch('/api/send', {
@@ -79,8 +87,12 @@ function Contact() {
 
     const [selectedOption, setSelectedOption] = useState(options[0]);
     const [otherText, setOtherText] = useState('');
+    const [state, formAction] = useActionState(submitForm, {
+        success: false,
+        message: ''
+    });
 
-    
+
 
     return (
         <div className={`${poppins.className} py-28 md:py-40 px-4 flex flex-col justify-center items-center lg:mx-10`}>
@@ -94,7 +106,8 @@ function Contact() {
             <div className="w-full 2xl:px-0">
                 <div className="flex flex-col md:flex-row border-[0.5px] rounded-2xl border-[#2E0A49]/66 p-2 ">
                     {/* Left Column */}
-                    <div className="relative xl:min-w-[45%] flex flex-col justify-between overflow-hidden h-screen space-y-4 bg-[#2E0A49] px-6 pt-8 xl:px-10 xl:pt-12 rounded-lg">
+
+                    <div className="relative max-w-[50%] w-full flex flex-col justify-between overflow-hidden space-y-4 bg-[#2E0A49] px-6 pt-8 xl:px-10 xl:pt-12 rounded-lg">
                         <div>
                             <h2 className="text-2xl md:text-4xl font-semibold mb-2 xl:mb-2 text-white">Contact Information</h2>
                             <p className="text-white/90 mb-4 xl:mb-6 text-lg md:text-2xl font-normal">Say something to start a live chat!</p>
@@ -104,7 +117,7 @@ function Contact() {
                                     <div className="w-5 h-5 mr-3 text-white flex-shrink-0" >
                                         <Image src="/contact_imgs/phone_icon.png" width={32} height={32} alt="Phone" />
                                     </div>
-                                    <span className="text-white">+91-9876543201</span>
+                                    <span className="text-white">+91 63640 00414</span>
                                 </div>
 
                                 <div className="flex items-start gap-4">
@@ -143,104 +156,138 @@ function Contact() {
                         {/* Overlapping circle */}
                         <div className="absolute -right-0 bottom-6 w-32 h-32 rounded-full bg-gray-200/20  -translate-x-3/4 -translate-y-3/4"></div>
                     </div>
-
+                    {/* <div className=""></div> */}
                     {/* Right Column */}
-                    <div className="space-y-6 py-8 px-6 md:px-8 ">
-                        {/* <form action={formAction}> */}
-                            <div className="grid md:grid-cols-2 gap-4 md:gap-6">
-                                <div className=''>
-                                    <label className="" htmlFor="firstName">First Name</label>
-                                    <input
-                                        type="text"
-                                        name="firstName"
-                                        className="w-full border-[#8D8D8D] border-b-2  bg-transparent px-0 pb-1 mt-2 focus:outline-none focus:border-[#2E0A49]  focus:ring-0 transition-all"
-                                        placeholder="John" />
-                                </div>
-                                <div>
-                                    <label className="" htmlFor="lastName">Last Name</label>
-                                    <input
-                                        type="text"
-                                        name="lastName"
-                                        className="w-full border-[#8D8D8D] border-b-2  bg-transparent px-0 pb-1 mt-2 focus:outline-none focus:border-[#2E0A49]  focus:ring-0 transition-all"
-                                        placeholder="Doe" />
-                                </div>
-                            </div>
+                    <div className="w-full min-h-screen xl:min-h-[80%] px-2 sm:px-4 flex flex-col">
+                        <form
+                            action={formAction}
+                            className="w-full max-w-4xl mx-auto flex-1 flex flex-col justify-between gap-6 py-8 px-4 sm:px-6"
+                        >
+                            <input type="hidden" name="subject" value={selectedOption} />
 
-                            <div className="grid md:grid-cols-2 gap-4 md:gap-6">
-                                <div className=''>
-                                    <label className="" htmlFor="email">Email</label>
-                                    <input
-                                        type="email"
-                                        name="email"
-                                        className="w-full border-[#8D8D8D] border-b-2  bg-transparent px-0 pb-1 mt-2 focus:outline-none focus:border-[#2E0A49]  focus:ring-0 transition-all"
-                                        placeholder="Email" />
-                                </div>
-                                <div>
-                                    <label className="" htmlFor="phone">Phone Number</label>
-                                    <input
-                                        type="tel"
-                                        name="phone"
-                                        className="w-full border-[#8D8D8D] border-b-2  bg-transparent px-0 pb-1 mt-2 focus:outline-none focus:border-[#2E0A49]  focus:ring-0 transition-all"
-                                        placeholder="+91 1234567890" />
+                            {/* Form Content */}
+                            <div className="space-y-8">
+                                {/* Name Section */}
+                                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                                    <div className="space-y-2">
+                                        <label htmlFor="firstName" className='text-[#8D8D8D] text-base md:text-lg'>First Name</label>
+                                        <input
+                                            type="text"
+                                            name="firstName"
+                                            required
+                                            className="w-full text-lg md:text-xl border-b-2 border-[#8D8D8D] bg-transparent py-2 focus:outline-none focus:border-[#2E0A49] transition-all"
+                                            placeholder="John"
+                                        />
+                                    </div>
+                                    <div className="space-y-2">
+                                        <label htmlFor="lastName" className='text-base md:text-lg'>Last Name</label>
+                                        <input
+                                            type="text"
+                                            name="lastName"
+                                            required
+                                            className="w-full text-lg md:text-xl border-b-2 border-[#8D8D8D] bg-transparent py-2 focus:outline-none focus:border-[#2E0A49] transition-all"
+                                            placeholder="Doe"
+                                        />
+                                    </div>
                                 </div>
 
-                            </div>
+                                {/* Contact Info */}
+                                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                                    <div className="space-y-2">
+                                        <label htmlFor="email" className='text-[#8D8D8D] text-base md:text-lg'>Email</label>
+                                        <input
+                                            type="email"
+                                            name="email"
+                                            required
+                                            className="w-full text-lg md:text-xl border-b-2 border-[#8D8D8D] bg-transparent py-2 focus:outline-none focus:border-[#2E0A49] transition-all"
+                                            placeholder="Email"
+                                        />
+                                    </div>
+                                    <div className="space-y-2">
+                                        <label htmlFor="phone" className='text-base md:text-lg'>Phone Number</label>
+                                        <input
+                                            type="tel"
+                                            name="phone"
+                                            className="w-full text-lg md:text-xl border-b-2 border-[#8D8D8D] bg-transparent py-2 focus:outline-none focus:border-[#2E0A49] transition-all"
+                                            placeholder="+91 1234567890"
+                                        />
+                                    </div>
+                                </div>
 
-                            <div className='space-y-2'>
-                                <label className="text-lg font-semibold text-[#2E0A49]" htmlFor="subject">Select Subject?</label>
-                                <div>
-                                    <div className="grid xl:grid-cols-3 md:grid-cols-2 ">
+                                {/* Subject Selector */}
+                                <div className="space-y-4">
+                                    <h5 className="text-lg md:text-xl font-semibold text-[#2E0A49]">Select Subject?</h5>
+                                    <div className="grid grid-cols-1 md:grid-cols-2 2xl:grid-cols-3 gap-4">
                                         {options.map((option, i) => (
-                                            <div key={i} className='flex items-center gap-2'>
+                                            <div key={i} className="flex items-center gap-3">
                                                 <button
-
+                                                    type="button"
                                                     onClick={() => {
-                                                        setSelectedOption(option === selectedOption ? null : option);
+                                                        setSelectedOption(option);
                                                         if (option !== 'Other') setOtherText('');
                                                     }}
-                                                    className={`relative py-3 rounded-lg transition-all`}
-                                                    name="subject"
-                                                    value={selectedOption}
+                                                    className="relative"
                                                 >
-                                                    {selectedOption === option ? <div className='rounded-full w-6 h-6 bg-[#2E0A49]'><Check className='text-[#fff]' /> </div> : (<div className='rounded-full w-6 h-6 bg-[#E0E0E0]' />)}
+                                                    {selectedOption === option ? (
+                                                        <div className="rounded-full w-5 h-5 bg-[#2E0A49] flex items-center justify-center">
+                                                            <Check className="text-white w-5 h-5" />
+                                                        </div>
+                                                    ) : (
+                                                        <div className="rounded-full w-5 h-5 bg-[#E0E0E0]" />
+                                                    )}
                                                 </button>
-                                                <p className='text-sm line-clamp-1'>{option}</p>
+                                                <p className="text-lg line-clamp-1">{option}</p>
                                             </div>
                                         ))}
                                     </div>
 
                                     {selectedOption === 'Other' && (
-                                        <div className=''>
-                                            <label className="" htmlFor="first-name">Please Specify</label>
+                                        <div className="space-y-2">
+                                            <label htmlFor="otherText" className="text-base md:text-lg">Please Specify</label>
                                             <input
                                                 type="text"
                                                 value={otherText}
                                                 onChange={(e) => setOtherText(e.target.value)}
                                                 name="otherText"
-                                                className="w-full border-[#8D8D8D] border-b-2  bg-transparent px-0 pb-1 mt-2 focus:outline-none focus:border-[#2E0A49]  focus:ring-0 transition-all"
-                                                placeholder="Please Specify" />
+                                                required
+                                                className="w-full text-lg md:text-xl border-b-2 border-[#8D8D8D] bg-transparent py-2 focus:outline-none focus:border-[#2E0A49] transition-all"
+                                                placeholder="Please Specify"
+                                            />
                                         </div>
                                     )}
                                 </div>
 
+                                {/* Message */}
+                                <div className="space-y-2">
+                                    <label htmlFor="message" className="text-base md:text-lg">Message</label>
+                                    <textarea
+                                        id="message"
+                                        name="message"
+                                        required
+                                        rows={4}
+                                        className="w-full text-lg md:text-xl border-b-2 border-[#8D8D8D] bg-transparent py-2 focus:outline-none focus:border-[#2E0A49] transition-all resize-y min-h-[120px]"
+                                        placeholder="Write your message..."
+                                    />
+                                </div>
                             </div>
-                            <div className=''>
-                                <label className="" htmlFor="message">Message</label>
-                                <textarea
-                                    id="message"
-                                    name="message"
-                                    className="w-full border-[#8D8D8D] border-b-2  bg-transparent px-0 pb-1 mt-2 focus:outline-none focus:border-[#2E0A49]  focus:ring-0 transition-all"
-                                    placeholder="Write your message..." />
+
+                            {/* Bottom Section */}
+                            <div className="space-y-4">
+                                {/* Submit */}
+                                <div className="flex justify-end">
+                                    <SubmitButton className="text-lg md:text-xl px-8 py-3" />
+                                </div>
+
+                                {/* State Message */}
+                                {state.message && (
+                                    <p className={`text-center ${state.success ? 'text-green-600' : 'text-red-600'} text-lg md:text-xl`}>
+                                        {state.message}
+                                    </p>
+                                )}
                             </div>
-                            <div className="flex justify-center md:justify-end mt-6 md:mt-8">
-                                <button
-                                    className="bg-[#2E0A49] text-white px-8 py-3 rounded-md hover:bg-[#2E0A49]/80 transition-colors w-full md:w-auto"
-                                >
-                                    Send Message
-                                </button>
-                            </div>
-                        {/* </form> */}
+                        </form>
                     </div>
+
                 </div>
             </div>
         </div>
