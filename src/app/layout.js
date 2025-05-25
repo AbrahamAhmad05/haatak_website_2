@@ -3,6 +3,7 @@ import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import Head from "next/head";
+import { original } from "@/lib/font";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -13,6 +14,10 @@ const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
 });
+
+// const font_original = original({
+  
+// })
 
 export const metadata = {
   title: "Haatak - Buy 24K Gold",
@@ -29,7 +34,7 @@ export default function RootLayout({ children }) {
         <link rel="manifest" href="/site.webmanifest"></link>
       </Head>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${original.className} antialiased`}
       >
         <Navbar />
         {children}

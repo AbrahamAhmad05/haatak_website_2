@@ -107,7 +107,7 @@ function Contact() {
                 <div className="flex flex-col md:flex-row border-[0.5px] rounded-2xl border-[#2E0A49]/66 p-2 ">
                     {/* Left Column */}
 
-                    <div className="relative max-w-[50%] w-full flex flex-col justify-between overflow-hidden space-y-4 bg-[#2E0A49] px-6 pt-8 xl:px-10 xl:pt-12 rounded-lg">
+                    <div className="relative md:max-w-[50%] w-full flex flex-col justify-between overflow-hidden space-y-4 bg-[#2E0A49] px-6 pt-8 xl:px-10 xl:pt-12 rounded-lg">
                         <div>
                             <h2 className="text-2xl md:text-4xl font-semibold mb-2 xl:mb-2 text-white">Contact Information</h2>
                             <p className="text-white/90 mb-4 xl:mb-6 text-lg md:text-2xl font-normal">Say something to start a live chat!</p>
