@@ -6,6 +6,13 @@ export const montserrat = Montserrat({
     subsets: ['latin']
 })
 
+
+
+export const mont = localFont({
+  src: '/fonts/mont/Mont-ExtraLightDEMO.otf',
+  variable: "--font-mont",
+  weight: '400'
+});
 export const original = localFont({
   src: '/fonts/original/TTF/Original-Regular.ttf',
   variable: "--font-original",

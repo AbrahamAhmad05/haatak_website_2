@@ -5,6 +5,7 @@ import React, { useState } from 'react'
 import Link from 'next/link';
 import { SearchIcon, X, Menu } from 'lucide-react';
 import { gotham } from '@/lib/font';
+import { Button } from './ui/button';
 // import { gotham } from '@/lib/font';
 
 // const gotham = localFont({
@@ -20,11 +21,11 @@ const Navbar = () => {
     <div className={`${gotham.className} uppercase text absolute inset-x-0 top-0 z-50 h-20 flex justify-between items-center bg-transparent px-4 md:px-14 py-5`}>
       {/* Logo */}
       <div className='w-48 md:w-72 h-40 flex items-center'>
-        <Image 
-          src="/home_imgs/haatak_logo.png" 
-          width={490} 
-          height={117} 
-          alt='Haatak logo' 
+        <Image
+          src="/home_imgs/haatak_logo.png"
+          width={490}
+          height={117}
+          alt='Haatak logo'
           className='w-full h-auto'
         />
       </div>
@@ -66,16 +67,22 @@ const Navbar = () => {
 
       {/* Desktop Search Icon */}
       <div className='hidden md:block'>
-        <SearchIcon className='text-black hover:text-gray-600 cursor-pointer' />
+        {/* <SearchIcon className='text-black hover:text-gray-600 cursor-pointer' /> */}
+        <Link href='/buy-24k-gold'>
+          <button className={`${gotham.className} px-8 py-4 uppercase text-xl text-[#2E0A49] rounded-full bg-[#EDB669] opacity-75 hover:opacity-100 cursor-pointer`}>
+            Buy 24K Gold
+          </button>
+        </Link>
       </div>
     </div>
   )
 }
 
+
 const links = [
   { href: '/', label: 'Home' },
-  // { href: '/#about', label: 'About us' },
-  // { href: '/#howitworks', label: "How it's work" },
+  { href: '/about', label: 'About us' },
+  { href: '/howitworks', label: "How it's work" },
   // { href: '/#blog', label: 'Blog' },
   { href: '/contact', label: 'Contact' },
 ];
