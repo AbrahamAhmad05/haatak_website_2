@@ -10,7 +10,7 @@ function OurWinsSection() {
                 <h2 className='text-5xl md:text-7xl 2xl:text-8xl font-bold leading-tight text-center'>Our Wins (So Far)</h2>
 
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-3 ">
+            <div className="grid grid-cols-1 md:grid-cols-[1fr_1.5fr_1fr] ">
                 <div className="bg-gradient-to-br from-[#F3C862] via-[#FFE196] via-80% to-[#D99A26] p-1 rounded-r-lg">
                     <div className="w-auto h-52 rounded-r-lg p-6 transition-colors duration-300 bg-gradient-br from-[#E7CB86] via-[#FFF4DF] to-[#E7CB86] md:px-20 lg:px-32 flex justify-center items-center" >
                         <h4 className={`${gilroy_semibold.className} text-4xl text-center md:text-end`}>10,000+ users in 6 months</h4>

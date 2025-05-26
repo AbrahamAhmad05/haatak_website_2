@@ -25,7 +25,7 @@ function HeroSection() {
                     <p className={`text-xl md:text-3xl font-medium mb-8 md:px-48 ${gotham.className}`}>
                         Gold saving that feels nothing like saving.
                     </p>
-                    <div className='flex items-center justify-center bg-gradient-to-br from-[#FFFFFF] via-[#999999] via-10% to-[#FFFFFF] border-[1px] border-[#626262] mt-10 gap-2 p-2 rounded-[12px]'>
+                    <div className='flex items-center justify-center bg-gradient-to-br from-[#ffffff52] via-[#9999992a] to-[#ffffff2a] border-[1px] border-[#626262] mt-10 gap-2 p-2 rounded-[12px]'>
                         <Image 
                             src="/qr_code.png"
                             className='w-24 h-24'

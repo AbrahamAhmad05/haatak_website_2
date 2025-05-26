@@ -53,7 +53,7 @@ function DownloadStepsSection() {
             </div>
 
             {/* Image */}
-            <div className="w-48 h-48 md:w-64 md:h-64 relative">
+            <div className="w-48 h-48 md:w-72 md:h-72 relative">
               <Image
                 src={e.image_url}
                 fill

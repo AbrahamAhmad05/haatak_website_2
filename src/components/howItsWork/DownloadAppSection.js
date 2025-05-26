@@ -26,28 +26,32 @@ function DownloadAppSection() {
                     Just hit download and dive in.
                 </p>
                 <div className="flex flex-col md:flex-row gap-2 md:gap-8 justify-between">
-                    <div className="flex items-center justify-center bg-gradient-to-br from-[#FFFFFF] via-[#99999971] to-[#FFFFFF] mt-10 gap-6 px-6 py-3 rounded-[12px]">
-                        <Image
-                            src="/how_it_work_imgs/apple_icon.png"
-                            width={64}
-                            height={64}
-                            alt='Apple logo'
-                        />
-                        <div className='text-start'>
-                            <p className={`${mont.className} font-semibold text-xl`}>available on</p>
-                            <h6 className={`${gilroy.className} text-3xl font-bold`}>App store</h6>
+                    <div className="group w-80 bg-gradient-to-r from-[#ffffff52] via-[#6262622a] to-[#ffffff52] p-px rounded-[13px]">
+                        <div className=" flex items-center justify-center bg-gradient-to-br from-[#ffffff52] via-[#9999992a] to-[#ffffff52] gap-6 px-6 py-3 rounded-[12px]">
+                            <Image
+                                src="/how_it_work_imgs/apple_icon.png"
+                                width={64}
+                                height={64}
+                                alt='Apple logo'
+                            />
+                            <div className='text-start'>
+                                <p className={`${mont.className} font-semibold text-xl`}>available on</p>
+                                <h6 className={`${gilroy.className} text-3xl font-bold`}>App store</h6>
+                            </div>
                         </div>
                     </div>
-                    <div className="flex items-center justify-center bg-gradient-to-br from-[#ffffff83] via-[#99999971] to-[#ffffff83] mt-10 gap-6 px-6 py-3 rounded-[12px]">
-                        <Image
-                            src="/how_it_work_imgs/android_play.png"
-                            width={64}
-                            height={64}
-                            alt='Apple logo'
-                        />
-                        <div className='text-start'>
-                            <p className={`${mont.className} font-semibold text-xl`}>get it on</p>
-                            <h6 className={`${gilroy.className} text-3xl font-bold`}>Google Play</h6>
+                    <div className="group relative bg-gradient-to-r from-[#ffffff52] via-[#6262622a] to-[#ffffff52] p-px rounded-[13px]">
+                        <div className="w-80 flex items-center justify-center bg-gradient-to-br from-[#ffffff52] via-[#9999992a] to-[#ffffff52] gap-6 px-6 py-3 rounded-[12px]">
+                            <Image
+                                src="/how_it_work_imgs/android_play.png"
+                                width={64}
+                                height={64}
+                                alt='Apple logo'
+                            />
+                            <div className='text-start'>
+                                <p className={`${mont.className} font-semibold text-xl`}>get it on</p>
+                                <h6 className={`${gilroy.className} text-3xl font-bold`}>Google Play</h6>
+                            </div>
                         </div>
                     </div>
                 </div>

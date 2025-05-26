@@ -33,7 +33,7 @@ function JoinJourneySection() {
               <div className='flex gap-6 uppercase text-[#000000]'>
                 <p>FULL TIME</p>
                 <span>|</span>
-                <p>DELHI</p>
+                <p>Bengaluru</p>
               </div>
             </div>
             <div className="w-72 h-72 flex flex-col justify-between bg-[#EDB6691A] border-[1px] border-[#000000] px-4 py-4">
@@ -42,7 +42,7 @@ function JoinJourneySection() {
               <div className='flex gap-6 uppercase text-[#000000]'>
                 <p>FULL TIME</p>
                 <span>|</span>
-                <p>DELHI</p>
+                <p>Bengaluru</p>
               </div>
             </div>
             <div className="w-72 h-72 flex flex-col justify-between bg-[#EDB6691A] border-[1px] border-[#000000] px-4 py-4">
@@ -51,7 +51,7 @@ function JoinJourneySection() {
               <div className='flex gap-6 uppercase text-[#000000]'>
                 <p>FULL TIME</p>
                 <span>|</span>
-                <p>DELHI</p>
+                <p>Bengaluru</p>
               </div>
             </div>
             <div className="w-72 h-72 flex flex-col justify-between bg-[#EDB6691A] border-[1px] border-[#000000] px-4 py-4">
@@ -60,7 +60,7 @@ function JoinJourneySection() {
               <div className='flex gap-6 uppercase text-[#000000]'>
                 <p>FULL TIME</p>
                 <span>|</span>
-                <p>DELHI</p>
+                <p>Bengaluru</p>
               </div>
             </div>
             

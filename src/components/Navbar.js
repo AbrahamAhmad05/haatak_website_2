@@ -58,9 +58,13 @@ const Navbar = () => {
                 <li className='hover:text-gray-600 transition-colors'>{link.label}</li>
               </Link>
             ))}
-            <li className='mt-4'>
-              <SearchIcon className='text-black' />
-            </li>
+            {/* <li className='mt-4'>
+              <Link href='/buy-24k-gold'>
+                <button className={`${gotham.className} px-8 py-4 uppercase text-xl text-[#2E0A49] rounded-full bg-[#EDB669] opacity-75 hover:opacity-100 cursor-pointer`}>
+                  Buy 24K Gold
+                </button>
+              </Link>
+            </li> */}
           </ul>
         </div>
       )}
@@ -68,11 +72,11 @@ const Navbar = () => {
       {/* Desktop Search Icon */}
       <div className='hidden md:block'>
         {/* <SearchIcon className='text-black hover:text-gray-600 cursor-pointer' /> */}
-        <Link href='/buy-24k-gold'>
+        {/* <Link href='/buy-24k-gold'>
           <button className={`${gotham.className} px-8 py-4 uppercase text-xl text-[#2E0A49] rounded-full bg-[#EDB669] opacity-75 hover:opacity-100 cursor-pointer`}>
             Buy 24K Gold
           </button>
-        </Link>
+        </Link> */}
       </div>
     </div>
   )
@@ -81,8 +85,8 @@ const Navbar = () => {
 
 const links = [
   { href: '/', label: 'Home' },
-  { href: '/about', label: 'About us' },
-  { href: '/howitworks', label: "How it's work" },
+  // { href: '/about', label: 'About us' },
+  // { href: '/how-its-work', label: "How it's work" },
   // { href: '/#blog', label: 'Blog' },
   { href: '/contact', label: 'Contact' },
 ];
