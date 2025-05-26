@@ -53,7 +53,7 @@ function DownloadStepsSection() {
             </div>
 
             {/* Image */}
-            <div className="w-48 h-48 md:w-72 md:h-72 relative">
+            <div className={`relative ${i >= 2 ? 'w-64 h-64 md:w-80 md:h-80' : 'w-48 h-48 md:w-72 md:h-72'}`}>
               <Image
                 src={e.image_url}
                 fill

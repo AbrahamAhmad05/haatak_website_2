@@ -25,32 +25,37 @@ function DownloadAppSection() {
                 <p className={`max-w-2xl text-xl md:text-3xl font-medium mb-8 md:px-48 ${gotham.className}`}>
                     Just hit download and dive in.
                 </p>
-                <div className="flex flex-col md:flex-row gap-2 md:gap-8 justify-between">
-                    <div className="group w-80 bg-gradient-to-r from-[#ffffff52] via-[#6262622a] to-[#ffffff52] p-px rounded-[13px]">
-                        <div className=" flex items-center justify-center bg-gradient-to-br from-[#ffffff52] via-[#9999992a] to-[#ffffff52] gap-6 px-6 py-3 rounded-[12px]">
+                <div className="flex flex-col md:flex-row gap-4 md:gap-8 justify-center items-stretch px-4">
+                    {/* Apple Button */}
+                    <div className="w-full md:max-w-md bg-gradient-to-br from-[#F3C862] via-[#FFE196] to-[#D99A26] p-1 rounded-lg mx-auto">
+                        <div className="w-full flex items-center justify-between bg-gradient-to-br from-[#E7CB86] via-[#FFF4DF] to-[#E7CB86] p-3 md:p-4 rounded-[6px] gap-3 md:gap-6">
                             <Image
                                 src="/how_it_work_imgs/apple_icon.png"
-                                width={64}
-                                height={64}
+                                width={48}
+                                height={48}
+                                className="w-12 h-12 md:w-16 md:h-16"
                                 alt='Apple logo'
                             />
-                            <div className='text-start'>
-                                <p className={`${mont.className} font-semibold text-xl`}>available on</p>
-                                <h6 className={`${gilroy.className} text-3xl font-bold`}>App store</h6>
+                            <div className='text-start flex-1'>
+                                <p className={`${mont.className} font-semibold text-sm md:text-xl`}>available on</p>
+                                <h6 className={`${gilroy.className} text-lg md:text-3xl font-bold`}>App store</h6>
                             </div>
                         </div>
                     </div>
-                    <div className="group relative bg-gradient-to-r from-[#ffffff52] via-[#6262622a] to-[#ffffff52] p-px rounded-[13px]">
-                        <div className="w-80 flex items-center justify-center bg-gradient-to-br from-[#ffffff52] via-[#9999992a] to-[#ffffff52] gap-6 px-6 py-3 rounded-[12px]">
+
+                    {/* Android Button */}
+                    <div className="w-full md:max-w-md bg-gradient-to-br from-[#F3C862] via-[#FFE196] to-[#D99A26] p-1 rounded-lg mx-auto">
+                        <div className="w-full flex items-center justify-between bg-gradient-to-br from-[#E7CB86] via-[#FFF4DF] to-[#E7CB86] p-3 md:p-4 rounded-[6px] gap-3 md:gap-6">
                             <Image
                                 src="/how_it_work_imgs/android_play.png"
-                                width={64}
-                                height={64}
-                                alt='Apple logo'
+                                width={48}
+                                height={48}
+                                className="w-12 h-12 md:w-16 md:h-16"
+                                alt='Play Store logo'
                             />
-                            <div className='text-start'>
-                                <p className={`${mont.className} font-semibold text-xl`}>get it on</p>
-                                <h6 className={`${gilroy.className} text-3xl font-bold`}>Google Play</h6>
+                            <div className='text-start flex-1'>
+                                <p className={`${mont.className} font-semibold text-sm md:text-xl`}>get it on</p>
+                                <h6 className={`${gilroy.className} text-lg md:text-3xl font-bold`}>Google Play</h6>
                             </div>
                         </div>
                     </div>
