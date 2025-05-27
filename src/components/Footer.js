@@ -32,49 +32,49 @@ const Footer = () => {
 
                     {/* About */}
                     <div className="space-y-4">
-                        <h5 className={`${helvetica_neue.className} text-lg font-medium  leading-relaxed text-[#2E0A49] uppercase tracking-wider`}>About</h5>
+                        <h5 className={`${helvetica_neue.className} text-lg font-medium  leading-relaxed text-[#2E0A49] uppercase`}>About</h5>
                         <div className="border-t border-[#2E0A49]" />
                         <div className={`${helvetica_neue_th.className} space-y-3`}>
-                            <p className="text-[#2E0A49] text-md uppercase tracking-wider">Buy gold</p>
-                            <p className="text-[#2E0A49] text-md uppercase tracking-wider">About us</p>
-                            <p className="text-[#2E0A49] text-md uppercase tracking-wider">Features</p>
-                            <p className="text-[#2E0A49] text-md uppercase tracking-wider">Blog</p>
+                            <p className="text-[#2E0A49] text-md uppercase ">Buy gold</p>
+                            <p className="text-[#2E0A49] text-md uppercase ">About us</p>
+                            <p className="text-[#2E0A49] text-md uppercase ">Features</p>
+                            <p className="text-[#2E0A49] text-md uppercase ">Blog</p>
                         </div>
                     </div>
 
                     {/* Help */}
                     <div className="space-y-4">
-                        <h5 className={`${helvetica_neue.className} text-lg font-medium  leading-relaxed text-[#2E0A49] uppercase tracking-wider`}>Help</h5>
+                        <h5 className={`${helvetica_neue.className} text-lg font-medium  leading-relaxed text-[#2E0A49] uppercase`}>Help</h5>
                         <div className="border-t border-[#2E0A49]" />
                         <div className={`${helvetica_neue_th.className} space-y-3`}>
-                            <p className="text-[#2E0A49] text-md uppercase tracking-wider">Shipping & Return</p>
-                            <p className="text-[#2E0A49] text-md uppercase tracking-wider">Terms & Conditions</p>
-                            <p className="text-[#2E0A49] text-md uppercase tracking-wider">Privacy Policies</p>
-                            <p className="text-[#2E0A49] text-md uppercase tracking-wider">Contact Us</p>
+                            <p className="text-[#2E0A49] text-md uppercase ">Shipping & Return</p>
+                            <p className="text-[#2E0A49] text-md uppercase ">Terms & Conditions</p>
+                            <p className="text-[#2E0A49] text-md uppercase ">Privacy Policies</p>
+                            <p className="text-[#2E0A49] text-md uppercase ">Contact Us</p>
                         </div>
                     </div>
 
                     {/* Contact */}
-                    <div className={`${helvetica_neue_th.className} space-y-4 `}>
-                        <h5 className={`${helvetica_neue.className} text-lg font-medium leading-relaxed text-[#2E0A49] uppercase tracking-wider`}>Contact</h5>
+                    <div className={`${helvetica_neue_th.className} space-y-3 `}>
+                        <h5 className={`${helvetica_neue.className} text-lg font-medium leading-relaxed text-[#2E0A49] uppercase`}>Contact</h5>
                         <div className="border-t border-[#2E0A49] space-y-3" />
                         <div className="flex items-start gap-3">
                             <div className='pt-[2px]'>
                                 <Phone className="text-[#2E0A49]" size={20} />
                             </div>
-                            <p className="text-[#2E0A49] text-md tracking-wider">+91 63640 00414</p>
+                            <p className="text-[#2E0A49] text-md ">+91 63640 00414</p>
                         </div>
                         <div className="flex items-start gap-3">
                             <div className='pt-[2px]'>
                                 <Mail className="text-[#2E0A49]" size={20} />
                             </div>
-                            <p className="text-[#2E0A49] text-md uppercase tracking-wider">hello@haatak.com</p>
+                            <p className="text-[#2E0A49] text-md uppercase ">hello@haatak.com</p>
                         </div>
                         <div className="flex items-start gap-3">
                             <div className='pt-[2px]'>
                                 <MapPin className="text-[#2E0A49]" size={20} />
                             </div>
-                            <p className="text-[#2E0A49] text-md uppercase tracking-wider">
+                            <p className="text-[#2E0A49] text-md uppercase ">
                                 #558, 9th Cross, 3rd Phase, J P Nagar, Bengaluru 560078
                             </p>
                         </div>
@@ -92,7 +92,7 @@ const Footer = () => {
                             />
                         </div>
                         <div className='pl-2'>
-                            <p className={`${helvetica_neue.className} text-[#2E0A49]/80 text-lg leading-relaxed tracking-wider`}>
+                            <p className={`${helvetica_neue.className} text-[#2E0A49]/80 text-lg leading-relaxed `}>
                                 Making gold investment accessible, secure, and effortless for everyone.
                             </p>
 
