@@ -28,6 +28,12 @@ export const helvetica_neue = localFont({
   weight: '400'
 });
 
+export const helvetica_neue_th = localFont({
+  src: '/fonts/helvetica_neue/HelveticaNeueLTStd-Roman.otf',
+  variable: "--font-original",
+  weight: '400'
+});
+
 export const gilroy = localFont({
   src: '/fonts/gilroy/Gilroy-Bold.ttf',
   variable: "--font-gilroy",
