@@ -55,7 +55,7 @@ const Footer = () => {
                     </div>
 
                     {/* Contact */}
-                    <div className={`${helvetica_neue_th.className} space-y-3 `}>
+                    <div className={`${helvetica_neue_th.className} space-y-4 `}>
                         <h5 className={`${helvetica_neue.className} text-lg font-medium leading-relaxed text-[#2E0A49] uppercase`}>Contact</h5>
                         <div className="border-t border-[#2E0A49] space-y-3" />
                         <div className="flex items-start gap-3">
