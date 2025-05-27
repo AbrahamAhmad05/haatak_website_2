@@ -1,4 +1,4 @@
-import { Montserrat } from "next/font/google";
+import { Montserrat, Poppins } from "next/font/google";
 import localFont from "next/font/local";
 
 export const montserrat = Montserrat({
@@ -6,7 +6,10 @@ export const montserrat = Montserrat({
     subsets: ['latin']
 })
 
-
+export const poppins = Poppins({
+  weight: ['400', '500'],
+  subsets: ['latin']
+}) 
 
 export const mont = localFont({
   src: '/fonts/mont/Mont-ExtraLightDEMO.otf',
@@ -22,7 +25,7 @@ export const original = localFont({
 export const helvetica_neue = localFont({
   src: '/fonts/helvetica_neue/HelveticaNeueLTStd-Md.otf',
   variable: "--font-original",
-  weight: '700'
+  weight: '400'
 });
 
 export const gilroy = localFont({
