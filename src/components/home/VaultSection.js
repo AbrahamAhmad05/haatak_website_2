@@ -68,16 +68,16 @@ export default function AnimatedSection() {
     return (
         <section ref={sectionRef} className="flex flex-col md:flex-row h-screen w-full overflow-hidden">
             {/* Text Column - full width on mobile */}
-            <div ref={textColRef} className="w-full md:w-[40%] h-[50vh] md:h-full  flex flex-col justify-center md:px-10 px-4 py-10 gap-[36px] bg-gradient-to-b from-[#FFE5A5] via-[#F8EAC6] to-[#FFDF8E] order-2 md:order-1">
-                <h5 className={`${gilroy.className} text-xl md:text-3xl bg-gradient-to-br from-[#FFD191] via-[#E39A35] to-[#FFD191] bg-clip-text text-transparent`}>
+            <div ref={textColRef} className="w-full md:w-[40%] h-[50vh] md:h-full p-8 flex flex-col justify-center bg-gray-100 order-2 md:order-1">
+                <h5 className={`${gilroy.className} text-xl md:text-3xl bg-gradient-to-br from-[#E39A35] via-[#E39A35] to-[#E39A35] bg-clip-text text-transparent`}>
                     Vault-Grade Security
                 </h5>
 
-                <h2 className="text-4xl md:text-7xl [background-image:linear-gradient(to_top_left,#FFE0B5,#D08E31,#FFE2BA)] bg-clip-text text-transparent my-4">
+                <h2 className="text-4xl md:text-7xl bg-gradient-to-br from-[#E39A35] via-[#E39A35] to-[#E39A35] bg-clip-text text-transparent my-4">
                     Your Gold Is Safer Than Selfies.
                 </h2>
 
-                <h6 className={`text-base md:text-2xl [background-image:linear-gradient(to_bottom_right,#FFD191,#E39A35,#FFD191)] bg-clip-text text-transparent ${gilroy_semibold.className}`}>
+                <h6 className={`text-base md:text-2xl [background-image:linear-gradient(to_bottom_right,#E39A35,#E39A35,#E39A35)] bg-clip-text text-transparent ${gilroy_semibold.className}`}>
                     Stored in RBI-compliant vaults. Fully insured. End-to-end encrypted. You own it. We protect it.
                 </h6>
             </div>
