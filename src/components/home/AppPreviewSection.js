@@ -71,7 +71,7 @@ const AppPreviewSection = () => {
     }, [activeIndex]);
 
     return (
-        <div className='py-20 md:mt-64 flex flex-col justify-center items-center w-full px-4 text-center'>
+        <div className='py-20 md:mt-16 flex flex-col justify-center items-center w-full px-4 text-center'>
             <h3 className={`text-[#2E0A49] ${gilroy.className} text-4xl md:text-6xl font-[400]`}>
                 Designed to Feel Premium
             </h3>
