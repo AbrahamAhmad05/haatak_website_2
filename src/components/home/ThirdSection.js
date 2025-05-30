@@ -4,7 +4,7 @@ import GraphAnimation from '../animations/GraphAnimation'
 
 const ThirdSection = () => {
   return (
-    <div className='flex flex-col md:flex-row h-screen items-center justify-between px-4 md:px-8 lg:px-16 py-10 md:py-20 bg-gradient-to-r from-[#FFD8AE00] from-10% via-[#FFD8AE] via-20% to-[#FFD8AE]/10 to-50%'>
+    <div className='flex flex-col md:flex-row h-[80vh] items-center justify-center md:justify-between px-4 md:px-8 lg:px-16 py-10 md:py-20 bg-gradient-to-r from-[#FFD8AE00] from-10% via-[#FFD8AE] via-20% to-[#FFD8AE]/10 to-50%'>
       
       {/* Text Container */}
       <div className='w-full md:w-1/2 mb-10 md:mb-0 md:pr-8 z-10'>

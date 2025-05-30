@@ -81,7 +81,7 @@ const Footer = () => {
                     </div>
 
                     {/* Company Info */}
-                    <div className="space-y-6 lg:border-l-2 border-[#2E0A49] md:pl-12">
+                    <div className="space-y-6 flex flex-col justify-center md:justify-start md:items-start items-center lg:border-l-2 border-[#2E0A49] md:pl-12">
                         <div className="max-w-[200px] md:min-w-[250px] xl:min-w-[350px] ">  {/* Adjusted width */}
                             <Image
                                 src="/home_imgs/haatak_logo.png"
@@ -92,11 +92,11 @@ const Footer = () => {
                             />
                         </div>
                         <div className='pl-2'>
-                            <p className={`${helvetica_neue.className} text-[#2E0A49]/80 text-lg leading-relaxed `}>
+                            <p className={`${helvetica_neue.className} text-[#2E0A49]/80 text-lg leading-relaxed text-center md:text-start`}>
                                 Making gold investment accessible, secure, and effortless for everyone.
                             </p>
 
-                            <div className="flex gap-5 md:gap-8 pt-2 flex-wrap ">
+                            <div className="flex gap-5 md:gap-8 pt-2 flex-wrap justify-center md:justify-start">
                                 <Link href='http://www.facebook.com/HaatakOfficial'>
                                     <div className="rounded-md w-9 h-9 md:w-10 md:h-10 overflow-hidden bg-white">
                                         <Image

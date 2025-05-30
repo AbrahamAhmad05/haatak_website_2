@@ -21,7 +21,7 @@ const ReferSection = () => {
                     </p>
 
                     {/* Steps */}
-                    <div className="w-full grid grid-cols-1 md:grid-cols-3 gap-14 lg:gap-12 mt-28 place-items-center">
+                    <div className="w-full grid grid-cols-1 md:grid-cols-3 px-6 gap-16 lg:gap-12 mt-20 place-items-center">
                         <ReferCard icon='/home_imgs/link_icon.png' title='Share Your Referral Link' />
                         <ReferCard icon='/home_imgs/friends_icon.png' title='Friend Joins & Starts Saving' />
                         <ReferCard icon='/home_imgs/bonus_icon.png' title='You Both Earn Bonus Gold' />

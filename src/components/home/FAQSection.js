@@ -30,8 +30,8 @@ const FAQSection = () => {
   ];
 
   return (
-    <div className={`${montserrat.className} w-full pt-16 pb-40 px-4 sm:px-6 md:px-12 lg:px-20 xl:px-32`}>
-      <div className="text-center mb-10 md:mb-16">
+    <div className={`${montserrat.className} w-full pt-16 md:pb-20 px-4 sm:px-6 md:px-12 lg:px-20 xl:px-32`}>
+      <div className="text-center mb-4 md:mb-16">
         <h3 className="text-2xl sm:text-3xl lg:text-4xl xl:text-5xl font-bold text-[#2E0A49]">
           Frequently Asked Questions
         </h3>
@@ -55,7 +55,7 @@ const FAQSection = () => {
         ))}
 
         {/* Add a visible spacer at the end to ensure nothing gets hidden */}
-        <div className="h-20 md:h-32" />
+        <div className="h-6 md:h-12" />
       </Accordion>
     </div>
   );
