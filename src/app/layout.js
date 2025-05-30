@@ -4,6 +4,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import Head from "next/head";
 import { original } from "@/lib/font";
+import LenisProvider from "@/components/LenisProvider";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -16,7 +17,7 @@ const geistMono = Geist_Mono({
 });
 
 // const font_original = original({
-  
+
 // })
 
 export const metadata = {
@@ -37,7 +38,9 @@ export default function RootLayout({ children }) {
         className={`${original.className} antialiased`}
       >
         <Navbar />
-        {children}
+        <LenisProvider>
+          {children}
+        </LenisProvider>
         <Footer />
       </body>
     </html>

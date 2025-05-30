@@ -8,6 +8,7 @@ const GraphAnimation = () => {
     const graphRef = useRef(null)
     const arrowRef = useRef(null)
     const containerRef = useRef(null)
+    const firstBarRef = useRef(null)
 
     useLayoutEffect(() => {
         gsap.registerPlugin(ScrollTrigger)
@@ -19,30 +20,31 @@ const GraphAnimation = () => {
         gsap.set(bars, { height: 10 })
         gsap.set(arrowRef.current, {
             scale: 0,
-            transformOrigin: "0% 100%", // Bottom-left corner (x: 0%, y: 100%)
+            transformOrigin: "0% 100%",
         });
 
         // Create timeline
         const tl = gsap.timeline({
             scrollTrigger: {
                 trigger: graphRef.current,
-                start: 'bottom bottom',
-                toggleActions: 'play none none reverse'
+                start: 'top 80%',
+                toggleActions: 'play none none reverse',
+                markers: false
             }
         })
 
         // Bar animations
         tl.to(bars, {
-            height: (i) => `${(i + 1) * 20}%`,
+            height: (i) => `${(i + 1) * 22}%`,
             stagger: 0.2,
             ease: 'power4.out',
             duration: 1
         })
 
-        // Arrow animation (scale up in place)
+        // Arrow animation
         tl.to(arrowRef.current, {
-            scale: 2, // Or different X/Y scale values
-            duration: 2,
+            scale: 1.8,
+            duration: 1,
             ease: "power2.out"
         }, "-=0.5");
 
@@ -52,45 +54,48 @@ const GraphAnimation = () => {
     }, [])
 
     return (
-        <div ref={containerRef} className="min-h-screen flex items-start xl:items-center justify-start">
-            <div ref={graphRef} className="relative h-[400px] w-full max-w-4xl px-8 flex items-end gap-8 justify-center">
-                {/* Anchored Arrow */}
-
-
-                {/* Bars with network connections */}
-                <div className="relative h-full w-full flex items-end justify-end gap-8">
-                    <div
+        <div ref={containerRef} className="w-full h-full flex items-center justify-center">
+            <div ref={graphRef} className="relative h-[30vh] md:h-[40vh] lg:h-[50vh] w-full max-w-4xl px-4 md:px-8">
+                {/* Graph container with arrow and bars */}
+                <div className="relative h-full w-full flex items-end justify-end">
+                    {/* Arrow positioned relative to the first bar */}
+                    <div 
                         ref={arrowRef}
-                        className="absolute bottom-20 -left-20 md:bottom-25 md:left-44  2xl:left-80  pointer-events-none"
+                        className="absolute bottom-1/3 left-[60%] transform -translate-x-[95%] translate-y-[7%] pointer-events-none"
                         style={{
-                            transformOrigin: '0% 200%', // Reinforce bottom-left origin
-                            transform: "translateZ(0)" // Enable GPU acceleration
+                            transformOrigin: '0% 100%',
+                            transform: "translateZ(0)"
                         }}
                     >
                         <Image
                             src="/home_imgs/animation_arrow.png"
-                            width={200}
-                            height={200}
+                            width={400}
+                            height={400}
                             alt="arrow"
-                            className="w-[200px] h-[200px] origin-[0%_200%]"
-                            style={{
-                                transform: "translateZ(0)", // GPU acceleration
-                                backfaceVisibility: "hidden" // Prevent flickering
-                            }}
+                            className="w-[160px] h-[96px] md:w-[180px] md:h-[150px] lg:w-[240px] lg:h-[180px]"
                         />
                     </div>
-                    {/* Bars */}
-                    <div className="bar w-16 bg-gradient-to-b from-[#EDB669] via-[#F6DEA2] to-[#F6B02F] rounded-xl relative">
-                        <div className="absolute -top-4 left-1/2 -translate-x-1/2 w-8 h-8 bg-cyan-400 rounded-full network-node opacity-0" />
-                    </div>
-                    <div className="bar w-16 bg-gradient-to-b from-[#EDB669] via-[#F6DEA2] to-[#F6B02F] rounded-xl relative">
-                        <div className="absolute -top-4 left-1/2 -translate-x-1/2 w-8 h-8 bg-fuchsia-500 rounded-full network-node opacity-0" />
-                    </div>
-                    <div className="bar w-16 bg-gradient-to-b from-[#EDB669] via-[#F6DEA2] to-[#F6B02F] rounded-xl relative">
-                        <div className="absolute -top-4 left-1/2 -translate-x-1/2 w-8 h-8 bg-emerald-500 rounded-full network-node opacity-0" />
-                    </div>
-                    <div className="bar w-16 bg-gradient-to-b from-[#EDB669] via-[#F6DEA2] to-[#F6B02F] rounded-xl relative">
-                        <div className="absolute -top-4 left-1/2 -translate-x-1/2 w-8 h-8 bg-red-500 rounded-full network-node opacity-0" />
+                    
+                    {/* Bars container */}
+                    <div className="h-full w-full flex items-end justify-end gap-3 md:gap-5 lg:gap-8">
+                        {/* First bar with ref */}
+                        <div 
+                            ref={firstBarRef}
+                            className="bar w-12 md:w-14 lg:w-20 bg-gradient-to-b from-[#EDB669] via-[#F6DEA2] to-[#F6B02F] rounded-xl relative"
+                        >
+                            <div className="absolute -top-4 left-1/2 -translate-x-1/2 w-5 h-5 md:w-6 md:h-6 bg-cyan-400 rounded-full network-node opacity-0" />
+                        </div>
+                        
+                        {/* Other bars */}
+                        <div className="bar w-12 md:w-14 lg:w-20 bg-gradient-to-b from-[#EDB669] via-[#F6DEA2] to-[#F6B02F] rounded-xl relative">
+                            <div className="absolute -top-4 left-1/2 -translate-x-1/2 w-5 h-5 md:w-6 md:h-6 bg-fuchsia-500 rounded-full network-node opacity-0" />
+                        </div>
+                        <div className="bar w-12 md:w-14 lg:w-20 bg-gradient-to-b from-[#EDB669] via-[#F6DEA2] to-[#F6B02F] rounded-xl relative">
+                            <div className="absolute -top-4 left-1/2 -translate-x-1/2 w-5 h-5 md:w-6 md:h-6 bg-emerald-500 rounded-full network-node opacity-0" />
+                        </div>
+                        <div className="bar w-12 md:w-14 lg:w-20 bg-gradient-to-b from-[#EDB669] via-[#F6DEA2] to-[#F6B02F] rounded-xl relative">
+                            <div className="absolute -top-4 left-1/2 -translate-x-1/2 w-5 h-5 md:w-6 md:h-6 bg-red-500 rounded-full network-node opacity-0" />
+                        </div>
                     </div>
                 </div>
             </div>
