@@ -71,7 +71,7 @@ const AppPreviewSection = () => {
     }, [activeIndex]);
 
     return (
-        <div className='mt-64 flex flex-col justify-center items-center w-full px-4 text-center'>
+        <div className='py-20 md:mt-64 flex flex-col justify-center items-center w-full px-4 text-center'>
             <h3 className={`text-[#2E0A49] ${gilroy.className} text-4xl md:text-6xl font-[400]`}>
                 Designed to Feel Premium
             </h3>
@@ -84,13 +84,13 @@ const AppPreviewSection = () => {
 
             <div 
                 ref={containerRef}
-                className="relative w-[80%] md:max-w-6xl mx-auto mt-8 md:mt-12 h-[500px] md:h-[700px]"
+                className="relative w-[80%] md:max-w-6xl mx-auto mt-8 md:mt-12 h-[250px] md:h-[700px]"
             >
                 {mockups.map((mockup, index) => (
                     <div
                         key={mockup.id}
                         ref={el => cardsRef.current[index] = el}
-                        className="absolute top-1/9 left-1/3 -translate-x-1/2 -translate-y-1/2 cursor-pointer w-[40%] md:w-[35%] transition-transform duration-300"
+                        className="absolute top-1/9 left-1/4 md:left-1/3 -translate-x-1/2 -translate-y-1/2 cursor-pointer w-[44%] md:w-[35%] transition-transform duration-300"
                         onClick={() => setActiveIndex(index)}
                     >
                         <Image

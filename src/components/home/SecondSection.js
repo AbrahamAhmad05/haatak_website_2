@@ -11,7 +11,7 @@ const SecondSection = () => {
         <div className='min-w-full h-[80%] md:h-[180vh] flex flex-col justify-center items-center overflow-hidden bg-gradient-to-r from-[#FFD8AE00] via-[#FFD8AE] to-[#FFD8AE00] pt-20 md:pt-52 relative'>
 
             {/* Main curved section */}
-            <div className='relative w-[100%] md:w-[105vw] h-full md:h-[95vw] flex flex-col justify-start  rounded-t-[50%] bg-gradient-to-b from-[#F4A15D] via-[#FFD8AE] to-[#fff] border-dashed border-t-2 border-[#D5760E] mt-64'>
+            <div className='relative w-[100%] md:w-[105vw] h-[105vw] md:h-[95vw] flex flex-col justify-start  rounded-t-[50%] bg-gradient-to-b from-[#F4A15D] via-[#FFD8AE] to-[#fff] border-dashed border-t-2 border-[#D5760E] md:mt-64'>
 
                 {/* Text content */}
                 

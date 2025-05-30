@@ -55,13 +55,13 @@ const GraphAnimation = () => {
 
     return (
         <div ref={containerRef} className="w-full h-full flex items-center justify-center">
-            <div ref={graphRef} className="relative h-[30vh] md:h-[40vh] lg:h-[50vh] w-full max-w-4xl px-4 md:px-8">
+            <div ref={graphRef} className="relative h-[30vh] md:h-[40vh] lg:h-[50vh] w-full md:max-w-4xl px-6 md:px-8">
                 {/* Graph container with arrow and bars */}
                 <div className="relative h-full w-full flex items-end justify-end">
                     {/* Arrow positioned relative to the first bar */}
                     <div 
                         ref={arrowRef}
-                        className="absolute bottom-1/3 left-[50%] md:left-[50%] transform -translate-x-[80%] translate-y-[7%] pointer-events-none"
+                        className="absolute bottom-1/3 left-[45%]  md:left-[40%] 2xl:left-[50%] transform -translate-x-[80%] translate-y-[7%] pointer-events-none"
                         style={{
                             transformOrigin: '0% 100%',
                             transform: "translateZ(0)"
@@ -72,12 +72,12 @@ const GraphAnimation = () => {
                             width={400}
                             height={400}
                             alt="arrow"
-                            className="w-[160px] h-[96px] md:w-[180px] md:h-[150px] lg:w-[240px] lg:h-[180px]"
+                            className="w-[160px] h-[120px] md:w-[180px] md:h-[150px] lg:w-[240px] lg:h-[180px]"
                         />
                     </div>
                     
                     {/* Bars container */}
-                    <div className="h-full w-full flex items-end justify-end gap-3 md:gap-5 lg:gap-8">
+                    <div className="h-full w-full flex items-end justify-center md:items-end md:justify-end gap-3 md:gap-5 lg:gap-8">
                         {/* First bar with ref */}
                         <div 
                             ref={firstBarRef}
