@@ -4,10 +4,10 @@ import React from 'react'
 
 function AboutThirdSection() {
     return (
-        <div className='h-auto md:h-[135vh] md:bg-[url(/about_imgs/gold_bars_mockup.webp)] bg-no-repeat md:bg-cover flex flex-col md:flex-row md:justify-between text-[#2E0A49]'>
+        <div className='h-auto md:h-[135vh] md:bg-[url(/about_imgs/about_3rd_mockup.webp)] bg-no-repeat md:bg-cover flex flex-col md:flex-row md:justify-between text-[#2E0A49]'>
             {/* Mobile-only image */}
             <Image
-                src="/about_imgs/gold_bars_mockup.webp"
+                src="/about_imgs/about_3rd_mockup.webp"
                 width={900}
                 height={900}
                 className="block md:hidden w-full h-[40vh] object-contain object-top"

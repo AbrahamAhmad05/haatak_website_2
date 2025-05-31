@@ -4,13 +4,13 @@ import React from 'react'
 
 function SpecialitySection() {
     return (
-        <div className='h-auto w-full text-[#2E0A49] py-48 px-8'>
+        <div className='h-auto w-full text-[#2E0A49] py-12 px-8'>
             <div className='flex flex-col gap-4'>
                 <h5 className={`${gilroy.className} text-center text-5xl`}>Are we special...</h5>
                 <h2 className='text-5xl md:text-7xl 2xl:text-8xl font-bold leading-tight text-center'>What Makes Us Different?</h2>
                 <h5 className={`${gilroy_semibold.className} text-center text-3xl`}>But why!</h5>
             </div>
-            <div className="flex flex-col md:flex-row px-4 md:px-16 justify-center gap-5 mt-20">
+            <div className="flex flex-col md:flex-row px-4 md:px-16 justify-center items-center gap-5 mt-20">
                 <div className="relative w-[230px] h-[250px] flex flex-col justify-between bg-[#FFD980] border-[1.5px] border-[#E39A35] shadow-[inset_0_0_26px_8px_rgba(217,154,38,0.25),_0_72px_50px_0_rgba(0,0,0,0.16)] rounded-[12px] -rotate-[15deg]">
                     {/* Title */}
                     <h6 className={`${gilroy.className} text-2xl text-center font-bold text-[#2E0A49] pt-5 px-3`}>
