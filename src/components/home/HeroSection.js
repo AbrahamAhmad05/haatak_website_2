@@ -23,11 +23,25 @@ const HeroSection = () => {
             <div className="container relative flex justify-center items-center z-10 mx-auto px-4 md:px-8 text-[#2E0A49]">
                 <div className="max-w-5xl flex flex-col text-center justify-center items-center">
                     <h1 className="text-6xl sm:text-7xl md:text-8xl lg:text-9xl font-[700] mb-6 ">
-                        Crafted for <br/>Your trustworthy
+                        Crafted for <br />Your trustworthy
                     </h1>
-                    <p className={`text-xl md:text-3xl font-medium mb-8 md:px-48 ${gotham.className}`}>
+                    <p className={`text-xl md:text-3xl font-medium md:px-48 ${gotham.className}`}>
                         Save, grow, and flex your wealth with 24K digital gold — all from one powerful app.
                     </p>
+                    {/* <div className="flex mb-8 md:px-48 bg-[#FFE4BF] justify-center items-center">
+                        <div className="flex justify-center items-center">
+                            <Image
+                                src='/home_imgs/security_icon.png'
+                                width={50}
+                                height={50}
+                                alt='security icon'
+                                className='object-contain mr-2'
+                            />
+                            <p className="text-lg md:text-xl font-semibold">
+                                100% secure
+                            </p>
+                        </div>
+                    </div> */}
                 </div>
             </div>
         </section>
