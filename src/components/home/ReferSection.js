@@ -34,7 +34,7 @@ const ReferSection = () => {
 
 const ReferCard = ({ icon, title }) => {
     return (
-        <div className="relative w-full max-w-sm h-36 md:h-48 text-center flex flex-col items-end justify-end bg-[radial-gradient(circle_at_bottom,#EDB669_0%,_transparent_70%)] border-[2px] border-[#E39A35] shadow-2xl rounded-lg">
+        <div className="relative w-full max-w-sm h-36 md:h-48 text-center flex flex-col items-center justify-end bg-[radial-gradient(circle_at_bottom,#EDB669_0%,_transparent_70%)] border-[2px] border-[#E39A35] shadow-2xl rounded-lg">
             {/* Icon Container */}
             <div className="w-24 h-24 lg:w-28 lg:h-28 xl:w-32 xl:h-32 rounded-full bg-[#F6CE69] flex items-center justify-center absolute -top-12 xl:-top-16 left-1/2 transform -translate-x-1/2">
                 <Image 
