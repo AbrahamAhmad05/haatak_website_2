@@ -24,10 +24,10 @@ function AboutSecondSection() {
           <h3 className="text-3xl md:text-4xl lg:text-5xl font-bold leading-normal md:leading-snug">
             Gold was always trusted.
           </h3>
-          <h1 className="text-4xl md:text-6xl lg:text-8xl font-bold leading-tight 
+          <h2 className="text-4xl md:text-6xl lg:text-8xl font-bold leading-tight 
                        text-balance break-words">
             The Old Way Was Complicated
-          </h1>
+          </h2>
           <h5 className={`${montserrat.className} text-xl md:text-3xl lg:text-4xl 
                         font-medium max-w-prose mx-auto leading-snug`}>
             But buying it? Complex. Time-consuming. Paper-heavy. We said — enough.
