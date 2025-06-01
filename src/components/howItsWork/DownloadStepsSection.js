@@ -39,7 +39,7 @@ function DownloadStepsSection() {
       </div>
       <div className="flex flex-col items-center justify-center gap-14 my-14 md:gap-64 md:my-64 px-4 sm:px-6 lg:px-8">
         {data.map((e, i) => (
-          <div className="flex flex-col items-center justify-center text-center w-full max-w-4xl gap-6" key={i}>
+          <div className="flex flex-col items-center justify-center text-center w-full max-w-4xl gap-2" key={i}>
             {/* Quote */}
             <h5 className={`${gilroy.className} text-2xl md:text-4xl leading-relaxed max-w-3xl`}>
               {e.quote}

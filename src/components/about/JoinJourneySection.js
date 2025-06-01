@@ -27,36 +27,40 @@ function JoinJourneySection() {
           
         </div>
         <div className={`${gilroy_semibold.className} flex flex-col md:flex-row justify-center items-center pt-12 md:py-24  gap-8 md:gap-10`}>
-            <div className="w-72 h-52 md:w-72 md:h-72 flex flex-col justify-between bg-[#EDB6691A] border-[1px] border-[#000000] px-4 py-4">
+            <div className="w-72 h-72 flex flex-col justify-between bg-[#EDB6691A] border-[1px] border-[#000000] px-4 py-4">
               <h6 className="text-xl uppercase text-[#000000]">Designer</h6>
               <h5 className="text-2xl ">Senior Designer</h5>
+              <h6 className='text-md line-clamp-3'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas est et inventore sunt vitae facere. Eligendi molestiae placeat minima possimus repellat velit, maiores porro!</h6>
               <div className='flex gap-6 uppercase text-[#000000]'>
                 <p>FULL TIME</p>
                 <span>|</span>
                 <p>Bengaluru</p>
               </div>
             </div>
-            <div className="w-72 h-52 md:w-72 md:h-72 flex flex-col justify-between bg-[#EDB6691A] border-[1px] border-[#000000] px-4 py-4">
+            <div className="w-72 h-72 flex flex-col justify-between bg-[#EDB6691A] border-[1px] border-[#000000] px-4 py-4">
               <h6 className="text-xl uppercase text-[#000000]">Developer</h6>
               <h5 className="text-2xl ">Backend developer</h5>
+              <h6 className='text-md line-clamp-3'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas est et inventore sunt vitae facere. Eligendi molestiae placeat minima possimus repellat velit, maiores porro!</h6>
               <div className='flex gap-6 uppercase text-[#000000]'>
                 <p>FULL TIME</p>
                 <span>|</span>
                 <p>Bengaluru</p>
               </div>
             </div>
-            <div className="w-72 h-52 md:w-72 md:h-72 flex flex-col justify-between bg-[#EDB6691A] border-[1px] border-[#000000] px-4 py-4">
+            <div className="w-72 h-72 flex flex-col justify-between bg-[#EDB6691A] border-[1px] border-[#000000] px-4 py-4">
               <h6 className="text-xl uppercase text-[#000000]">Marketing</h6>
               <h5 className="text-2xl ">Senior Designer</h5>
+              <h6 className='text-md line-clamp-3'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas est et inventore sunt vitae facere. Eligendi molestiae placeat minima possimus repellat velit, maiores porro!</h6>
               <div className='flex gap-6 uppercase text-[#000000]'>
                 <p>FULL TIME</p>
                 <span>|</span>
                 <p>Bengaluru</p>
               </div>
             </div>
-            <div className="w-72 h-52 md:w-72 md:h-72 flex flex-col justify-between bg-[#EDB6691A] border-[1px] border-[#000000] px-4 py-4">
+            <div className="w-72 h-72 flex flex-col justify-between bg-[#EDB6691A] border-[1px] border-[#000000] px-4 py-4">
               <h6 className="text-xl uppercase text-[#000000]">Media</h6>
               <h5 className="text-2xl text-wrap">Social management manager</h5>
+              <h6 className='text-md line-clamp-3'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas est et inventore sunt vitae facere. Eligendi molestiae placeat minima possimus repellat velit, maiores porro!</h6>
               <div className='flex gap-6 uppercase text-[#000000]'>
                 <p>FULL TIME</p>
                 <span>|</span>
