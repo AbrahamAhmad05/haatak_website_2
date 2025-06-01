@@ -4,7 +4,7 @@ import React from 'react'
 
 function OurMissionSection() {
   return (
-    <div className='flex flex-col-reverse md:flex-row text-[#2E0A49] py-10'>
+    <div className='flex flex-col md:flex-row text-[#2E0A49] py-10'>
         <div className="px-4 flex flex-col text-center md:text-start justify-center gap-8">
             <h2 className="text-7xl lg:text-8xl font-bold ">Our Mission</h2>
             <h5 className={`${gilroy.className} text-4xl `}>Designed to Feel Premium</h5>

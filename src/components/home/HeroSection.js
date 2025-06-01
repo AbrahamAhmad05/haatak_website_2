@@ -23,8 +23,9 @@ const HeroSection = () => {
                     </p>
                     
                     {/* UPDATED FEATURE BAR - MOBILE OPTIMIZED */}
-                    <div className={`${gotham.className} w-full md:w-2xl my-8 py-3 md:py-1 bg-[#FFE4BF]`}>
-                        <div className="flex flex-col md:flex-row justify-center items-start px-4 gap-4 md:gap-6">
+                    <div className={`${gotham.className} md:w-2xl my-8 py-3 md:py-1 bg-[#FFE4BF]`}>
+                        <div className="flex flex-col md:flex-row justify-center items-center px-4">
+                            <div className="flex flex-col justify-start gap-4 md:gap-6">
                             {/* Feature 1 - Security */}
                             <div className='flex items-center gap-2'>
                                 <Image
@@ -66,7 +67,7 @@ const HeroSection = () => {
                             <span className="hidden md:inline text-lg md:text-xl font-semibold text-[#000000]">|</span>
                             
                             {/* Feature 3 - Purity */}
-                            <div className='flex items-center gap-2'>
+                            <div className='flex items-center justify-start gap-2'>
                                 <Image
                                     src='/home_imgs/purity_icon.png'
                                     width={50}
@@ -77,6 +78,7 @@ const HeroSection = () => {
                                 <p className="text-sm md:text-base font-semibold text-[#000000] uppercase">
                                     99.95% pure gold
                                 </p>
+                            </div>
                             </div>
                         </div>
                     </div>

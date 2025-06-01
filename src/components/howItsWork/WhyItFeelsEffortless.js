@@ -4,7 +4,7 @@ import React from 'react'
 
 function WhyItFeelsEffortless() {
     return (
-        <div className='h-auto w-full text-[#2E0A49] py-48 px-8 space-y-36'>
+        <div className='h-auto w-full text-[#2E0A49] py-12 md:py-48 px-8 space-y-12 md:space-y-36'>
             <div className='flex flex-col gap-4'>
                 <h5 className={`${gilroy.className} text-center text-5xl`}>Are we special...</h5>
                 <h2 className='text-5xl md:text-7xl 2xl:text-8xl font-bold leading-tight text-center'>Why it Feels Effortless</h2>

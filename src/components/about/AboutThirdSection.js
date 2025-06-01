@@ -15,7 +15,7 @@ function AboutThirdSection() {
             />
 
             {/* Text Content */}
-            <div className='px-5 py-6 md:px-10 md:py-10 lg:py-20 space-y-3 md:space-y-4 lg:space-y-8'>
+            <div className='px-5 py-6 md:px-10 md:py-10 lg:py-20 text-center md:text-start space-y-3 md:space-y-4 lg:space-y-8'>
                 <h5 className={`${gilroy.className} text-2xl md:text-3xl lg:text-4xl 2xl:text-5xl`}>
                     Backed by vaults. Powered by simplicity.
                 </h5>
@@ -24,7 +24,7 @@ function AboutThirdSection() {
                 </h2>
             </div>
 
-            <div className='px-5 pb-8 md:px-10 md:py-10 lg:py-20 md:w-[500px] 2xl:w-2xl md:text-end capitalize'>
+            <div className='px-5 pb-8 md:px-10 md:py-10 lg:py-20 md:w-[500px] 2xl:w-2xl md:text-end capitalize text-center md:text-start'>
                 <h6 className={`${gilroy_semibold.className} text-lg md:text-xl lg:text-2xl 2xl:text-3xl leading-snug`}>
                     A digital gold wallet that makes saving gold as effortless as sending a text. Built for the everyday saver.
                 </h6>
