@@ -38,7 +38,7 @@ const RelatedBlogs = () => {
     }, [blogsData.length])
 
     return (
-         <div className={`${poppins.className} w-full py-36`}>
+         <div className={`${poppins.className} w-full py-8 md:py-36`}>
             <div className="container mx-auto px-4">
                 {/* Title Section */}
                 <div className={`${gilroy_semibold.className} text-center mb-12`}>
