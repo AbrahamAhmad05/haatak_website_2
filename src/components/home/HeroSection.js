@@ -25,7 +25,7 @@ const HeroSection = () => {
                     {/* UPDATED FEATURE BAR - MOBILE OPTIMIZED */}
                     <div className={`${gotham.className} md:w-2xl my-8 py-3 md:py-1 bg-[#FFE4BF]`}>
                         <div className="flex flex-col md:flex-row justify-center items-center px-4">
-                            <div className="flex flex-col justify-start gap-4 md:gap-6">
+                            <div className="flex flex-col md:flex-row justify-start gap-4 md:gap-6">
                             {/* Feature 1 - Security */}
                             <div className='flex items-center gap-2'>
                                 <Image
