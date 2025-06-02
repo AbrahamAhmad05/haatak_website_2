@@ -13,22 +13,22 @@ import {
 const TestimonialsSection = () => {
     const reviews = [
         {
-            name: "chetan swaminath",
+            name: "Subramanyamraj",
             profession: "Engineer",
             image_url: "/home_imgs/review_2.png",
-            message: "This app is a total game-changer! Saving money has never been this easy, fun, and automatic. The intuitive design makes tracking savings effortless, and the smart features help build financial habits without even thinking about it. Whether you’re saving for a big goal or just putting extra cash aside, this app makes it happen. Highly recommend to anyone looking to grow their savings stress-free!"
+            message: "Superb Experience! Buying digital gold online was never this easy. Highly recommend!"
         },
         {
-            name: "Ashwini Patil",
-            profession: "Engineer",
+            name: "Dr.AishwaryaH",
+            profession: "Doctor",
             image_url: "/home_imgs/review_1.png",
             message: "BookurGold makes gold investment effortless and secure! Started my journey with just ₹10, and I’m already on my way to growing my wealth hassle-free. With real-time gold prices, seamless buy/sell options, and SafeGold-backed security, it’s the perfect platform for smart savings. Whether you’re planning for the future or looking for a trusted investment, BookurGold is a game-changer! Highly recommended!"
         },
         {
-            name: "Dr. Deepika J",
+            name: "Vinnay Anantharaamu",
             profession: "Doctor",
             image_url: "/home_imgs/review_1.png",
-            message: "I started my first digital gold investment with BookurGold, and it has been a wonderful journey so far. The app is easy to use, secure, and offers a seamless investment experience. Highly recommended!"
+            message: "BookurGold is a brilliant idea. Flexibility to buy and sell gold anytime at real time prices and them monetization of gold assets for interest is getting the best of both the world's. Just signed up. Looking forward for more daily savings."
         },
         // {
         //     name: "Ankita Bera",
