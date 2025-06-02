@@ -15,7 +15,7 @@ function DownloadAppSection() {
             />
 
             {/* Text Content */}
-            <div className='mx-w-2xl text-center px-5 py-6 md:px-16 md:py-28 space-y-1 md:space-y-2 lg:space-y-3'>
+            <div className='mx-w-2xl text-center px-5 py-6 md:px-16 md:py-36 space-y-1 md:space-y-2 lg:space-y-3'>
                 <h5 className={` text-2xl md:text-3xl lg:text-4xl 2xl:text-5xl`}>
                     No paperwork. No queues.
                 </h5>

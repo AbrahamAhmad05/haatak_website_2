@@ -67,7 +67,7 @@ const SecondSection = () => {
                 </div>
 
                 {/* Decorative coins - original positioning */}
-                <div className="absolute w-[100px] md:w-[300px] top-80 -left-[0%] -translate-x-1/2 opacity-75">
+                <div className="absolute w-[100px] md:w-[300px] top-38 md:top-80 -left-[0%] -translate-x-1/2 opacity-75">
                     <Image
                         src="/home_imgs/logo.webp"
                         width={6300}
@@ -76,7 +76,7 @@ const SecondSection = () => {
                         className="object-contain rounded-full animate-float-delayed"
                     />
                 </div>
-                <div className="absolute w-[100px] md:w-[300px] top-80 right-[0%] translate-x-1/2 opacity-75">
+                <div className="absolute w-[100px] md:w-[300px] top-38 md:top-80 right-[0%] translate-x-1/2 opacity-75">
                     <Image
                         src="/home_imgs/logo.webp"
                         width={6300}

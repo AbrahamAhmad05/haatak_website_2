@@ -53,13 +53,13 @@ function DownloadStepsSection() {
             </div>
 
             {/* Image */}
-            <div className={`relative ${i >= 2 ? 'w-64 h-64 md:w-80 md:h-80' : 'w-48 h-48 md:w-72 md:h-72'}`}>
+            <div className={`relative w-80 h-52`}>
               <Image
                 src={e.image_url}
                 fill
                 alt={e.title}
                 className="object-contain"
-                sizes="(max-width: 768px) 192px, 256px"
+                // sizes="(max-width: 768px) 192px, 256px"
               />
             </div>
 

@@ -13,41 +13,41 @@ import {
 const TestimonialsSection = () => {
     const reviews = [
         {
-            name: "Ankita Bera",
-            profession: "Doctor",
-            image_url: "/home_imgs/review_1.png",
-            message: "Lorem ipsum dolor sit amet consectetur. Massa sapien tincidunt faucibus gravida ullamcorper pulvinar. Auctor varius ultrices et purus id pellentesque velit maecenas euismod."
-        },
-        {
-            name: "Tony Stark",
+            name: "chetan swaminath",
             profession: "Engineer",
             image_url: "/home_imgs/review_2.png",
-            message: "Lorem ipsum dolor sit amet consectetur. Massa sapien tincidunt faucibus gravida ullamcorper pulvinar. Auctor varius ultrices et purus id pellentesque velit maecenas euismod."
+            message: "This app is a total game-changer! Saving money has never been this easy, fun, and automatic. The intuitive design makes tracking savings effortless, and the smart features help build financial habits without even thinking about it. Whether you’re saving for a big goal or just putting extra cash aside, this app makes it happen. Highly recommend to anyone looking to grow their savings stress-free!"
         },
         {
-            name: "John Smith",
-            profession: "Professional Weight Lifter",
+            name: "Ashwini Patil",
+            profession: "Engineer",
             image_url: "/home_imgs/review_1.png",
-            message: "Lorem ipsum dolor sit amet consectetur. Massa sapien tincidunt faucibus gravida ullamcorper pulvinar. Auctor varius ultrices et purus id pellentesque velit maecenas euismod."
+            message: "BookurGold makes gold investment effortless and secure! Started my journey with just ₹10, and I’m already on my way to growing my wealth hassle-free. With real-time gold prices, seamless buy/sell options, and SafeGold-backed security, it’s the perfect platform for smart savings. Whether you’re planning for the future or looking for a trusted investment, BookurGold is a game-changer! Highly recommended!"
         },
         {
-            name: "Ankita Bera",
+            name: "Dr. Deepika J",
             profession: "Doctor",
             image_url: "/home_imgs/review_1.png",
-            message: "Lorem ipsum dolor sit amet consectetur. Massa sapien tincidunt faucibus gravida ullamcorper pulvinar. Auctor varius ultrices et purus id pellentesque velit maecenas euismod."
+            message: "I started my first digital gold investment with BookurGold, and it has been a wonderful journey so far. The app is easy to use, secure, and offers a seamless investment experience. Highly recommended!"
         },
-        {
-            name: "Tony Stark",
-            profession: "Engineer",
-            image_url: "/home_imgs/review_2.png",
-            message: "Lorem ipsum dolor sit amet consectetur. Massa sapien tincidunt faucibus gravida ullamcorper pulvinar. Auctor varius ultrices et purus id pellentesque velit maecenas euismod."
-        },
-        {
-            name: "John Smith",
-            profession: "Professional Weight Lifter",
-            image_url: "/home_imgs/review_1.png",
-            message: "Lorem ipsum dolor sit amet consectetur. Massa sapien tincidunt faucibus gravida ullamcorper pulvinar. Auctor varius ultrices et purus id pellentesque velit maecenas euismod."
-        },
+        // {
+        //     name: "Ankita Bera",
+        //     profession: "Doctor",
+        //     image_url: "/home_imgs/review_1.png",
+        //     message: "Lorem ipsum dolor sit amet consectetur. Massa sapien tincidunt faucibus gravida ullamcorper pulvinar. Auctor varius ultrices et purus id pellentesque velit maecenas euismod."
+        // },
+        // {
+        //     name: "Tony Stark",
+        //     profession: "Engineer",
+        //     image_url: "/home_imgs/review_2.png",
+        //     message: "Lorem ipsum dolor sit amet consectetur. Massa sapien tincidunt faucibus gravida ullamcorper pulvinar. Auctor varius ultrices et purus id pellentesque velit maecenas euismod."
+        // },
+        // {
+        //     name: "John Smith",
+        //     profession: "Professional Weight Lifter",
+        //     image_url: "/home_imgs/review_1.png",
+        //     message: "Lorem ipsum dolor sit amet consectetur. Massa sapien tincidunt faucibus gravida ullamcorper pulvinar. Auctor varius ultrices et purus id pellentesque velit maecenas euismod."
+        // },
     ]
 
   return (

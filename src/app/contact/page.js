@@ -138,7 +138,7 @@ function Contact() {
 
                             </div>
                         </div>
-                        <div className="relative flex gap-6 ">
+                        {/* <div className="relative flex gap-6 ">
                             <div className="w-8 h-8 ">
                                 <Image src="/contact_imgs/twitter_yellow.png" width={40} height={40} alt="social media" />
                             </div>
@@ -148,7 +148,7 @@ function Contact() {
                             <div className="w-8 h-8 ">
                                 <Image src="/contact_imgs/discord_yellow.png" width={40} height={40} alt="social media" />
                             </div>
-                        </div>
+                        </div> */}
 
                         {/* Bottom-right half-visible circle */}
                         <div className="absolute -right-64 -bottom-64 w-64 h-64 rounded-full bg-[#ffffff4b] -translate-x-3/4 -translate-y-3/4"></div>
@@ -176,7 +176,7 @@ function Contact() {
                                             name="firstName"
                                             required
                                             className="w-full text-lg md:text-xl border-b-2 border-[#8D8D8D] bg-transparent py-2 focus:outline-none focus:border-[#2E0A49] transition-all"
-                                            placeholder="John"
+                                            placeholder="Ramesh"
                                         />
                                     </div>
                                     <div className="space-y-2">
@@ -186,7 +186,7 @@ function Contact() {
                                             name="lastName"
                                             required
                                             className="w-full text-lg md:text-xl border-b-2 border-[#8D8D8D] bg-transparent py-2 focus:outline-none focus:border-[#2E0A49] transition-all"
-                                            placeholder="Doe"
+                                            placeholder="Naik"
                                         />
                                     </div>
                                 </div>
