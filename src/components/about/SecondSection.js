@@ -4,7 +4,7 @@ import React from 'react'
 
 function AboutSecondSection() {
   return (
-    <div className={`${original.className} py-24 md:min-h-screen bg-[url(/about_imgs/second_section_bg.png)] bg-cover bg-no-repeat text-[#2E0A49] my-4 md:my-10`}>
+    <div className={`${original.className} py-8 md:min-h-screen bg-[url(/about_imgs/second_section_bg.png)] bg-cover bg-no-repeat text-[#2E0A49] my-4 md:my-10`}>
       <div className="md:min-h-screen flex items-center justify-center relative overflow-hidden px-4">
         {/* Left Coin */}
         <div className="absolute left-0 -translate-x-1/2 top-1/2 -translate-y-1/2 

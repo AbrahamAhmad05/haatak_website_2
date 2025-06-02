@@ -3,7 +3,7 @@ import React from 'react'
 
 const AboutHero = () => {
     return (
-        <div className='h-full md:h-screen flex flex-col gap-4 justify-center items-center text-center text-[#2E0A49] pt-48 md:pt-4 pb-24'>
+        <div className='h-full md:h-screen flex flex-col gap-4 justify-center items-center text-center text-[#2E0A49] pt-48 md:pt-24 pb-24 md:pb-2'>
             
                 <h1 className="text-6xl sm:text-7xl md:text-8xl lg:text-9xl font-[700] md:mb-6 ">
                         About Us
