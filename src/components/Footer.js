@@ -151,7 +151,7 @@ const Footer = () => {
             </div>
             <div className={`${albra_grotesk.className} text-center mt-12 border-t-2 border-[#2E0A49]/20 py-2 bg-[#E39A35]`}>
                 <p className="text-white text-base sm:text-xl">
-                    ©2024 Haatak, Inc. All rights reserved. | <span className="px-2">Privacy Policy</span> | <span className="px-2">Terms of Service</span>
+                    ©2024 Haatak, Inc. All rights reserved. | <Link href="/privacy-policy"><span className="px-2">Privacy Policy</span></Link> | <Link href="/terms-of-use"><span className="px-2">Terms of Service</span></Link>
                 </p>
             </div>
         </div>
