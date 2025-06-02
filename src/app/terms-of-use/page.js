@@ -71,7 +71,7 @@ const TermsConditionsPage = () => {
                                         <p>This document is provided in compliance with Rule 3(1) of the Information Technology (Intermediary Guidelines and Digital Media Ethics Code) Rules, 2021.</p>
                                     </li>
                                     <li>
-                                        <p>The Haatak Platform facilitates users to purchase/sell/transfer gold in digital form from a brand named 'Safe Gold' operated and managed by Digital Gold India Private Limited.</p>
+                                        <p>The Haatak Platform facilitates users to purchase/sell/transfer gold in digital form from a brand named &lsquo;Safe Gold&rsquo; operated and managed by Digital Gold India Private Limited.</p>
                                     </li>
                                     <li>
                                         <p>You understand that our company acts solely as a distributor facilitating the purchase of gold from SafeGold.</p>
@@ -80,10 +80,10 @@ const TermsConditionsPage = () => {
                                         <p>We are not responsible for any issues or disputes related to the purchase of gold or services provided by SafeGold.</p>
                                     </li>
                                     <li>
-                                        <p>You understand that SafeGold handles the purchase and sale of gold. Physical gold will be stored with Brinks India Private Limited ("Custodian").</p>
+                                        <p>You understand that SafeGold handles the purchase and sale of gold. Physical gold will be stored with Brinks India Private Limited (&ldquo;Custodian&rdquo;).</p>
                                     </li>
                                     <li>
-                                        <p>To protect your interests, SafeGold has appointed a trustee ("Trustee Administrator").</p>
+                                        <p>To protect your interests, SafeGold has appointed a trustee (&ldquo;Trustee Administrator&rdquo;).</p>
                                     </li>
                                     <li>
                                         <p>Please read these terms carefully before using our platform. The company reserves the right to modify these terms at any time.</p>
@@ -109,10 +109,10 @@ const TermsConditionsPage = () => {
                                     <li><span className="font-semibold">Business Day:</span> A day when commercial banks in Bengaluru are open.</li>
                                     <li><span className="font-semibold">Customer:</span> Any individual who uses the platform to buy or sell precious metals.</li>
                                     <li><span className="font-semibold">Customer Account:</span> The account created by you.</li>
-                                    <li><span className="font-semibold">Platform:</span> Our mobile application and website "www.Haatak.com".</li>
+                                    <li><span className="font-semibold">Platform:</span> Our mobile application and website &ldquo;www.Haatak.com&rdquo;.</li>
                                     <li><span className="font-semibold">Precious Metal:</span> Physical gold, silver or other precious metals in bullion form.</li>
-                                    <li><span className="font-semibold">Force Majeure Event:</span> Events beyond Haatak's control like natural disasters, strikes, war, etc.</li>
-                                    <li><span className="font-semibold">Reward Program:</span> Programs offered to customers at Haatak's discretion.</li>
+                                    <li><span className="font-semibold">Force Majeure Event:</span> Events beyond Haatak&rsquo;s control like natural disasters, strikes, war, etc.</li>
+                                    <li><span className="font-semibold">Reward Program:</span> Programs offered to customers at Haatak&rsquo;s discretion.</li>
                                 </ul>
                             </div>
 
@@ -124,13 +124,13 @@ const TermsConditionsPage = () => {
 
                                 <ul className="list-disc pl-5 space-y-2">
                                     <li>Unibridg Assets and Vault Private Limited sells Precious Metal and provides related services.</li>
-                                    <li>Services are provided on an "AS IS" and "AS AVAILABLE" basis.</li>
+                                    <li>Services are provided on an &ldquo;AS IS&rdquo; and &ldquo;AS AVAILABLE&rdquo; basis.</li>
                                     <li>Only natural persons above 18 years, Indian residents are eligible to participate in Reward Programs.</li>
                                     <li>Haatak reserves the right to start, pause, or discontinue any Reward Program.</li>
                                     <li>Customers must provide accurate KYC information when requested.</li>
                                     <li>Customers agree to indemnify Haatak against third-party claims.</li>
                                     <li>Except for proven fraud, customers release Haatak from liability related to Reward Programs.</li>
-                                    <li>Haatak's decisions regarding Reward Programs are final and binding.</li>
+                                    <li>Haatak&rsquo;s decisions regarding Reward Programs are final and binding.</li>
                                 </ul>
                             </div>
 
@@ -307,7 +307,7 @@ const TermsConditionsPage = () => {
                                     Policy Changes
                                 </h3>
                                 <p>
-                                    Haatak reserves the right to amend these terms at any time without prior notice. Changes will be posted on our website, and it is the customer's responsibility to review the policy regularly.
+                                    Haatak reserves the right to amend these terms at any time without prior notice. Changes will be posted on our website, and it is the customer&rsquo;s responsibility to review the policy regularly.
                                 </p>
 
                                 <p className="mt-8 italic">

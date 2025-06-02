@@ -30,14 +30,14 @@ const data = [
 ]
 function DownloadStepsSection() {
   return (
-    <div className='mt-12 md:mt-24 text-center text-[#2E0A49]'>
+    <div className='mt-12 md:mt-32 text-center text-[#2E0A49]'>
       <div className="text-center">
         <h3 className="text-3xl md:text-4xl lg:text-5xl font-bold leading-normal md:leading-snug">
           So you downloaded our app
         </h3>
         <h6 className={`${gilroy.className} text-4xl`}>Now what to do</h6>
       </div>
-      <div className="flex flex-col items-center justify-center gap-14 my-14 md:gap-35 md:my-32 px-4 sm:px-6 lg:px-8">
+      <div className="flex flex-col items-center justify-center gap-14 my-14 md:gap-35 md:my-24 px-4 sm:px-6 lg:px-8">
         {data.map((e, i) => (
           <div className="flex flex-col items-center justify-center text-center w-full max-w-4xl gap-2" key={i}>
             {/* Quote */}

@@ -35,10 +35,10 @@ const Footer = () => {
                         <h5 className={`${helvetica_neue.className} text-lg font-medium  leading-relaxed text-[#2E0A49] uppercase`}>About</h5>
                         <div className="border-t border-[#2E0A49]" />
                         <div className={`${helvetica_neue_th.className} space-y-3`}>
-                            <p className="text-[#2E0A49] text-md uppercase ">Buy gold</p>
-                            <p className="text-[#2E0A49] text-md uppercase ">About us</p>
-                            <p className="text-[#2E0A49] text-md uppercase ">Features</p>
-                            <p className="text-[#2E0A49] text-md uppercase ">Blog</p>
+                            <Link href='/buy-24k-gold'><p className="text-[#2E0A49] text-md uppercase ">Buy gold</p></Link>
+                            <Link href='/about'><p className="text-[#2E0A49] text-md uppercase ">About us</p></Link>
+                            <Link href='/how-its-work'><p className="text-[#2E0A49] text-md uppercase ">Features</p></Link>
+                            <Link href='/blogs'><p className="text-[#2E0A49] text-md uppercase ">Blog</p></Link>
                         </div>
                     </div>
 
