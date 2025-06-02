@@ -13,7 +13,7 @@ const HeroSection = () => {
             </div>
 
             {/* Content */}
-            <div className="container relative flex justify-center items-center z-10 mx-auto px-4 md:px-8 text-[#2E0A49]">
+            <div className="container relative flex justify-center items-center z-10 mx-auto px-4 md:px-8 text-[#2E0A49] md:pt-32">
                 <div className="max-w-5xl flex flex-col text-center justify-center items-center">
                     <h1 className="text-6xl sm:text-7xl md:text-8xl lg:text-9xl font-[700] md:mb-6 ">
                         Crafted for <br />Your trustworthy
@@ -25,7 +25,7 @@ const HeroSection = () => {
                     {/* UPDATED FEATURE BAR - MOBILE OPTIMIZED */}
                     <div className={`${gotham.className} md:w-2xl my-8 py-3 md:py-1 bg-[#FFE4BF]`}>
                         <div className="flex flex-col md:flex-row justify-center items-center px-4">
-                            <div className="flex flex-col md:flex-row justify-start gap-4 md:gap-6">
+                            <div className="flex flex-col md:flex-row justify-center items-center gap-4 md:gap-6">
                             {/* Feature 1 - Security */}
                             <div className='flex items-center gap-2'>
                                 <Image

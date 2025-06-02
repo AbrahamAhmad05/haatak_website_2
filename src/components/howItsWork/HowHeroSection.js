@@ -27,7 +27,7 @@ function HeroSection() {
                     </p>
                     {/* <div className='flex items-center justify-center bg-gradient-to-br from-[#ffffff52] via-[#9999992a] to-[#ffffff2a] border-[1px] border-[#626262] mt-10 gap-2 p-2 rounded-[12px]'> */}
                     <div className="w-60 max-w-md bg-gradient-to-br from-[#F3C862] via-[#FFE196] to-[#D99A26] p-1 rounded-lg">
-                        <div className="flex items-center justify-center bg-gradient-to-br from-[#E7CB86] via-[#FFF4DF] to-[#E7CB86] px-6 py-3  rounded-[6px] text-3xl md:text-4xl font-semibold gap-6">
+                        <div className="flex items-center justify-center bg-gradient-to-br from-[#E7CB86] via-[#FFF4DF] to-[#E7CB86] px-6 py-1  rounded-[6px] text-3xl md:text-4xl font-semibold gap-6">
                         <Image 
                             src="/qr_code.png"
                             className='w-24 h-24'
@@ -35,7 +35,7 @@ function HeroSection() {
                             height={144}
                             alt="QR code"
                         />
-                        <div>
+                        <div className='pr-2'>
                             <p className={`${mont.className} font-semibold text-xl`}>download</p>
                             <h6 className='text-3xl'>Haatak</h6>
                         </div>
