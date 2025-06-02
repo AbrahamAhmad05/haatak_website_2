@@ -83,7 +83,7 @@ const Navbar = () => {
                   onClick={() => setIsOpen(false)}
                   className='block'
                 >
-                  <Button className="w-full uppercase text-xl text-[#2E0A49] bg-[#EDB669] hover:bg-[#f5c786] py-4 rounded-full">
+                  <Button className="w-full uppercase cursor-pointer text-base lg:text-lg text-[#EDB669] bg-[#2E0A49] hover:bg-[#3a0d5d] px-6 py-3 rounded-full">
                     Buy 24K Gold
                   </Button>
                 </Link>
