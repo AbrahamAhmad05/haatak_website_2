@@ -88,7 +88,7 @@ const Footer = () => {
                                 width={537}
                                 height={203}
                                 alt="Haatak logo"
-                                className="w-full h-auto"
+                                className="w-full h-auto "
                             />
                         </div>
                         <div className='pl-2'>
@@ -96,60 +96,50 @@ const Footer = () => {
                                 Making gold investment accessible, secure, and effortless for everyone.
                             </p>
 
-                            <div className="flex gap-5 md:gap-8 pt-2 flex-wrap justify-center md:justify-start">
+                            <div className="flex gap-5 md:gap-8 pt-4 flex-wrap justify-center md:justify-start">
                                 <Link href='http://www.facebook.com/HaatakOfficial'>
                                     <div className="rounded-md w-9 h-9 md:w-10 md:h-10 overflow-hidden bg-white">
-                                        <Image
-                                            src="/icons/facebook_icon.png"
-                                            width={64}
-                                            height={64}
-                                            alt="facebook"
-                                            className="w-full h-full"
-                                        />
+                                       
+                                        <div className="w-full h-full facebook-icon"></div>
                                     </div>
                                 </Link>
                                 <Link href='http://www.instagram.com/haatakofficial'>
                                     <div className="rounded-md w-9 h-9 md:w-10 md:h-10 overflow-hidden bg-white">
-                                        <Image
+                                        {/* <Image
                                             src="/icons/instagram_icon.png"
                                             width={64}
                                             height={64}
                                             alt="instagram"
                                             className="w-full h-full"
-                                        />
+                                        /> */}
+                                        <div className="w-full h-full instagram-icon"></div>
                                     </div>
                                 </Link>
                                 <Link href='http://www.twitter.com/HaatakOfficial'>
-                                    <div className="rounded-md w-9 h-9 md:w-10 md:h-10 overflow-hidden bg-white">
+                                    <div className="rounded-md w-9 h-9 md:w-10 md:h-10 overflow-hidden icon-container">
                                         <Image
                                             src="/icons/twitter_icon.jpg"
                                             width={64}
                                             height={64}
                                             alt="twitter"
-                                            className="w-full h-full"
+                                            className="w-full h-full twitter-icon"
                                         />
                                     </div>
                                 </Link>
                                 <Link href='http://www.youtube.com/@HaatakOfficial'>
-                                    <div className="rounded-md w-9 h-9 md:w-10 md:h-10 overflow-hidden bg-white">
+                                    <div className="rounded-md w-9 h-9 md:w-10 md:h-10 overflow-hidden icon-container">
                                         <Image
                                             src="/icons/youtube_icon.jpg"
                                             width={64}
                                             height={64}
                                             alt="youtube"
-                                            className="w-full h-full"
+                                            className="w-full h-full youtube-icon"
                                         />
                                     </div>
                                 </Link>
                                 <Link href='https://www.linkedin.com/company/haatakofficial/'>
                                     <div className="rounded-md w-9 h-9 md:w-10 md:h-10 overflow-hidden bg-white">
-                                        <Image
-                                            src="/home_imgs/linked_in_icon.png"
-                                            width={64}
-                                            height={64}
-                                            alt="LinkedIn"
-                                            className="w-full h-full"
-                                        />
+                                        <div className="w-full h-full linkedin-icon"></div>
                                     </div>
                                 </Link>
                             </div>
