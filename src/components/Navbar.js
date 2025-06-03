@@ -83,7 +83,7 @@ const Navbar = () => {
                   onClick={() => setIsOpen(false)}
                   className='block'
                 >
-                  <Button className="w-full uppercase text-xl text-[#2E0A49] bg-[#EDB669] hover:bg-[#f5c786] py-4 rounded-full">
+                  <Button className="w-full uppercase cursor-pointer text-base lg:text-lg text-[#EDB669] bg-[#2E0A49] hover:bg-[#3a0d5d] px-6 py-3 rounded-full">
                     Buy 24K Gold
                   </Button>
                 </Link>
@@ -100,7 +100,7 @@ const links = [
   { href: '/', label: 'Home' },
   { href: '/about', label: 'About us' },
   { href: '/how-its-work', label: "How it's work" },
-  { href: '/#blog', label: 'Blog' },
+  { href: '/blogs', label: 'Blog' },
   { href: '/contact', label: 'Contact' },
 ];
 
