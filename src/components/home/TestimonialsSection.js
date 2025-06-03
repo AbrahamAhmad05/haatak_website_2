@@ -22,13 +22,13 @@ const TestimonialsSection = () => {
             name: "Dr.AishwaryaH",
             profession: "Doctor",
             image_url: "/home_imgs/review_1.png",
-            message: "BookurGold makes gold investment effortless and secure! Started my journey with just ₹10, and I’m already on my way to growing my wealth hassle-free. With real-time gold prices, seamless buy/sell options, and SafeGold-backed security, it’s the perfect platform for smart savings. Whether you’re planning for the future or looking for a trusted investment, BookurGold is a game-changer! Highly recommended!"
+            message: "Haatak makes gold investment effortless and secure! Started my journey with just ₹10, and I’m already on my way to growing my wealth hassle-free. With real-time gold prices, seamless buy/sell options, and SafeGold-backed security, it’s the perfect platform for smart savings. Whether you’re planning for the future or looking for a trusted investment, Haatak is a game-changer! Highly recommended!"
         },
         {
             name: "Vinnay Anantharaamu",
             profession: "Doctor",
             image_url: "/home_imgs/review_1.png",
-            message: "BookurGold is a brilliant idea. Flexibility to buy and sell gold anytime at real time prices and them monetization of gold assets for interest is getting the best of both the world's. Just signed up. Looking forward for more daily savings."
+            message: "Haatak is a brilliant idea. Flexibility to buy and sell gold anytime at real time prices and them monetization of gold assets for interest is getting the best of both the world's. Just signed up. Looking forward for more daily savings."
         },
         // {
         //     name: "Ankita Bera",

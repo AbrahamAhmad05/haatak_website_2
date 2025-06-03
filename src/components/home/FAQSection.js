@@ -4,16 +4,16 @@ import { gilroy, gilroy_semibold, montserrat } from '@/lib/font';
 const FAQSection = () => {
   const faqItems = [
     {
-      question: "How do I create an account on BookurGold?",
-      answer: "You can create an account by downloading the BookurGold app from the App Store or Google Play and signing up using your mobile number."
+      question: "How do I create an account on Haatak?",
+      answer: "You can create an account by downloading the Haatak app from the App Store or Google Play and signing up using your mobile number."
     },
     {
       question: "Can I register multiple accounts?",
       answer: "No, each user is allowed to register only one account. Multiple accounts are not permitted as per our terms of service."
     },
     {
-      question: "Is my personal information safe on BookurGold?",
-      answer: "Yes, BookurGold uses advanced encryption and security protocols to protect your data, ensuring that your information remains private and secure."
+      question: "Is my personal information safe on Haatak?",
+      answer: "Yes, Haatak uses advanced encryption and security protocols to protect your data, ensuring that your information remains private and secure."
     },
     {
       question: "What happens if I forget my password?",
@@ -24,7 +24,7 @@ const FAQSection = () => {
       answer: "Yes, you can update your KYC details in the app under the 'Profile' section. Ensure that your documents meet the required criteria."
     },
     {
-      question: "What documents do I need for KYC verification in BookurGold APP?",
+      question: "What documents do I need for KYC verification in Haatak APP?",
       answer: "You will need a government-issued ID (such as Aadhar, PAN card, Voter ID or Driving Licence) and a selfie."
     },
   ];
