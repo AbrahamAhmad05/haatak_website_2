@@ -35,19 +35,19 @@ const Footer = () => {
                         <h5 className={`${helvetica_neue.className} text-lg font-medium  leading-relaxed text-[#2E0A49] uppercase`}>About</h5>
                         <div className="border-t border-[#2E0A49]" />
                         <div className={`${helvetica_neue_th.className} space-y-3`}>
-  <Link href='/buy-24k-gold' className="block">
-    <p className="text-[#2E0A49] text-md uppercase">Buy gold</p>
-  </Link>
-  <Link href='/about' className="block">
-    <p className="text-[#2E0A49] text-md uppercase">About us</p>
-  </Link>
-  <Link href='/how-its-work' className="block">
-    <p className="text-[#2E0A49] text-md uppercase">Features</p>
-  </Link>
-  <Link href='/blogs' className="block">
-    <p className="text-[#2E0A49] text-md uppercase">Blog</p>
-  </Link>
-</div>
+                            <Link href='/buy-24k-gold' className="block">
+                                <p className="text-[#2E0A49] text-md uppercase">Buy gold</p>
+                            </Link>
+                            <Link href='/about' className="block">
+                                <p className="text-[#2E0A49] text-md uppercase">About us</p>
+                            </Link>
+                            <Link href='/how-its-work' className="block">
+                                <p className="text-[#2E0A49] text-md uppercase">Features</p>
+                            </Link>
+                            <Link href='/blogs' className="block">
+                                <p className="text-[#2E0A49] text-md uppercase">Blog</p>
+                            </Link>
+                        </div>
                     </div>
 
                     {/* Help */}
@@ -107,7 +107,7 @@ const Footer = () => {
                             <div className="flex gap-5 md:gap-8 pt-4 flex-wrap justify-center md:justify-start">
                                 <Link href='http://www.facebook.com/HaatakOfficial'>
                                     <div className="rounded-md w-9 h-9 md:w-10 md:h-10 overflow-hidden bg-white">
-                                       
+
                                         <div className="w-full h-full facebook-icon"></div>
                                     </div>
                                 </Link>

@@ -84,13 +84,13 @@ const AppPreviewSection = () => {
 
             <div 
                 ref={containerRef}
-                className="relative w-[80%] md:max-w-6xl mx-auto mt-8 md:mt-12 h-[250px] md:h-[700px]"
+                className="relative w-[80%] sm:max-w-2xl md:max-w-6xl mx-auto mt-8 md:mt-12 h-[250px] sm:h-[400px] md:h-[500px] lg:h-[700px]"
             >
                 {mockups.map((mockup, index) => (
                     <div
                         key={mockup.id}
                         ref={el => cardsRef.current[index] = el}
-                        className="absolute top-1/9 left-1/4 md:left-1/3 -translate-x-1/2 -translate-y-1/2 cursor-pointer w-[44%] md:w-[35%] transition-transform duration-300"
+                        className="absolute top-1/9 left-1/4 md:left-1/3 -translate-x-1/2 -translate-y-1/2 cursor-pointer w-[44%] sm:w-[50%] md:w-[35%] transition-transform duration-300"
                         onClick={() => setActiveIndex(index)}
                     >
                         <Image

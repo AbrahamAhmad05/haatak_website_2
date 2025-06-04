@@ -61,7 +61,7 @@ const GraphAnimation = () => {
                     {/* Arrow positioned relative to the first bar */}
                     <div 
                         ref={arrowRef}
-                        className="absolute bottom-1/3 left-[33%] md:left-[50%] lg:left-[40%] 2xl:left-[55%] transform -translate-x-[80%] translate-y-[15%] md:translate-y-[7%] pointer-events-none"
+                        className="absolute bottom-1/3 left-[33%] sm:left-[44%] md:left-[40%] lg:left-[40%] 2xl:left-[55%] transform -translate-x-[80%] translate-y-[15%] md:translate-y-[7%] pointer-events-none"
                         style={{
                             transformOrigin: '0% 100%',
                             transform: "translateZ(0)"

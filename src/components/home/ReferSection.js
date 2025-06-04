@@ -21,7 +21,7 @@ const ReferSection = () => {
                     </p>
 
                     {/* Steps */}
-                    <div className="w-full grid grid-cols-1 md:grid-cols-3 px-6 gap-20 lg:gap-20 mt-20 md:mt-32 place-items-center">
+                    <div className="w-full grid grid-cols-1 md:grid-cols-3 px-6 gap-20 md:gap-12 lg:gap-20 mt-20 md:mt-32 place-items-center">
                         <ReferCard icon='/home_imgs/link_icon.png' title='Share Your Referral Link' />
                         <ReferCard icon='/home_imgs/friends_icon.png' title='Friend Joins & Starts Saving' />
                         <ReferCard icon='/home_imgs/bonus_icon.png' title='You Both Earn Bonus Gold' />
@@ -34,7 +34,7 @@ const ReferSection = () => {
 
 const ReferCard = ({ icon, title }) => {
     return (
-        <div className="relative w-full max-w-sm h-36 md:h-48 text-center flex flex-col items-center justify-end bg-[radial-gradient(circle_at_bottom,#EDB669_0%,_transparent_70%)] border-[2px] border-[#E39A35] shadow-2xl ">
+        <div className="relative w-full max-w-sm h-36 md:h-40 lg:h-48 text-center flex flex-col items-center justify-end bg-[radial-gradient(circle_at_bottom,#EDB669_0%,_transparent_70%)] border-[2px] border-[#E39A35] shadow-2xl ">
             {/* Icon Container */}
             <div className="w-24 h-24 lg:w-28 lg:h-28 xl:w-32 xl:h-32 rounded-full bg-[#F6CE69] flex items-center justify-center absolute -top-12 xl:-top-16 left-1/2 transform -translate-x-1/2">
                 <Image 
