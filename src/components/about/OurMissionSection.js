@@ -4,7 +4,8 @@ import React from 'react'
 
 function OurMissionSection() {
   return (
-    <div className='flex flex-col md:flex-row text-[#2E0A49] py-10 md:py-2 pt-8 px-8'>
+    <div className='flex flex-col md:flex-row text-[#2E0A49] py-10 md:py-2 pt-8 px-8 mt-16
+                [@media(min-width:768px)_and_(max-width:1024px)_and_(min-height:1000px)]:h-[50vh]'>
         <div className="px-4 flex flex-col text-center md:text-start justify-center items-start gap-8">
             <h2 className="text-7xl lg:text-8xl font-bold ">Our Mission</h2>
             <h5 className={`${gilroy.className} text-4xl `}>Designed to Feel Premium</h5>

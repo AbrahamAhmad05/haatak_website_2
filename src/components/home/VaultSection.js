@@ -66,7 +66,7 @@ export default function AnimatedSection() {
     }, [isMobile]);
 
     return (
-        <section ref={sectionRef} className="flex flex-col-reverse md:flex-row h-full md:h-screen w-full overflow-hidden">
+        <section ref={sectionRef} className="flex flex-col-reverse md:flex-row h-full md:h-screen [@media(min-width:768px)_and_(max-width:1024px)_and_(min-height:1000px)]:h-[50vh] w-full overflow-hidden">
             {/* Text Column - full width on mobile */}
             <div ref={textColRef} className="w-full md:w-[35%] h-[40vh] md:h-full px-8 flex flex-col justify-center bg-gray-100 order-2 md:order-1">
                 <h5 className={`${gilroy.className} text-xl md:text-3xl bg-gradient-to-br from-[#E39A35] via-[#E39A35] to-[#E39A35] bg-clip-text text-transparent`}>

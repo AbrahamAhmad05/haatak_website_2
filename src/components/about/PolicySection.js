@@ -19,7 +19,9 @@ function PolicySection() {
 
 const PolicyCard = ({ image, title }) => {
     return (
-        <div className="w-full max-w-4xl h-[300px] md:h-[500px] 2xl:h-[600px] flex flex-col justify-between bg-[radial-gradient(circle_at_bottom,#EDB669_0%,_transparent_70%)] border-[2px] border-[#E39A35] shadow-2xl relative">
+        <div className="w-full max-w-4xl h-[300px] md:h-[500px] 2xl:h-[600px] 
+                    [@media(min-width:768px)_and_(max-width:1024px)_and_(min-height:1000px)]:h-[400px]
+                     flex flex-col justify-between bg-[radial-gradient(circle_at_bottom,#EDB669_0%,_transparent_70%)] border-[2px] border-[#E39A35] shadow-2xl relative">
             {/* Title - Aligned to top */}
             <div className="pt-4 px-4 md:px-4 lg:px-4 text-center">
                 <h6 className={`text-3xl lg:text-4xl xl:text-5xl font-bold text-[#2E0A49]`}>

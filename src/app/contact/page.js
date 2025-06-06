@@ -158,7 +158,9 @@ function Contact() {
                     </div>
                     {/* <div className=""></div> */}
                     {/* Right Column */}
-                    <div className="w-full min-h-screen xl:min-h-[80%] px-2 sm:px-4 flex flex-col">
+                    <div className="w-full min-h-screen 
+                    [@media(min-width:768px)_and_(max-width:1024px)_and_(min-height:1000px)]:min-h-auto 
+                    xl:min-h-[80%] px-2 sm:px-4 flex flex-col">
                         <form
                             action={formAction}
                             className="w-full max-w-4xl mx-auto flex-1 flex flex-col justify-between gap-6 py-8 px-4 sm:px-6"

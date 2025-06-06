@@ -4,8 +4,8 @@ import React from 'react'
 
 function AboutSecondSection() {
   return (
-    <div className={`${original.className} py-8 md:min-h-screen bg-[url(/about_imgs/second_section_bg.png)] bg-cover bg-no-repeat text-[#2E0A49] my-4 md:my-10`}>
-      <div className="md:min-h-screen flex items-center justify-center relative overflow-hidden px-4">
+    <div className={`${original.className} py-8 md:min-h-screen bg-[url(/about_imgs/second_section_bg.png)] bg-cover [@media(min-width:768px)_and_(max-width:1024px)_and_(min-height:1000px)]:bg-contain bg-no-repeat text-[#2E0A49] my-4 md:my-10 [@media(min-width:768px)_and_(max-width:1024px)_and_(min-height:1000px)]:max-h-[30vh] `}>
+      <div className="md:min-h-screen [@media(min-width:768px)_and_(max-width:1024px)_and_(min-height:1000px)]:h-[30vh] flex items-center justify-center relative overflow-hidden px-4">
         {/* Left Coin */}
         <div className="absolute left-0 -translate-x-1/2 top-1/2 -translate-y-1/2 
           w-[230px] h-[230px] md:w-[450px] md:h-[400px] lg:w-[650px] lg:h-[600px] 
@@ -20,7 +20,7 @@ function AboutSecondSection() {
         </div>
 
         {/* Text Content */}
-        <div className="relative z-10 text-center max-w-xs sm:max-w-xl md:max-w-4xl space-y-6 md:space-y-10 py-6 md:py-10">
+        <div className="relative z-10 text-center max-w-xs sm:max-w-xl md:max-w-4xl space-y-6 md:space-y-10 py-6 md:py-10 [@media(min-width:768px)_and_(max-width:1024px)_and_(min-height:1000px)]:px-16">
           <h3 className="text-3xl md:text-4xl lg:text-5xl font-bold leading-normal md:leading-snug">
             Gold was always trusted.
           </h3>

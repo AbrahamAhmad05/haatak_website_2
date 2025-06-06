@@ -26,7 +26,7 @@ function JoinJourneySection() {
 
           
         </div>
-        <div className={`${gilroy_semibold.className} flex flex-col md:flex-row justify-center items-center pt-12 md:py-24  gap-8 md:gap-10`}>
+        <div className={`${gilroy_semibold.className} flex flex-col md:flex-row flex-wrap justify-center items-center pt-12 md:py-24  gap-8 md:gap-10 [@media(min-width:768px)_and_(max-width:1024px)_and_(min-height:1000px)]:px-8`}>
             <div className="w-72 h-72 flex flex-col justify-between bg-[#EDB6691A] border-[1px] border-[#000000] px-4 py-4">
               <h6 className="text-xl uppercase text-[#000000]">Designer</h6>
               <h5 className="text-2xl ">Senior Designer</h5>

@@ -4,13 +4,20 @@ import React from 'react'
 
 function DownloadAppSection() {
     return (
-        <div className='h-auto md:h-[135vh] md:bg-[url(/how_it_work_imgs/second_section_bg.webp)] bg-no-repeat md:bg-cover flex flex-col md:flex-row md:justify-between text-[#2E0A49]'>
+        <div className='h-auto md:h-[135vh] 
+        [@media(min-width:768px)_and_(max-width:1024px)_and_(min-height:1000px)]:h-auto
+        [@media(min-width:768px)_and_(max-width:1024px)_and_(min-height:1000px)]:bg-none
+        [@media(min-width:768px)_and_(max-width:1024px)_and_(min-height:1000px)]:flex-col
+        [@media(min-width:768px)_and_(max-width:1024px)_and_(min-height:1000px)]:justify-center
+         md:bg-[url(/how_it_work_imgs/second_section_bg.webp)] bg-no-repeat md:bg-cover flex flex-col md:flex-row md:justify-between text-[#2E0A49]'>
             {/* Mobile-only image */}
             <Image
                 src="/how_it_work_imgs/second_section_bg.webp"
                 width={900}
                 height={900}
-                className="block md:hidden w-full h-[40vh] object-contain object-top"
+                className="block md:hidden 
+                [@media(min-width:768px)_and_(max-width:1024px)_and_(min-height:1000px)]:block
+                w-full h-[40vh] object-contain object-top"
                 alt="Gold App"
             />
 
@@ -22,7 +29,7 @@ function DownloadAppSection() {
                 <h2 className="text-5xl md:text-7xl 2xl:text-8xl font-bold leading-tight">
                     Download the App
                 </h2>
-                <p className={`max-w-2xl text-xl md:text-3xl font-medium mb-8 md:px-48 ${gotham.className}`}>
+                <p className={`max-w-2xl [@media(min-width:768px)_and_(max-width:1024px)_and_(min-height:1000px)]:px-2 [@media(min-width:768px)_and_(max-width:1024px)_and_(min-height:1000px)]:max-w-full text-xl md:text-3xl font-medium mb-8 md:px-48 ${gotham.className}`}>
                     Just hit download and dive in.
                 </p>
                 <div className="flex flex-col md:flex-row gap-4 md:gap-8 justify-center items-stretch px-4">

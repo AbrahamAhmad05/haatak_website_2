@@ -5,7 +5,7 @@ import { gilroy_semibold } from '@/lib/font'
 
 function HeroSection() {
     return (
-        <section className="relative min-h-screen min-w-full md:min-h-screen flex items-center">
+        <section className="relative min-h-screen min-w-full md:min-h-[80vh] flex items-center">
             <div className="absolute inset-0 z-0">
                 <div className="relative w-full h-full">
                     <Image

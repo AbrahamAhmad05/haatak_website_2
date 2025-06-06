@@ -10,10 +10,11 @@ function WhyItFeelsEffortless() {
                 <h2 className='text-5xl md:text-7xl 2xl:text-8xl font-bold leading-tight text-center'>Why it Feels Effortless</h2>
             </div>
 
-            <div className="flex flex-col md:flex-row justify-center items-center gap-8 md:gap-12 md:py-12 py-2 px-4 md:px-8 lg:container lg:mx-auto">
+            <div className="flex flex-col md:flex-row  justify-center items-center gap-8 md:gap-12 [@media(min-width:768px)_and_(max-width:1024px)_and_(min-height:1000px)]:flex-col
+             md:py-12 py-2 px-4 md:px-4 lg:container md:mx-auto">
                 {/* Each Feature Item */}
                 {[1, 2, 3, 4].map((_, index) => (
-                    <div key={index} className="flex flex-col items-center gap-6 w-full  px-4">
+                    <div key={index} className="flex flex-col items-center gap-6 w-80 px-4">
                         {/* Image Container */}
                         <div className="relative w-20 h-20 md:w-24 md:h-24 lg:w-32 lg:h-32">
                             <Image
