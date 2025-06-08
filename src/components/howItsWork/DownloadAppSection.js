@@ -9,10 +9,10 @@ function DownloadAppSection() {
         [@media(min-width:768px)_and_(max-width:1024px)_and_(min-height:1000px)]:bg-none
         [@media(min-width:768px)_and_(max-width:1024px)_and_(min-height:1000px)]:flex-col
         [@media(min-width:768px)_and_(max-width:1024px)_and_(min-height:1000px)]:justify-center
-         md:bg-[url(/how_it_work_imgs/second_section_bg.webp)] bg-no-repeat md:bg-cover flex flex-col md:flex-row md:justify-between text-[#2E0A49]'>
+         md:bg-[url(/how_it_work_imgs/download_app.webp)] bg-no-repeat md:bg-cover flex flex-col md:flex-row md:justify-between text-[#2E0A49]'>
             {/* Mobile-only image */}
             <Image
-                src="/how_it_work_imgs/second_section_bg.webp"
+                src="/how_it_work_imgs/download_app.webp"
                 width={900}
                 height={900}
                 className="block md:hidden 

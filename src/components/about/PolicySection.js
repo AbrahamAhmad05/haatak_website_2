@@ -10,7 +10,7 @@ function PolicySection() {
 
             <div className="w-full flex flex-col md:flex-row justify-center items-center gap-12 lg:gap-20 mt-16 px-8 md:px-16">
                 <PolicyCard image='/about_imgs/vault_img.png' title="RBI-compliant vaults" />
-                <PolicyCard image='/about_imgs/ISO_security_img.png' title="ISO-certified security" />
+                <PolicyCard image='/about_imgs/iso_certifies.png' title="ISO-certified security" />
                 <PolicyCard image='/about_imgs/transparent_operations.png' title="Transparent operations" />
             </div>
         </div>

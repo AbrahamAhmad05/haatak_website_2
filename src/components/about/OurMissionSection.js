@@ -13,11 +13,11 @@ function OurMissionSection() {
         </div>
         <div>
             <Image 
-            src='/about_imgs/trends_mockup.jpg' 
+            src='/about_imgs/our_mission_mockup.webp' 
             width={1383} 
             height={1197} 
             className='object-contain'
-            alt='trends mockup' />
+            alt='our mission mockup' />
         </div>
     </div>
   )

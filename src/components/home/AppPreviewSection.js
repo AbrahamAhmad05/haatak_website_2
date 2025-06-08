@@ -12,7 +12,7 @@ const AppPreviewSection = () => {
 
     const mockups = [
         { id: 0, src: "/home_imgs/app_mockup_2.png", width: 550, height: 805 },
-        { id: 1, src: "/home_imgs/app_mockup_1.png", width: 423, height: 620 },
+        { id: 1, src: "/home_imgs/app_1.webp", width: 423, height: 620 },
         { id: 2, src: "/home_imgs/app_mockup_3.png", width: 423, height: 620 },
     ];
 
