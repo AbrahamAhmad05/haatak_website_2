@@ -328,7 +328,7 @@ function JobApplicationForm({ jobId }) {
                             onChange={handleChange}
                             rows={6}
                             className="w-full px-4 py-3 border border-[#8D8D8D] rounded-lg focus:outline-none focus:ring-2 focus:ring-[#2E0A49] focus:border-transparent"
-                            placeholder="Tell us why you're the perfect fit for this role..."
+                            placeholder="Tell us why you&apos;re the perfect fit for this role..."
                         />
                     </div>
 
@@ -387,7 +387,7 @@ function JobApplicationForm({ jobId }) {
             <div className="mt-16 bg-[#EDB6691A] border border-[#000000] p-8 rounded-lg">
                 <h3 className="text-2xl font-bold mb-4">About Haatak</h3>
                 <p className="text-lg mb-6">
-                    At Haatak, we're revolutionizing how Indians save and invest. Our mission is to make saving
+                    At Haatak, we&apos;re revolutionizing how Indians save and invest. Our mission is to make saving
                     a national habit by providing accessible, secure, and rewarding investment opportunities
                     through our digital gold platform.
                 </p>
