@@ -6,8 +6,9 @@ function WhyItFeelsEffortless() {
     return (
         <div className='h-auto w-full text-[#2E0A49] py-12 md:py-12 px-8 space-y-8 md:space-y-12'>
             <div className='flex flex-col gap-4'>
-                <h5 className={`${gilroy.className} text-center text-5xl`}>Are we special...</h5>
-                <h2 className='text-5xl md:text-7xl 2xl:text-8xl font-bold leading-tight text-center'>Why it Feels Effortless</h2>
+                <h5 className={`${gilroy.className} text-center text-5xl`}>What Makes Us Different</h5>
+                <h2 className='text-5xl md:text-7xl 2xl:text-8xl font-bold leading-tight text-center'>Simple by Design. Powerful by Purpose.</h2>
+                <h6 className={`${gilroy_semibold.className} text-3xl text-center`}>We’ve made everything easy — so you can focus on what matters: saving and growing your wealth. Every step is simple, safe, and built to help you succeed.</h6>
             </div>
 
             <div className="flex flex-col md:flex-row  justify-center items-center gap-8 md:gap-12 [@media(min-width:768px)_and_(max-width:1024px)_and_(min-height:1000px)]:flex-col
@@ -45,17 +46,17 @@ const imageNames = [
 ];
 
 const altTexts = [
-  "Instant gold ownership",
-  "No lock-in, no stress",
-  "24K purity guarantee",
-  "Full control of your gold"
+  "Instant ownership",
+  "No lock-in",
+  "24K purity",
+  "Full control"
 ];
 
 const titles = [
-  "Instant gold ownership",
-  "No lock-in, no stress",
-  "24K purity, always",
-  "You’re in charge, every step"
+  "Instant ownership",
+  "No lock-in",
+  "24K purity",
+  "Full control"
 ];
 
 export default WhyItFeelsEffortless

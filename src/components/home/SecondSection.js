@@ -44,7 +44,7 @@ const SecondSection = () => {
                                    [@media(min-width:768px)_and_(max-width:1024px)_and_(min-height:1000px)]:px-16
                                    [@media(min-width:1024px)_and_(max-width:1366px)_and_(min-height:1300px)]:px-32
                                    text-[#2E0A49] font-medium md:px-20 lg:px-64 pt-4 md:pt-10`}>
-                        Buy pure 24K gold starting at just ₹1. No paperwork. No delay. No fluff.
+                        Buy pure 24K gold starting at just ₹10. No paperwork. Fully insured vault storage. Complete ownership.
                     </h5>
                 </div>
 

@@ -8,8 +8,8 @@ function OurMissionSection() {
                 [@media(min-width:768px)_and_(max-width:1024px)_and_(min-height:1000px)]:h-[50vh]'>
         <div className="px-4 flex flex-col text-center md:text-start justify-center items-start gap-8">
             <h2 className="text-7xl lg:text-8xl font-bold ">Our Mission</h2>
-            <h5 className={`${gilroy.className} text-4xl `}>Designed to Feel Premium</h5>
-            <h6 className={`${gilroy_semibold.className} text-3xl md:w-md`}>To help Indians build wealth — one rupee, one digital gram, one smart habit at a time.</h6>
+            <h5 className={`${gilroy.className} text-4xl `}>Simple. Secure. Designed to Grow.</h5>
+            <h6 className={`${gilroy_semibold.className} text-3xl md:w-md`}>Empowering the world with secure, accessible, and future-ready digital finance.</h6>
         </div>
         <div>
             <Image 

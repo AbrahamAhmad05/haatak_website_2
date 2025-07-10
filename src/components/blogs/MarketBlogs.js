@@ -4,55 +4,59 @@ import { gilroy_semibold, poppins } from '@/lib/font'
 import { useState, useCallback } from 'react'
 import BlogCard from './BlogCard'
 import { ArrowDown, ChevronDown } from 'lucide-react'
+import moment from 'moment'
+import Link from 'next/link'
 
-const MarketBlogs = () => {
+const MarketBlogs = ({ blogs }) => {
     const [visibleCount, setVisibleCount] = useState(6)
 
-    const blogsData = [
-        {
-            id: 1,
-            title: "Bookurgold: The future of digital gold",
-            imageUrl: "/blog_imgs/blog_1.png",
-            releaseDate: "26 apr 2025",
-            readingTime: "6 min"
-        },
-        {
-            id: 2,
-            title: "Bookurgold: The future of digital gold",
-            imageUrl: "/blog_imgs/blog_2.png",
-            releaseDate: "26 apr 2025",
-            readingTime: "6 min"
-        },
-        {
-            id: 3,
-            title: "Bookurgold: The future of digital gold",
-            imageUrl: "/blog_imgs/blog_3.png",
-            releaseDate: "26 apr 2025",
-            readingTime: "6 min"
-        },
-        {
-            id: 4,
-            title: "Bookurgold: The future of digital gold",
-            imageUrl: "/blog_imgs/blog_4.png",
-            releaseDate: "26 apr 2025",
-            readingTime: "6 min"
-        },
-        {
-            id: 5,
-            title: "Bookurgold: The future of digital gold",
-            imageUrl: "/blog_imgs/blog_5.png",
-            releaseDate: "26 apr 2025",
-            readingTime: "6 min"
-        },
-        {
-            id: 6,
-            title: "Bookurgold: The future of digital gold",
-            imageUrl: "/blog_imgs/blog_6.png",
-            releaseDate: "26 apr 2025",
-            readingTime: "6 min"
-        },
+    const [blogsData, setBlogsData] = useState(blogs || []);
+    // Sample data for blogs
+    // const blogsData = [
+    //     {
+    //         id: 1,      
+    //         title: "Bookurgold: The future of digital gold",
+    //         imageUrl: "/blog_imgs/blog_1.png",
+    //         releaseDate: "26 apr 2025",
+    //         readingTime: "6 min"
+    //     },
+    //     {
+    //         id: 2,
+    //         title: "Bookurgold: The future of digital gold",
+    //         imageUrl: "/blog_imgs/blog_2.png",
+    //         releaseDate: "26 apr 2025",
+    //         readingTime: "6 min"
+    //     },
+    //     {
+    //         id: 3,
+    //         title: "Bookurgold: The future of digital gold",
+    //         imageUrl: "/blog_imgs/blog_3.png",
+    //         releaseDate: "26 apr 2025",
+    //         readingTime: "6 min"
+    //     },
+    //     {
+    //         id: 4,
+    //         title: "Bookurgold: The future of digital gold",
+    //         imageUrl: "/blog_imgs/blog_4.png",
+    //         releaseDate: "26 apr 2025",
+    //         readingTime: "6 min"
+    //     },
+    //     {
+    //         id: 5,
+    //         title: "Bookurgold: The future of digital gold",
+    //         imageUrl: "/blog_imgs/blog_5.png",
+    //         releaseDate: "26 apr 2025",
+    //         readingTime: "6 min"
+    //     },
+    //     {
+    //         id: 6,
+    //         title: "Bookurgold: The future of digital gold",
+    //         imageUrl: "/blog_imgs/blog_6.png",
+    //         releaseDate: "26 apr 2025",
+    //         readingTime: "6 min"
+    //     },
         
-    ]
+    // ]
 
     const loadMore = useCallback(() => {
         setVisibleCount(prev => Math.min(prev + 6, blogsData.length))
@@ -71,14 +75,14 @@ const MarketBlogs = () => {
                 {/* Blog Grid */}
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 px-4 md:px-6 pt-8">
                     {blogsData.map((blog) => (
-                        <div key={blog.id}>
+                        <Link key={blog.id} href={`/blogs/${blog.slug}`} className="group">
                         <BlogCard
-                            title={blog.title}
-                            imageUrl={blog.imageUrl}
-                            releaseDate={blog.releaseDate}
-                            readingTime={blog.readingTime}
+                            title={blog.content.title}
+                            imageUrl={blog.content.image?.url}
+                            releaseDate={moment(blog.date_created).format("MMM D, YYYY")}
+                            readingTime={`${blog.content.read_time} min`}
                         />
-                        </div>
+                        </Link>
                     ))}
                 </div>
                 {/* {visibleCount < blogsData.length && ( */}

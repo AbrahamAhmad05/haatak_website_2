@@ -12,10 +12,10 @@ const ThirdSection = () => {
           Set & Forget Savings
         </h3>
         <h2 className='text-4xl md:text-6xl lg:text-7xl font-bold text-[#2E0A49] pt-3 md:pt-5'>
-          Grow while you sleep.
+          Save Gold Easily — Daily, Without Lifting a Finger
         </h2>
         <h6 className={`text-base md:text-xl text-[#2E0A49] font-bold pt-3 md:pt-5 ${gilroy_semibold.className}`}>
-          Automate daily gold savings and watch your wealth build — one digital gram at a time.
+          Turn small steps into lasting wealth with automated 24K gold savings.
         </h6>
       </div>
       

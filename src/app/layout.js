@@ -5,6 +5,7 @@ import Footer from "@/components/Footer";
 import Head from "next/head";
 import { original } from "@/lib/font";
 import LenisProvider from "@/components/LenisProvider";
+import { Toaster } from "react-hot-toast";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -40,6 +41,7 @@ export default function RootLayout({ children }) {
         <Navbar />
         <LenisProvider>
           {children}
+          <Toaster position="top-right" />
         </LenisProvider>
         <Footer />
       </body>

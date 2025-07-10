@@ -8,7 +8,7 @@ const ReferSection = () => {
                 {/* Text Content */}
                 <div className="flex-1 space-y-6 text-center">
                     <h2 className={`${gilroy.className} text-xl md:text-2xl lg:text-3xl xl:text-4xl font-bold text-[#2E0A49]`}>
-                        Share The App. Earn Real Gold. Simple.
+                        Refer Friends. Earn Real 24K Gold.
                     </h2>
 
                     <h3 className="text-4xl md:text-6xl lg:text-7xl xl:text-8xl font-bold text-[#2E0A49] leading-tight">
@@ -16,8 +16,7 @@ const ReferSection = () => {
                     </h3>
 
                     <p className={`${gilroy_semibold.className} text-lg md:text-xl lg:text-2xl xl:text-3xl text-[#2E0A49] max-w-3xl mx-auto`}>
-                        Invite Friends To Start Saving With Haatak And Both Of You Get
-                        Rewarded In 24K Gold – Because Good Decisions Should Be Contagious.
+                        When your friends start saving with Haatak, you both earn real 24K digital gold. Because growing wealth is better together.
                     </p>
 
                     {/* Steps */}

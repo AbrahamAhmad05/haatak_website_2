@@ -70,15 +70,15 @@ export default function AnimatedSection() {
             {/* Text Column - full width on mobile */}
             <div ref={textColRef} className="w-full md:w-[35%] h-[40vh] md:h-full px-8 flex flex-col justify-center bg-gray-100 order-2 md:order-1">
                 <h5 className={`${gilroy.className} text-xl md:text-3xl bg-gradient-to-br from-[#E39A35] via-[#E39A35] to-[#E39A35] bg-clip-text text-transparent`}>
-                    Vault-Grade Security
+                    Bank‑Grade Vault Security for Your Gold
                 </h5>
 
                 <h2 className="text-4xl md:text-7xl bg-gradient-to-br from-[#E39A35] via-[#E39A35] to-[#E39A35] bg-clip-text text-transparent my-4">
-                    Your Gold Is Safer Than Selfies.
+                    Gold That’s Truly Yours. Safe as Ever.
                 </h2>
 
                 <h6 className={`text-base md:text-2xl [background-image:linear-gradient(to_bottom_right,#E39A35,#E39A35,#E39A35)] bg-clip-text text-transparent ${gilroy_semibold.className}`}>
-                    Stored in RBI-compliant vaults. Fully insured. End-to-end encrypted. You own it. We protect it.
+                    Backed by RBI-compliant vaults and full insurance. Encrypted, secure, and protected — so you can save with peace of mind.
                 </h6>
             </div>
 

@@ -27,15 +27,15 @@ function AboutSecondSection() {
         {/* Text Content */}
         <div className="relative z-10 text-center max-w-xs sm:max-w-xl md:max-w-4xl space-y-6 md:space-y-10 py-6 md:py-10 [@media(min-width:768px)_and_(max-width:1024px)_and_(min-height:1000px)]:px-16 [@media(min-width:768px)_and_(max-width:1024px)_and_(min-height:1000px)]:py-2">
           <h3 className="text-3xl md:text-4xl lg:text-5xl font-bold leading-normal md:leading-snug">
-            Gold was always trusted.
+            Gold You Trust. Simpler Than Ever.
           </h3>
           <h2 className="px-4 text-4xl md:text-6xl lg:text-8xl font-bold leading-tight 
                        text-balance break-words">
-            The Old Way Was Complicated
+            Old-World Trust, Reimagined for Today.
           </h2>
           <h5 className={`${montserrat.className} text-xl md:text-3xl lg:text-4xl 
                         font-medium max-w-prose mx-auto leading-snug`}>
-            But buying it? Complex. Time-consuming. Paper-heavy. We said — enough.
+            Gold has always meant trust. At Haatak, we make owning 24K digital gold simple, secure, and seamless — for everyone.
           </h5>
         </div>
 

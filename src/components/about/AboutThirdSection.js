@@ -20,13 +20,13 @@ function AboutThirdSection() {
             />
 
             {/* Text Content */}
-            <div className='px-5 py-6 md:px-10 md:py-10 lg:py-20 text-center 
+            <div className='px-5 py-6 md:px-8 md:py-10 lg:py-20 text-center 
             [@media(min-width:768px)_and_(max-width:1024px)_and_(min-height:1000px)]:text-center md:text-start space-y-3 md:space-y-4 lg:space-y-8 '>
                 <h5 className={`${gilroy.className} text-2xl md:text-3xl lg:text-4xl 2xl:text-5xl`}>
-                    Backed by vaults. Powered by simplicity.
+                    Backed by Vaults. Built for You.
                 </h5>
                 <h2 className="text-5xl md:text-7xl 2xl:text-8xl font-bold leading-tight">
-                    Enter Haatak
+                    Haatak: Your Everyday Gold Partner
                 </h2>
             </div>
 
@@ -37,7 +37,7 @@ function AboutThirdSection() {
             md:w-[500px] 2xl:w-2xl md:text-end capitalize text-center 
             [@media(min-width:768px)_and_(max-width:1024px)_and_(min-height:1000px)]:text-center'>
                 <h6 className={`${gilroy_semibold.className} text-lg md:text-xl lg:text-2xl 2xl:text-3xl leading-snug`}>
-                    A digital gold wallet that makes saving gold as effortless as sending a text. Built for the everyday saver.
+                    Haatak is a secure digital gold app that makes saving in 24K gold as easy as sending a message.
                 </h6>
             </div>
         </div>

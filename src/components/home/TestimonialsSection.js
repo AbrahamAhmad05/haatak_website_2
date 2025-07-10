@@ -1,6 +1,7 @@
-// TestimonialsSection.tsx
+"use client"
+
 import { gilroy } from '@/lib/font'
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import TestimonialCard from '../TestimonialCard'
 import {
   Carousel,
@@ -8,9 +9,27 @@ import {
   CarouselItem,
   CarouselNext,
   CarouselPrevious,
-} from "@/components/ui/carousel"
+} from "@/components/ui/carousel";
+import { API_BASE_URL } from '@/config';
+import axios from 'axios';
 
 const TestimonialsSection = () => {
+
+    const [reviewsData, setReviewsData] = useState([]);
+
+    useEffect(() => {
+        fetchReviews();
+    }, []);
+    
+    const fetchReviews = async () => {
+        try {
+            const res = await axios.get(`${API_BASE_URL}/testimonials`);
+            setReviewsData(res.data);
+        }
+        catch (error) {
+            console.error("Error fetching reviews:", error);
+        }
+    }
     const reviews = [
         {
             name: "Subramanyamraj",
@@ -51,10 +70,10 @@ const TestimonialsSection = () => {
     ]
 
   return (
-    <div className='w-full bg-[url(/home_imgs/testimonial_bg.png)] bg-cover bg-center'>
+    <div className='w-full bg-[url(/home_imgs/testimonial_bg.webp)] bg-cover bg-center'>
         <div className="bg-[#FFE0BFCC] flex flex-col justify-center items-center text-center pt-20 pb-24 px-4 md:px-8">
-            <h5 className={`${gilroy.className} text-4xl text-[#2E0A49]`}>Did you know?</h5>
-            <h2 className='text-6xl md:text-8xl font-medium text-[#2E0A49] pt-4 md:pt-6'>They talk about us!</h2>
+            <h5 className={`${gilroy.className} text-2xl md:text-4xl text-[#2E0A49]`}>Real users. Real stories. See how Haatak is helping people build wealth with confidence.</h5>
+            <h2 className='text-6xl md:text-8xl font-medium text-[#2E0A49] pt-4 md:pt-6'>Trusted by Many. Growing Together.</h2>
             
             <Carousel 
                 opts={{ 
@@ -64,7 +83,7 @@ const TestimonialsSection = () => {
                 className="w-full max-w-6xl mt-12"
             >
                 <CarouselContent className="-ml-4">
-                    {reviews.map((review, index) => (
+                    {reviewsData.map((review, index) => (
                         <CarouselItem key={index} className="pl-4 md:basis-1/2 lg:basis-1/3">
                             <TestimonialCard review={review} />
                         </CarouselItem>

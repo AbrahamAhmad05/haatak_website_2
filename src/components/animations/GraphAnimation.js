@@ -71,7 +71,7 @@ const GraphAnimation = () => {
                             src="/home_imgs/animation_arrow.png"
                             width={400}
                             height={400}
-                            alt="arrow"
+                            alt="App mockup showing gold buy flow on phone"
                             className="w-[160px] h-[120px] md:w-[180px] md:h-[150px] lg:w-[240px] lg:h-[180px]"
                         />
                     </div>

@@ -1,27 +1,51 @@
+"use client"
+
 import { albra_grotesk, helvetica_neue, helvetica_neue_th, original } from '@/lib/font';
-import React from 'react';
+import React, { useState } from 'react';
 import { Button } from './ui/button';
 import Image from 'next/image';
 import { Mail, MapPin, Phone } from 'lucide-react';
 import Link from 'next/link';
+import axios from 'axios';
+import { API_BASE_URL, config } from '@/config';
+import { toast } from 'react-hot-toast';
 
 const Footer = () => {
+    const [subscriberEmail, setSubscriberEmail] = useState('');
+
+    const handleSubmit = async () => {
+        const data = {
+            email: subscriberEmail
+        }
+        try {
+            const res = await axios.post(`${API_BASE_URL}/newsletter/subscribe`, data);
+            if (res.status == 201) {
+                setSubscriberEmail('');
+                toast.success('welcome to haatak.');
+            }
+        }
+        catch (error) {
+            console.log("error", error);
+            toast.error("failed:", error);
+        }
+    }
     return (
         <div className="w-full bg-gradient-to-b from-[#FFFFFF] to-[#EDB669] pt-20">
             <div className="px-2 md:px-12">
                 {/* Newsletter */}
                 <div className={`${original.className} text-center mb-20`}>
-                    <h4 className="text-3xl sm:text-4xl md:text-5xl text-[#2E0A49] mb-4">Join our tribe</h4>
+                    <h4 className="text-3xl sm:text-4xl md:text-5xl text-[#2E0A49] mb-4">Join the Haatak Circle</h4>
                     <h6 className="text-lg sm:text-xl md:text-2xl text-[#2E0A49] mb-8">
-                        Be the first to hear about fresh news and new products
+                        Get early access to smart saving tips, new features, and exclusive gold rewards — straight to your inbox.
                     </h6>
                     <div className={`${albra_grotesk.className} flex flex-col sm:flex-row items-center justify-center max-w-3xl mx-auto gap-2 sm:gap-0 `}>
                         <input
                             type="email"
+                            onChange={(e) => setSubscriberEmail(e.target.value)}
                             placeholder="Enter your email here"
                             className="w-full sm:w-2/3 border-2 border-[#2E0A49] py-3 px-5 rounded-lg sm:rounded-r-none bg-transparent text-[#2E0A49] placeholder-[#2E0A49]/70"
                         />
-                        <Button className="w-full sm:w-auto h-[52px] font-bold bg-[#EDB669] hover:bg-[#E39A35] text-white text-lg border-2 border-[#2E0A49] px-14 leading-[2%] sm:rounded-l-none transition">
+                        <Button className="w-full sm:w-auto h-[52px] font-bold bg-[#EDB669] hover:bg-[#E39A35] text-white text-lg border-2 border-[#2E0A49] px-14 leading-[2%] sm:rounded-l-none transition" onClick={() => handleSubmit()}>
                             Join
                         </Button>
                     </div>
@@ -55,9 +79,9 @@ const Footer = () => {
                         <h5 className={`${helvetica_neue.className} text-lg font-medium  leading-relaxed text-[#2E0A49] uppercase`}>Help</h5>
                         <div className="border-t border-[#2E0A49]" />
                         <div className={`${helvetica_neue_th.className} space-y-3`}>
-                            <p className="text-[#2E0A49] text-md uppercase ">Shipping & Return</p>
                             <p className="text-[#2E0A49] text-md uppercase ">Terms & Conditions</p>
                             <p className="text-[#2E0A49] text-md uppercase ">Privacy Policies</p>
+                            <p className="text-[#2E0A49] text-md uppercase ">Shipping & Return</p>
                             <p className="text-[#2E0A49] text-md uppercase ">Contact Us</p>
                         </div>
                     </div>
@@ -101,17 +125,17 @@ const Footer = () => {
                         </div>
                         <div className='pl-2'>
                             <p className={`${helvetica_neue.className} text-[#2E0A49]/80 text-lg leading-relaxed text-center md:text-start`}>
-                                Making gold investment accessible, secure, and effortless for everyone.
+                                Start saving in 24K digital gold — secure, simple, and built for your future.
                             </p>
 
                             <div className="flex gap-5 md:gap-8 pt-4 flex-wrap justify-center md:justify-start">
-                                <Link href='http://www.facebook.com/HaatakOfficial'>
+                                <Link target='_blank' href='http://www.facebook.com/HaatakOfficial'>
                                     <div className="rounded-md w-9 h-9 md:w-10 md:h-10 overflow-hidden bg-white">
 
                                         <div className="w-full h-full facebook-icon"></div>
                                     </div>
                                 </Link>
-                                <Link href='http://www.instagram.com/haatakofficial'>
+                                <Link target='_blank' href='http://www.instagram.com/haatakofficial'>
                                     <div className="rounded-md w-9 h-9 md:w-10 md:h-10 overflow-hidden bg-white">
                                         {/* <Image
                                             src="/icons/instagram_icon.png"
@@ -123,7 +147,7 @@ const Footer = () => {
                                         <div className="w-full h-full instagram-icon"></div>
                                     </div>
                                 </Link>
-                                <Link href='http://www.twitter.com/HaatakOfficial'>
+                                <Link target='_blank' href='http://www.twitter.com/HaatakOfficial'>
                                     <div className="rounded-md w-9 h-9 md:w-10 md:h-10 overflow-hidden icon-container">
                                         <Image
                                             src="/icons/twitter_icon.jpg"
@@ -134,7 +158,7 @@ const Footer = () => {
                                         />
                                     </div>
                                 </Link>
-                                <Link href='http://www.youtube.com/@HaatakOfficial'>
+                                <Link target='_blank' href='http://www.youtube.com/@HaatakOfficial'>
                                     <div className="rounded-md w-9 h-9 md:w-10 md:h-10 overflow-hidden icon-container">
                                         <Image
                                             src="/icons/youtube_icon.jpg"
@@ -145,7 +169,7 @@ const Footer = () => {
                                         />
                                     </div>
                                 </Link>
-                                <Link href='https://www.linkedin.com/company/haatakofficial/'>
+                                <Link target='_blank' href='https://www.linkedin.com/company/haatakofficial/'>
                                     <div className="rounded-md w-9 h-9 md:w-10 md:h-10 overflow-hidden bg-white">
                                         <div className="w-full h-full linkedin-icon"></div>
                                     </div>
@@ -158,8 +182,9 @@ const Footer = () => {
                 {/* Copyright */}
             </div>
             <div className={`${albra_grotesk.className} text-center mt-12 border-t-2 border-[#2E0A49]/20 py-2 bg-[#E39A35]`}>
-                <p className="text-white text-base sm:text-xl">
-                    ©2024 Haatak, Inc. All rights reserved. | <Link href="/privacy-policy"><span className="px-2">Privacy Policy</span></Link> | <Link href="/terms-of-use"><span className="px-2">Terms of Service</span></Link>
+                <p className="text-white text-base sm:text-medium">
+                    ©2025 GrowYuga Fintech Private Limited. All rights reserved. 
+                    {/* | <Link href="/privacy-policy"><span className="px-2">Privacy Policy</span></Link> | <Link href="/terms-of-use"><span className="px-2">Terms of Service</span></Link> */}
                 </p>
             </div>
         </div>

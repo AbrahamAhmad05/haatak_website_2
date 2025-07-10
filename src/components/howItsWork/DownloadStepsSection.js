@@ -4,28 +4,28 @@ import Image from "next/image"
 
 const data = [
   {
-    quote: "Takes less time than brewing chai.",
-    title: "Create Your Account",
+    quote: "Getting started is quicker than making a cup of chai.",
+    title: "Sign Up & KYC in Seconds",
     image_url: "/how_it_work_imgs/create_account.png",
-    description: "Sign up with your mobile number and complete KYC using your PAN & Aadhaar — secure, quick, and RBI-compliant."
+    description: "Register with your mobile number and complete KYC using PAN & Aadhaar — secure, RBI‑compliant."
   },
   {
     quote: "Start with ₹1.",
-    title: "Start Saving Gold",
+    title: "Set & Automate Your Savings",
     image_url: "/how_it_work_imgs/piggy_bank.png",
-    description: "Set daily, weekly, or monthly savings — no pressure. More you save, more your gold grows."
+    description: "Start saving from just ₹10 — daily, weekly, or monthly. Small steps, steady growth."
   },
   {
     quote: "know everything about it",
-    title: "Track Your Gold",
+    title: "Monitor Your Investment",
     image_url: "/how_it_work_imgs/track_gold.png",
-    description: "Live price updates. Beautiful charts. Total control, without the complexity."
+    description: "Track live gold prices, view portfolio charts, and stay in control."
   },
   {
     quote: "Sell your gold with a tap.",
     title: "Withdraw Anytime",
     image_url: "/how_it_work_imgs/withdraw.png",
-    description: "Money hits your account(cash) or delivered at your home in form of physical gold (Coin or jewellery). No drama. No delays."
+    description: "Withdraw funds instantly or request physical delivery — your gold, your choice."
   },
 ]
 function DownloadStepsSection() {
@@ -33,7 +33,7 @@ function DownloadStepsSection() {
     <div className='mt-12 md:mt-32 text-center text-[#2E0A49]'>
       <div className="text-center">
         <h3 className="text-3xl md:text-4xl lg:text-5xl font-bold leading-normal md:leading-snug">
-          So you downloaded our app
+          Just Downloaded? You’re Seconds from Saving Gold.
         </h3>
         <h6 className={`${gilroy.className} text-4xl`}>Now what to do</h6>
       </div>

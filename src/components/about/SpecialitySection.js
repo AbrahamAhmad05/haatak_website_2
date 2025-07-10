@@ -14,7 +14,7 @@ function SpecialitySection() {
                 <div className="relative w-[230px] h-[250px] flex flex-col justify-between bg-[#FFD980] border-[1.5px] border-[#E39A35] shadow-[inset_0_0_26px_8px_rgba(217,154,38,0.25),_0_72px_50px_0_rgba(0,0,0,0.16)] rounded-[12px] -rotate-[15deg]">
                     {/* Title */}
                     <h6 className={`${gilroy.className} text-2xl text-center font-bold text-[#2E0A49] pt-5 px-3`}>
-                        No middlemen
+                        Zero middlemen markup
                     </h6>
 
                     {/* Image */}
@@ -48,7 +48,7 @@ function SpecialitySection() {
                 <div className="relative w-[230px] h-[250px] flex flex-col justify-between bg-[#FFD980] border-[1.5px] border-[#E39A35] shadow-[inset_0_0_26px_8px_rgba(217,154,38,0.25),_0_72px_50px_0_rgba(0,0,0,0.16)] rounded-[12px] rotate-[15deg]">
                     {/* Title */}
                     <h6 className={`${gilroy.className} text-2xl text-center font-bold text-[#2E0A49] pt-5 px-3`}>
-                        No minimum limits
+                        Start from ₹10
                     </h6>
 
                     {/* Image */}
@@ -65,7 +65,7 @@ function SpecialitySection() {
                 <div className="relative w-[230px] h-[250px] flex flex-col justify-between bg-[#FFD980] border-[1.5px] border-[#E39A35] shadow-[inset_0_0_26px_8px_rgba(217,154,38,0.25),_0_72px_50px_0_rgba(0,0,0,0.16)] rounded-[12px] -rotate-[3deg]">
                     {/* Title */}
                     <h6 className={`${gilroy.className} text-2xl text-center font-bold text-[#2E0A49] pt-5 px-3`}>
-                        Just pure, 24K simplicity
+                        100% 24K purity
                     </h6>
 
                     {/* Image Container */}

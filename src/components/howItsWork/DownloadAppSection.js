@@ -22,15 +22,15 @@ function DownloadAppSection() {
             />
 
             {/* Text Content */}
-            <div className='mx-w-2xl text-center px-5 py-6 md:px-16 md:py-36 space-y-1 md:space-y-2 lg:space-y-3'>
+            <div className='max-w-4xl text-center px-5 py-6 md:px-16 md:py-36 space-y-1 md:space-y-2 lg:space-y-3'>
                 <h5 className={` text-2xl md:text-3xl lg:text-4xl 2xl:text-5xl`}>
-                    No paperwork. No queues.
+                    Start Saving in Seconds
                 </h5>
                 <h2 className="text-5xl md:text-7xl 2xl:text-8xl font-bold leading-tight">
-                    Download the App
+                    No paperwork. No waiting. Just possibilities.
                 </h2>
-                <p className={`max-w-2xl [@media(min-width:768px)_and_(max-width:1024px)_and_(min-height:1000px)]:px-2 [@media(min-width:768px)_and_(max-width:1024px)_and_(min-height:1000px)]:max-w-full text-xl md:text-3xl font-medium mb-8 md:px-48 ${gotham.className}`}>
-                    Just hit download and dive in.
+                <p className={`[@media(min-width:768px)_and_(max-width:1024px)_and_(min-height:1000px)]:px-2 [@media(min-width:768px)_and_(max-width:1024px)_and_(min-height:1000px)]:w-full text-xl md:text-3xl font-medium mb-8  ${gotham.className}`}>
+                    Download the Haatak app and begin your journey toward smart, secure gold savings — anytime, anywhere. It’s quick, seamless, and built for every individual ready to grow wealth the modern way.
                 </p>
                 <div className="flex flex-col md:flex-row gap-4 md:gap-8 justify-center items-stretch px-4">
                     {/* Apple Button */}

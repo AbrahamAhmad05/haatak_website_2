@@ -2,6 +2,7 @@
 import Image from 'next/image'
 import React from 'react'
 import { montserrat } from '@/lib/font'
+import { IMG_BASE_URL } from '@/config'
 
 const TestimonialCard = ({ review }) => {
   return (
@@ -9,7 +10,7 @@ const TestimonialCard = ({ review }) => {
         <div className={`flex gap-4 items-start`}>
             <div className="relative min-w-[74px] min-h-[74px]">
                 <Image 
-                    src={review.image_url} 
+                    src={`${IMG_BASE_URL}${review.imageUrl}`} 
                     width={74} 
                     height={74} 
                     alt={review.name}
@@ -31,7 +32,7 @@ const TestimonialCard = ({ review }) => {
                 className='text-[#2E0A49]'
             />
             <p className='text-[#2E0A49]/90 text-base leading-relaxed'>
-                {review.message}
+                {review.description}
             </p>
         </div>
     </div>

@@ -8,7 +8,7 @@ const AboutHero = () => {
                 <h1 className="text-6xl sm:text-7xl md:text-8xl lg:text-9xl font-[700] md:mb-6 ">
                         About Us
                     </h1>
-                <h6 className={`${gotham.className}  capitalize text-xl md:3xl font-medium md:px-72`}>We&apos;re not just building a gold app. We&apos;re building a habit of wealth.</h6>
+                <h6 className={`${gotham.className}  capitalize text-xl md:3xl font-medium md:px-72`}>Building a Habit of Wealth: Simple, Secure Digital Gold for All</h6>
         </div>
     )
 }

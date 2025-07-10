@@ -5,13 +5,13 @@ import React from 'react'
 function PolicySection() {
     return (
         <div className='h-auto w-full text-[#2E0A49] px-4 py-12 md:py-24'>
-            <h2 className='text-5xl md:text-7xl 2xl:text-8xl font-bold leading-tight text-center'>Built on Trust. <br /> Backed by Tech.</h2>
-            <h5 className={`${gilroy_semibold.className} text-center text-3xl`}>Your gold is yours. We just make it easier to own.</h5>
+            <h2 className='text-5xl md:text-7xl 2xl:text-8xl font-bold leading-tight text-center'>Built on Trust. <br /> Built for You.</h2>
+            <h5 className={`${gilroy_semibold.className} text-center text-3xl`}>Secure Gold Ownership, Made Effortless.</h5>
 
             <div className="w-full flex flex-col md:flex-row justify-center items-center gap-12 lg:gap-20 mt-16 px-8 md:px-16">
-                <PolicyCard image='/about_imgs/vault_img.png' title="RBI-compliant vaults" />
-                <PolicyCard image='/about_imgs/iso_certifies.png' title="ISO-certified security" />
-                <PolicyCard image='/about_imgs/transparent_operations.png' title="Transparent operations" />
+                <PolicyCard image='/about_imgs/vault_img.png' title="RBI‑regulated gold vaulting" />
+                <PolicyCard image='/about_imgs/iso_certifies.png' title="End‑to‑end encryption (ISO‑grade)" />
+                <PolicyCard image='/about_imgs/transparent_operations.png' title="Clear fees, no surprises" />
             </div>
         </div>
     )

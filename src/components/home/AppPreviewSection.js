@@ -73,13 +73,13 @@ const AppPreviewSection = () => {
     return (
         <div className='py-20 md:mt-16 flex flex-col justify-center items-center w-full px-4 text-center'>
             <h3 className={`text-[#2E0A49] ${gilroy.className} text-4xl md:text-6xl font-[400]`}>
-                Designed to Feel Premium
+                Designed to Delight. Built to Grow.
             </h3>
             <h2 className='text-6xl md:text-8xl font-bold text-[#2E0A49] pt-4 md:pt-6'>
-                Because finance should feel fine.
+                Where Simplicity Meets Wealth.
             </h2>
             <h6 className={`text-lg md:text-2xl text-[#2E0A49] font-bold pt-3 md:pt-6 ${gilroy_semibold.className}`}>
-                A clutter-free, calming app interface that makes you want to come back — even if it&apos;s just to admire it.
+                A calm, intuitive app that makes managing money feel effortless — and growing wealth feel natural.
             </h6>
 
             <div 
