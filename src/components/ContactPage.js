@@ -111,8 +111,8 @@ function ContactPage() {
 
                     <div className="relative md:max-w-[50%] w-full flex flex-col justify-between overflow-hidden space-y-4 bg-[#2E0A49] px-6 pt-8 xl:px-10 xl:pt-12 rounded-lg">
                         <div>
-                            <h2 className="text-2xl md:text-4xl font-semibold mb-2 xl:mb-2 text-white">Let’s Connect & Grow Together</h2>
-                            <p className="text-white/90 mb-4 xl:mb-6 text-lg md:text-2xl font-normal">Your questions matter. We're here to help — every step of your saving journey.</p>
+                            <h2 className="text-2xl md:text-4xl font-semibold mb-2 xl:mb-2 text-white">Let&apos;s Connect & Grow Together</h2>
+                            <p className="text-white/90 mb-4 xl:mb-6 text-lg md:text-2xl font-normal">Your questions matter. We&apos;re here to help — every step of your saving journey.</p>
 
                             <div className="space-y-6 md:space-y-12 pt-28">
                                 <div className="flex items-start gap-4">
