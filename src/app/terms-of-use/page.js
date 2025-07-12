@@ -1,6 +1,12 @@
 import { gilroy_semibold, gotham, montserrat, original, poppins } from '@/lib/font';
 import Image from 'next/image';
 
+export const metadata = {
+    title: "Haatak Terms of Service | Secure Digital Gold Investment Platform",
+    description: 'Review the terms and conditions for using the Haatak app. Learn how we ensure compliance, user rights, transaction security, and responsible gold investment.',
+    keywords: 'haatak terms, digital gold terms of use, user agreement haatak, gold SIP policy, refund policy gold app, haatak legal terms, platform usage rules, RBI-compliant app terms, fintech service conditions, Indian gold investment terms, app legal policy, agreement for users, digital assets terms, gold ownership terms, haatak app rules',
+}
+
 const TermsConditionsPage = () => {
     return (
         <div className={`${poppins.className} bg-white min-h-screen`}>

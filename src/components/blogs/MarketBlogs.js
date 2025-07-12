@@ -68,7 +68,7 @@ const MarketBlogs = ({ blogs }) => {
                 {/* Title Section */}
                 <div className={`${gilroy_semibold.className} text-center mb-12`}>
                     <h2 className='text-[#2E0A49] text-3xl md:text-5xl font-semibold'>
-                        Market News & Blogs
+                        Stories of Wealth by Haatak
                     </h2>
                 </div>
 
