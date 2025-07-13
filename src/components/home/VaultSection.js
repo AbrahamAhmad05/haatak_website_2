@@ -73,7 +73,11 @@ export default function AnimatedSection() {
                     Bank‑Grade Vault Security for Your Gold
                 </h5>
 
-                <h2 className="text-4xl md:text-7xl bg-gradient-to-br from-[#E39A35] via-[#E39A35] to-[#E39A35] bg-clip-text text-transparent my-4">
+                <h2 className="text-5xl md:text-6xl lg:text-8xl 
+                                  /* iPad Pro text sizing */
+                                  [@media(min-width:768px)_and_(max-width:1024px)_and_(min-height:1000px)]:text-6xl
+                                  [@media(min-width:1024px)_and_(max-width:1366px)_and_(min-height:1300px)]:text-7xl
+                                  font-bold bg-gradient-to-br from-[#E39A35] via-[#E39A35] to-[#E39A35] bg-clip-text text-transparent my-4">
                     Gold That’s Truly Yours. Safe as Ever.
                 </h2>
 

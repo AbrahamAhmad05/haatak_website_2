@@ -26,8 +26,8 @@ function DownloadAppSection() {
                 <h5 className={` text-2xl md:text-3xl lg:text-4xl 2xl:text-5xl`}>
                     Start Saving in Seconds
                 </h5>
-                <h2 className="text-5xl md:text-7xl 2xl:text-8xl font-bold leading-tight">
-                    No paperwork. No waiting. Just possibilities.
+                <h2 className="text-4xl md:text-6xl 2xl:text-7xl font-bold leading-tight">
+                    No paperwork.<br/> No waiting.<br/> Just possibilities.
                 </h2>
                 <p className={`[@media(min-width:768px)_and_(max-width:1024px)_and_(min-height:1000px)]:px-2 [@media(min-width:768px)_and_(max-width:1024px)_and_(min-height:1000px)]:w-full text-xl md:text-3xl font-medium mb-8  ${gotham.className}`}>
                     Download the Haatak app and begin your journey toward smart, secure gold savings — anytime, anywhere. It’s quick, seamless, and built for every individual ready to grow wealth the modern way.

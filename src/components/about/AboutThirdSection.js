@@ -4,18 +4,19 @@ import React from 'react'
 
 function AboutThirdSection() {
     return (
-        <div className='h-auto md:h-[135vh] 
+        <div className='h-auto w-full md:h-[135vh] 
         [@media(min-width:768px)_and_(max-width:1024px)_and_(min-height:1000px)]:h-auto 
         [@media(min-width:768px)_and_(max-width:1024px)_and_(min-height:1000px)]:flex-col 
         [@media(min-width:768px)_and_(max-width:1024px)_and_(min-height:1000px)]:bg-none 
         md:bg-[url(/about_imgs/about_3rd_mockup.webp)] bg-no-repeat md:bg-cover flex flex-col md:flex-row 
-        [@media(min-width:768px)_and_(max-width:1024px)_and_(min-height:1000px)]:justify-center md:justify-between text-[#2E0A49]'>
+        [@media(min-width:768px)_and_(max-width:1024px)_and_(min-height:1000px)]:justify-center 
+        items-center md:justify-between text-[#2E0A49]'>
             {/* Mobile-only image */}
             <Image
                 src="/about_imgs/about_3rd_mockup.webp"
                 width={900}
                 height={900}
-                className="block md:hidden [@media(min-width:768px)_and_(max-width:1024px)_and_(min-height:1000px)]:block w-full h-[40vh] object-contain object-top"
+                className="block md:hidden [@media(min-width:768px)_and_(max-width:1024px)_and_(min-height:1000px)]:block [@media(min-width:768px)_and_(max-width:1024px)_and_(min-height:1000px)]:h-auto h-auto md:h-[40vh] object-contain object-top"
                 alt="Gold Bars"
             />
 

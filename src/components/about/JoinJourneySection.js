@@ -56,7 +56,7 @@ function JoinJourneySection() {
   };
 
   return (
-    <div className='text-[#2E0A49] w-full py-12 space-y-12'>
+    <div className='text-[#2E0A49] py-12 space-y-12'>
       <div className='flex flex-col gap-4 justify-center items-center px-2'>
         <h2 className='text-5xl md:text-7xl 2xl:text-8xl font-bold leading-tight text-center'>Join the Movement</h2>
         <h5 className={`${gilroy_semibold.className} text-center text-4xl md:w-3xl`}>
@@ -66,7 +66,7 @@ function JoinJourneySection() {
       </div>
 
       {/* Search Input */}
-      <div className={`${albra_grotesk.className} flex justify-center items-center gap-6 px-2`}>
+      {/* <div className={`${albra_grotesk.className} flex justify-center items-center gap-6 px-2`}>
         <input
           type="text"
           value={searchTerm}
@@ -83,12 +83,12 @@ function JoinJourneySection() {
             <SearchIcon />
           </button>
         </div>
-      </div>
+      </div> */}
 
       {/* Carousel */}
-      <div className="px-6">
+      <div className="flex justify-center items-center w-full">
         {loading ? (
-          <Carousel>
+          <Carousel opts={{ align: "center", loop: true }} className="w-full md:max-w-6xl">
             <CarouselContent>
               {Array.from({ length: 4 }).map((_, idx) => (
                 <CarouselItem key={idx} className="md:basis-1/2 lg:basis-1/3">
@@ -111,8 +111,8 @@ function JoinJourneySection() {
             </CarouselContent>
           </Carousel>
         ) : (
-          <Carousel opts={{ align: "start", loop: true }} className="w-full max-w-6xl mx-auto px-4">
-            <CarouselContent className="mx-10">
+          <Carousel opts={{  align: "center", loop: true }} className="w-full max-w-8xl mx-auto px-6">
+            <CarouselContent className="">
               {filteredJobs.map((job) => (
                 <CarouselItem key={job.id} className="md:basis-1/2 lg:basis-1/3">
                   <div className="w-72 h-72 flex flex-col justify-between bg-[#EDB6691A] border-[1px] border-[#000000] px-4 py-4">
@@ -137,8 +137,8 @@ function JoinJourneySection() {
               ))}
             </CarouselContent>
             <div className="flex justify-center gap-4 mt-4">
-              <CarouselPrevious />
-              <CarouselNext />
+              {/* <CarouselPrevious />
+              <CarouselNext /> */}
             </div>
           </Carousel>
         )}

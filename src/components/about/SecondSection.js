@@ -4,13 +4,13 @@ import React from 'react'
 
 function AboutSecondSection() {
   return (
-    <div className={`${original.className} py-8 md:h-screen bg-[url(/about_imgs/second_section_bg.png)] bg-cover 
+    <div className={`${original.className} py-8 bg-[url(/about_imgs/second_section_bg.png)] bg-cover 
     bg-no-repeat text-[#2E0A49] my-4 md:my-10 
-    [@media(min-width:768px)_and_(max-width:1024px)_and_(min-height:1000px)]:h-[50vh] 
+    [@media(min-width:768px)_and_(max-width:1024px)_and_(min-height:1000px)]:h-auto 
     [@media(min-width:768px)_and_(max-width:1024px)_and_(min-height:1000px)]:my-4 
     [@media(min-width:768px)_and_(max-width:1024px)_and_(min-height:1000px)]:py-6`}>
 
-      <div className="md:h-screen [@media(min-width:768px)_and_(max-width:1024px)_and_(min-height:1000px)]:h-auto flex items-center justify-center relative overflow-hidden px-4">
+      <div className="md:h-auto [@media(min-width:768px)_and_(max-width:1024px)_and_(min-height:1000px)]:h-auto flex items-center justify-center relative overflow-hidden px-4">
         {/* Left Coin */}
         <div className="absolute left-0 -translate-x-1/2 top-1/2 -translate-y-1/2 
           w-[230px] h-[230px] md:w-[450px] md:h-[400px] lg:w-[650px] lg:h-[600px] 

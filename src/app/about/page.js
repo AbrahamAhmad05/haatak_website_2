@@ -23,7 +23,7 @@ async function About() {
     // const ourWinsData = await fetchOurWins.json();
     // console.log("error", ourWinsData);
     return (
-        <main>
+        <main className=''>
             <AboutHero />
             <AboutSecondSection />
             <AboutThirdSection />

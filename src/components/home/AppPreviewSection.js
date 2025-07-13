@@ -72,10 +72,14 @@ const AppPreviewSection = () => {
 
     return (
         <div className='py-20 md:mt-16 flex flex-col justify-center items-center w-full px-4 text-center'>
-            <h3 className={`text-[#2E0A49] ${gilroy.className} text-4xl md:text-6xl font-[400]`}>
+            <h3 className={`text-[#2E0A49] ${gilroy.className} text-3xl md:text-4xl lg:text-5xl`}>
                 Designed to Delight. Built to Grow.
             </h3>
-            <h2 className='text-6xl md:text-8xl font-bold text-[#2E0A49] pt-4 md:pt-6'>
+            <h2 className='text-5xl md:text-6xl lg:text-8xl 
+                                  /* iPad Pro text sizing */
+                                  [@media(min-width:768px)_and_(max-width:1024px)_and_(min-height:1000px)]:text-6xl
+                                  [@media(min-width:1024px)_and_(max-width:1366px)_and_(min-height:1300px)]:text-7xl
+                                  font-bold text-[#2E0A49] pt-4 md:pt-6'>
                 Where Simplicity Meets Wealth.
             </h2>
             <h6 className={`text-lg md:text-2xl text-[#2E0A49] font-bold pt-3 md:pt-6 ${gilroy_semibold.className}`}>
