@@ -29,10 +29,10 @@ async function Blogs() {
                         <h1 className="text-5xl sm:text-7xl md:text-8xl lg:text-9xl font-[700] md:mb-6 leading-tight">
                             Smart Saving & Digital Gold Insights That Build Wealth
                         </h1>
-                        <h5 className={`${gilroy_semibold.className} text-center capitalize text-lg md:text-2xl lg:text-3xl font-medium md:px-16 pt-3`}>
+                        <h5 className={`${gilroy_semibold.className} text-center capitalize text-xl md:text-2xl lg:text-3xl font-medium md:px-16 pt-3`}>
                             Learn, grow, and invest wisely — one blog at a time.
                         </h5>
-                        <h6 className={`${gotham.className}  capitalize text-xl lg:text-3xl font-medium md:px-16 pt-3`}>Explore tips, stories, and updates on digital gold, investing habits, and how Haatak helps you grow your wealth — Starting from ₹10 at a time. Empower your financial journey with every read.</h6>
+                        <h6 className={`${gotham.className}  capitalize text-md lg:text-2xl font-medium md:px-16 pt-3`}>Explore tips, stories, and updates on digital gold, investing habits, and how Haatak helps you grow your wealth — Starting from ₹10 at a time. Empower your financial journey with every read.</h6>
                         {/* <div >
                         <ul className={`flex text-xl md:text-3xl font-medium mb-8 md:px-48 gap-4 md:gap-8 ${gotham.className}`}>
                             <li >
