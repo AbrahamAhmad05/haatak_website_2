@@ -19,10 +19,10 @@ function HeroSection() {
             {/* Content */}
             <div className="container relative flex justify-center items-center z-10 mx-auto px-2 sm:px-4 md:px-8 text-[#2E0A49] pt-16 md:pt-32">
                 <div className="w-full md:max-w-6xl flex flex-col text-center justify-center items-center">
-                    <h1 className="text-6xl sm:text-7xl md:text-8xl lg:text-8xl font-[700] md:mb-6">
+                    <h1 className="text-5xl sm:text-7xl md:text-8xl lg:text-9xl font-[700] md:mb-6">
                         Invest in Gold with Ease
                     </h1>
-                    <p className={`text-xl md:text-3xl font-medium mb-8 md:px-48 ${gotham.className}`}>
+                    <p className={`text-lg md:text-2xl font-medium mb-8 md:px-48 ${gotham.className}`}>
                         Save, track, and grow your gold — no queues, no paperwork.
                     </p>
                     {/* <div className='flex items-center justify-center bg-gradient-to-br from-[#ffffff52] via-[#9999992a] to-[#ffffff2a] border-[1px] border-[#626262] mt-10 gap-2 p-2 rounded-[12px]'> */}

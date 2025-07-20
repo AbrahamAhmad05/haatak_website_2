@@ -113,8 +113,8 @@ const Footer = () => {
                     </div>
 
                     {/* Company Info */}
-                    <div className="space-y-6 flex flex-col justify-center md:justify-start md:items-start items-center lg:border-l-2 border-[#2E0A49] md:pl-12">
-                        <div className="max-w-[200px] md:min-w-[250px] xl:min-w-[350px] ">  {/* Adjusted width */}
+                    <div className="space-y-6 flex flex-col justify-center md:justify-start md:items-start items-center lg:border-l-2 border-[#2E0A49] sm:w-md lg:pl-12">
+                        <div className="min-w-[200px] md:min-w-[250px] xl:min-w-[350px] ">  {/* Adjusted width */}
                             <Image
                                 src="/home_imgs/haatak_logo.png"
                                 width={537}

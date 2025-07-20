@@ -55,13 +55,13 @@ const GraphAnimation = () => {
 
     return (
         <div ref={containerRef} className="w-full h-full flex items-center justify-center">
-            <div ref={graphRef} className="relative h-[30vh] md:h-[40vh] lg:h-[50vh] w-full md:max-w-4xl  md:px-8 xl:pr-24 [@media(min-width:768px)_and_(max-width:1024px)_and_(min-height:1000px)]:h-[30vh]">
+            <div ref={graphRef} className="relative h-[30vh] md:h-[40vh] lg:h-[50vh] w-full lg:max-w-4xl  lg:px-8 xl:pr-24 [@media(min-width:768px)_and_(max-width:1024px)_and_(min-height:1000px)]:h-[30vh]">
                 {/* Graph container with arrow and bars */}
                 <div className="relative h-full w-full flex items-end justify-start">
                     {/* Arrow positioned relative to the first bar */}
                     <div
                         ref={arrowRef}
-                        className="absolute bottom-1/3 left-[33%] md:left-[50%] lg:left-[40%] 2xl:left-[55%] transform -translate-x-[80%] translate-y-[15%] md:translate-y-[7%] pointer-events-none [@media(min-width:1024px)_and_(max-width:1366px)_and_(min-height:1300px)]:left-[25%]"
+                        className="absolute bottom-1/3 left-[33%] md:left-[35%] lg:left-[40%] 2xl:left-[55%] transform -translate-x-[80%] translate-y-[15%] md:translate-y-[7%] pointer-events-none [@media(min-width:1024px)_and_(max-width:1366px)_and_(min-height:1300px)]:left-[25%]"
                         style={{
                             transformOrigin: '0% 100%',
                             transform: "translateZ(0)"

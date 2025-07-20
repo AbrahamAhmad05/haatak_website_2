@@ -10,13 +10,13 @@ function AboutThirdSection() {
         [@media(min-width:768px)_and_(max-width:1024px)_and_(min-height:1000px)]:bg-none 
         md:bg-[url(/about_imgs/about_3rd_mockup.webp)] bg-no-repeat md:bg-cover flex flex-col md:flex-row 
         [@media(min-width:768px)_and_(max-width:1024px)_and_(min-height:1000px)]:justify-center 
-        items-center md:justify-between text-[#2E0A49]'>
+         md:justify-between text-[#2E0A49]'>
             {/* Mobile-only image */}
             <Image
                 src="/about_imgs/about_3rd_mockup.webp"
                 width={900}
                 height={900}
-                className="block md:hidden [@media(min-width:768px)_and_(max-width:1024px)_and_(min-height:1000px)]:block [@media(min-width:768px)_and_(max-width:1024px)_and_(min-height:1000px)]:h-auto h-auto md:h-[40vh] object-contain object-top"
+                className="block md:hidden w-full [@media(min-width:768px)_and_(max-width:1024px)_and_(min-height:1000px)]:block [@media(min-width:768px)_and_(max-width:1024px)_and_(min-height:1000px)]:h-auto h-auto md:h-[40vh] object-contain object-top"
                 alt="Gold Bars"
             />
 
@@ -26,12 +26,12 @@ function AboutThirdSection() {
                 <h5 className={`${gilroy.className} text-2xl md:text-3xl lg:text-4xl 2xl:text-5xl`}>
                     Backed by Vaults. Built for You.
                 </h5>
-                <h2 className="text-5xl md:text-7xl 2xl:text-8xl font-bold leading-tight">
+                <h2 className="text-4xl md:text-7xl 2xl:text-8xl font-bold leading-tight">
                     Haatak: Your Everyday Gold Partner
                 </h2>
             </div>
 
-            <div className='px-5 pb-8 md:px-10 md:py-10 lg:py-20 
+            <div className='px-5 md:pb-8 md:px-10 md:py-10 lg:py-20 
             [@media(min-width:768px)_and_(max-width:1024px)_and_(min-height:1000px)]:py-4 
             [@media(min-width:768px)_and_(max-width:1024px)_and_(min-height:1000px)]:px-32
             [@media(min-width:768px)_and_(max-width:1024px)_and_(min-height:1000px)]:w-full

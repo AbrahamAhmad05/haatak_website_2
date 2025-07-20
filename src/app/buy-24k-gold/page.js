@@ -3,7 +3,7 @@ import React from 'react'
 
 function Buy24KGold() {
   return (
-    <main>
+    <main className='py-10 md:py-0'>
         <DownloadAppSection />
     </main>
   )

@@ -33,7 +33,7 @@ function AboutSecondSection() {
                        text-balance break-words">
             Old-World Trust, Reimagined for Today.
           </h2>
-          <h5 className={`${montserrat.className} text-xl md:text-3xl lg:text-4xl 
+          <h5 className={`${montserrat.className} text-xl md:text-2xl lg:text-3xl 
                         font-medium max-w-prose mx-auto leading-snug`}>
             Gold has always meant trust. At Haatak, we make owning 24K digital gold simple, secure, and seamless — for everyone.
           </h5>

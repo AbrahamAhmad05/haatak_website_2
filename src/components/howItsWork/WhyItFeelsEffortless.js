@@ -6,9 +6,9 @@ function WhyItFeelsEffortless() {
     return (
         <div className='h-auto w-full text-[#2E0A49] py-12 md:py-12 px-8 space-y-8 md:space-y-12'>
             <div className='flex flex-col gap-4'>
-                <h5 className={`${gilroy.className} text-center text-5xl`}>What Makes Us Different</h5>
-                <h2 className='text-5xl md:text-7xl 2xl:text-8xl font-bold leading-tight text-center'>Simple by Design. Powerful by Purpose.</h2>
-                <h6 className={`${gilroy_semibold.className} text-3xl text-center`}>We’ve made everything easy — so you can focus on what matters: saving and growing your wealth. Every step is simple, safe, and built to help you succeed.</h6>
+                <h5 className={`${gilroy.className} text-center text-4xl`}>What Makes Us Different</h5>
+                <h2 className='text-4xl md:text-7xl 2xl:text-8xl font-bold leading-tight text-center'>Simple by Design. Powerful by Purpose.</h2>
+                <h6 className={`${gilroy_semibold.className} text-2xl text-center`}>We’ve made everything easy — so you can focus on what matters: saving and growing your wealth. Every step is simple, safe, and built to help you succeed.</h6>
             </div>
 
             <div className="flex flex-col md:flex-row  justify-center items-center gap-8 md:gap-12 [@media(min-width:768px)_and_(max-width:1024px)_and_(min-height:1000px)]:flex-col

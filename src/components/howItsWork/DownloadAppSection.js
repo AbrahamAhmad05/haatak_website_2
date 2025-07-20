@@ -4,7 +4,7 @@ import React from 'react'
 
 function DownloadAppSection() {
     return (
-        <div className='h-auto md:h-[135vh] 
+        <div className='h-auto lg:h-[135vh] py-10
         [@media(min-width:768px)_and_(max-width:1024px)_and_(min-height:1000px)]:h-auto
         [@media(min-width:768px)_and_(max-width:1024px)_and_(min-height:1000px)]:bg-none
         [@media(min-width:768px)_and_(max-width:1024px)_and_(min-height:1000px)]:flex-col
@@ -22,14 +22,14 @@ function DownloadAppSection() {
             />
 
             {/* Text Content */}
-            <div className='max-w-4xl text-center px-5 py-6 md:px-16 md:py-36 space-y-1 md:space-y-2 lg:space-y-3'>
+            <div className='max-w-4xl text-center px-5 md:px-16 md:py-36 space-y-1 md:space-y-2 lg:space-y-3'>
                 <h5 className={` text-2xl md:text-3xl lg:text-4xl 2xl:text-5xl`}>
                     Start Saving in Seconds
                 </h5>
                 <h2 className="text-4xl md:text-6xl 2xl:text-7xl font-bold leading-tight">
                     No paperwork.<br/> No waiting.<br/> Just possibilities.
                 </h2>
-                <p className={`[@media(min-width:768px)_and_(max-width:1024px)_and_(min-height:1000px)]:px-2 [@media(min-width:768px)_and_(max-width:1024px)_and_(min-height:1000px)]:w-full text-xl md:text-3xl font-medium mb-8  ${gotham.className}`}>
+                <p className={`[@media(min-width:768px)_and_(max-width:1024px)_and_(min-height:1000px)]:px-2 [@media(min-width:768px)_and_(max-width:1024px)_and_(min-height:1000px)]:w-full text-lg pt-2 font-medium mb-8  ${gotham.className}`}>
                     Download the Haatak app and begin your journey toward smart, secure gold savings — anytime, anywhere. It’s quick, seamless, and built for every individual ready to grow wealth the modern way.
                 </p>
                 <div className="flex flex-col md:flex-row gap-4 md:gap-8 justify-center items-stretch px-4">

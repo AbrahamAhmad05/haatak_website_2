@@ -8,7 +8,7 @@ const montserrat = Montserrat({
 
 const SecondSection = () => {
     return (
-        <div className='min-w-full md:h-[100vh] lg:h-[75vw] 2xl:h-[120vh] flex flex-col justify-center items-center overflow-hidden bg-gradient-to-r from-[#FFD8AE00] via-[#FFD8AE] to-[#FFD8AE00] pt-20 md:pt-32 relative'>
+        <div className='min-w-full md:h-[70vh] lg:h-[75vw] 2xl:h-[120vh] flex flex-col justify-center items-center overflow-hidden bg-gradient-to-r from-[#FFD8AE00] via-[#FFD8AE] to-[#FFD8AE00] pt-20 md:pt-32 relative'>
 
             {/* Main curved section - iPad Pro height optimization */}
             <div className='relative w-[100%] md:w-[105vw] h-[105vw] sm:h-[80vh] md:h-[100vw] 
@@ -30,21 +30,21 @@ const SecondSection = () => {
                                   font-bold text-[#2E0A49]'>
                         Tap. Done.
                     </h3>
-                    <h2 className='text-5xl md:text-6xl lg:text-8xl 
+                    <h2 className='text-4xl md:text-6xl lg:text-8xl 
                                   /* iPad Pro text sizing */
                                   [@media(min-width:768px)_and_(max-width:1024px)_and_(min-height:1000px)]:text-6xl
                                   [@media(min-width:1024px)_and_(max-width:1366px)_and_(min-height:1300px)]:text-7xl
                                   font-bold text-[#2E0A49] pt-4 md:pt-8'>
                         Buy Gold in Seconds
                     </h2>
-                    <h5 className={`${montserrat.className} text-2xl md:text-2xl lg:text-4xl 
+                    <h5 className={`${montserrat.className} text-xl md:text-2xl lg:text-3xl 
                                    /* iPad Pro text sizing and padding */
                                    [@media(min-width:768px)_and_(max-width:1024px)_and_(min-height:1000px)]:text-2xl
                                    [@media(min-width:1024px)_and_(max-width:1366px)_and_(min-height:1300px)]:text-3xl
                                    [@media(min-width:768px)_and_(max-width:1024px)_and_(min-height:1000px)]:px-16
                                    [@media(min-width:1024px)_and_(max-width:1366px)_and_(min-height:1300px)]:px-32
                                    text-[#2E0A49] font-medium md:px-20 lg:px-64 pt-4 md:pt-10`}>
-                        Buy pure 24K gold starting at just ₹10. No paperwork. Fully insured vault storage. Complete ownership.
+                        Buy pure 24K gold starting at just ₹10. No paperwork. Fully insured vault storage.<br/> Complete ownership.
                     </h5>
                 </div>
 

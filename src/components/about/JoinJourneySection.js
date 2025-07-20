@@ -58,11 +58,11 @@ function JoinJourneySection() {
   return (
     <div className='text-[#2E0A49] py-12 space-y-12'>
       <div className='flex flex-col gap-4 justify-center items-center px-2'>
-        <h2 className='text-5xl md:text-7xl 2xl:text-8xl font-bold leading-tight text-center'>Join the Movement</h2>
-        <h5 className={`${gilroy_semibold.className} text-center text-4xl md:w-3xl`}>
+        <h2 className='text-4xl md:text-7xl 2xl:text-8xl font-bold leading-tight text-center'>Join the Movement</h2>
+        <h5 className={`${gilroy_semibold.className} text-center text-2xl md:text-4xl md:w-3xl`}>
           Together, Let’s Make Saving a Way of Life
         </h5>
-        <h6 className={`${gilroy_semibold.className} text-3xl px-4 md:px-10 text-center`}>Be part of a mission that’s changing how India saves. At Haatak, we’re building more than an app — we’re creating a culture of smart, secure, and daily saving with digital gold.</h6>
+        <h6 className={`${gilroy_semibold.className} text-xl md:text-2xl lg:text-3xl px-4 md:px-10 text-center`}>Be part of a mission that’s changing how India saves. At Haatak, we’re building more than an app — we’re creating a culture of smart, secure, and daily saving with digital gold.</h6>
       </div>
 
       {/* Search Input */}

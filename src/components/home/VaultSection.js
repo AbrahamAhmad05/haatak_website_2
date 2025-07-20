@@ -23,10 +23,10 @@ export default function AnimatedSection() {
             if (!isMobile) {
                 // Desktop animations
                 gsap.fromTo(imageColRef.current,
-                    { width: '65%' },
+                    { width: '58%' },
                     {
-                        width: '35%',
-                        duration: 2.5,
+                        width: '42%',
+                        duration: 1.5,
                         scrollTrigger: {
                             trigger: sectionRef.current,
                             start: 'top center',
@@ -37,10 +37,10 @@ export default function AnimatedSection() {
                 );
 
                 gsap.fromTo(textColRef.current,
-                    { width: '35%' },
+                    { width: '42%' },
                     {
-                        width: '65%',
-                        duration: 2.5,
+                        width: '58%',
+                        duration: 1.5,
                         scrollTrigger: {
                             trigger: sectionRef.current,
                             start: 'top center',
@@ -68,15 +68,15 @@ export default function AnimatedSection() {
     return (
         <section ref={sectionRef} className="flex flex-col-reverse md:flex-row h-full md:h-screen [@media(min-width:768px)_and_(max-width:1024px)_and_(min-height:1000px)]:h-[50vh] w-full overflow-hidden">
             {/* Text Column - full width on mobile */}
-            <div ref={textColRef} className="w-full md:w-[35%] h-[40vh] md:h-full px-8 flex flex-col justify-center bg-gray-100 order-2 md:order-1">
+            <div ref={textColRef} className="w-full md:w-[42%] h-[40vh] md:h-full px-4 flex flex-col justify-center bg-gray-100 order-2 md:order-1">
                 <h5 className={`${gilroy.className} text-xl md:text-3xl bg-gradient-to-br from-[#E39A35] via-[#E39A35] to-[#E39A35] bg-clip-text text-transparent`}>
                     Bank‑Grade Vault Security for Your Gold
                 </h5>
 
-                <h2 className="text-5xl md:text-6xl lg:text-8xl 
+                <h2 className="text-4xl md:text-5xl lg:text-7xl 
                                   /* iPad Pro text sizing */
-                                  [@media(min-width:768px)_and_(max-width:1024px)_and_(min-height:1000px)]:text-6xl
-                                  [@media(min-width:1024px)_and_(max-width:1366px)_and_(min-height:1300px)]:text-7xl
+                                  [@media(min-width:768px)_and_(max-width:1024px)_and_(min-height:1000px)]:text-5xl
+                                  [@media(min-width:1024px)_and_(max-width:1366px)_and_(min-height:1300px)]:text-5xl
                                   font-bold bg-gradient-to-br from-[#E39A35] via-[#E39A35] to-[#E39A35] bg-clip-text text-transparent my-4">
                     Gold That’s Truly Yours. Safe as Ever.
                 </h2>
@@ -87,7 +87,7 @@ export default function AnimatedSection() {
             </div>
 
             {/* Image Column - full width on mobile */}
-            <div ref={imageColRef} className="w-full md:w-[60%] h-[40vh] md:h-full overflow-hidden order-1 md:order-2">
+            <div ref={imageColRef} className="w-full md:w-[58%] h-[40vh] md:h-full overflow-hidden order-1 md:order-2">
                 <Image
                     src="/home_imgs/vault_img.png"
                     width={1920}

@@ -30,24 +30,24 @@ const data = [
 ]
 function DownloadStepsSection() {
   return (
-    <div className='mt-12 md:mt-32 text-center text-[#2E0A49]'>
+    <div className='mt-6 lg:mt-32 text-center text-[#2E0A49]'>
       <div className="text-center">
-        <h3 className="text-3xl md:text-4xl lg:text-5xl font-bold leading-normal md:leading-snug">
+        <h3 className="text-3xl md:text-4xl lg:text-5xl font-bold leading-normal md:leading-snug px-4">
           Just Downloaded? You’re Seconds from Saving Gold.
         </h3>
-        <h6 className={`${gilroy.className} text-4xl`}>Now what to do</h6>
+        <h6 className={`${gilroy_semibold.className} text-3xl pt-2`}>Now what to do</h6>
       </div>
       <div className="flex flex-col items-center justify-center gap-14 my-14 md:gap-35 md:my-24 px-4 sm:px-6 lg:px-8">
         {data.map((e, i) => (
           <div className="flex flex-col items-center justify-center text-center w-full max-w-4xl gap-2" key={i}>
             {/* Quote */}
-            <h5 className={`${gilroy.className} text-2xl md:text-4xl leading-relaxed max-w-3xl`}>
+            <h5 className={`${gilroy.className} text-2xl md:text-3xl lg:text-4xl leading-tight max-w-3xl`}>
               {e.quote}
             </h5>
 
             {/* Gradient Badge */}
             <div className="w-full max-w-md bg-gradient-to-br from-[#F3C862] via-[#FFE196] to-[#D99A26] p-1 rounded-lg">
-              <div className="bg-gradient-to-br from-[#E7CB86] via-[#FFF4DF] to-[#E7CB86] px-6 py-3 md:px-8 md:py-4 rounded-[6px] text-3xl md:text-4xl font-semibold">
+              <div className="bg-gradient-to-br from-[#E7CB86] via-[#FFF4DF] to-[#E7CB86] px-6 py-3 md:px-8 md:py-4 rounded-[6px] text-2xl md:text-3xl lg:text-4xl font-semibold">
                 {e.title}
               </div>
             </div>
@@ -64,7 +64,7 @@ function DownloadStepsSection() {
             </div>
 
             {/* Description */}
-            <h6 className={`${gilroy_semibold.className} text-xl md:text-3xl max-w-2xl mx-auto`}>
+            <h6 className={`${gilroy_semibold.className} text-xl md:text-2xl lg:text-3xl max-w-2xl mx-auto`}>
               {e.description}
             </h6>
           </div>
