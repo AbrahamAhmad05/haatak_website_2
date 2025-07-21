@@ -29,7 +29,7 @@ function AboutSecondSection() {
           <h3 className="text-3xl md:text-4xl lg:text-5xl font-bold leading-normal md:leading-snug">
             Gold You Trust. Simpler Than Ever.
           </h3>
-          <h2 className="px-4 text-4xl md:text-6xl lg:text-8xl font-bold leading-tight 
+          <h2 className="px-4 text-4xl md:text-5xl lg:text-7xl font-bold leading-tight 
                        text-balance break-words">
             Old-World Trust, Reimagined for Today.
           </h2>

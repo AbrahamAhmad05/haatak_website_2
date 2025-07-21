@@ -11,7 +11,7 @@ const ReferSection = () => {
                         Refer Friends. Earn Real 24K Gold.
                     </h2>
 
-                    <h3 className="text-4xl md:text-6xl lg:text-7xl xl:text-8xl font-bold text-[#2E0A49] leading-tight">
+                    <h3 className="text-4xl md:text-5xl lg:text-7xl font-bold text-[#2E0A49] leading-tight">
                         Refer. Earn. Repeat.
                     </h3>
 

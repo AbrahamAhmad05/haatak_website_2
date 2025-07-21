@@ -5,7 +5,7 @@ import React from 'react'
 function PolicySection() {
     return (
         <div className='h-auto w-full text-[#2E0A49] py-2 md:py-24'>
-            <h2 className='text-4xl md:text-7xl 2xl:text-8xl font-bold leading-tight text-center'>Built on Trust. <br /> Built for You.</h2>
+            <h2 className='text-4xl md:text-5xl lg:text-7xl font-bold leading-tight text-center'>Built on Trust. <br /> Built for You.</h2>
             <h5 className={`${gilroy_semibold.className} text-center text-2xl md:text-3xl`}>Secure Gold Ownership, Made Effortless.</h5>
 
             <div className="w-full flex flex-col md:flex-row justify-center items-center gap-12 lg:gap-20 mt-16 px-6 md:px-16">

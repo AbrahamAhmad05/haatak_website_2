@@ -26,7 +26,7 @@ function AboutThirdSection() {
                 <h5 className={`${gilroy.className} text-2xl md:text-3xl lg:text-4xl 2xl:text-5xl`}>
                     Backed by Vaults. Built for You.
                 </h5>
-                <h2 className="text-4xl md:text-7xl 2xl:text-8xl font-bold leading-tight">
+                <h2 className="text-4xl md:text-5xl lg:text-7xl font-bold leading-tight">
                     Haatak: Your Everyday Gold Partner
                 </h2>
             </div>

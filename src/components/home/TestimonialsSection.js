@@ -73,7 +73,7 @@ const TestimonialsSection = () => {
     <div className='w-full bg-[url(/home_imgs/testimonial_bg.webp)] bg-cover bg-center'>
         <div className="bg-[#FFE0BFCC] flex flex-col justify-center items-center text-center pt-20 pb-24 px-4 md:px-8">
             <h5 className={`${gilroy.className} text-xl md:text-4xl text-[#2E0A49]`}>Real users. Real stories. See how Haatak is helping people build wealth with confidence.</h5>
-            <h2 className='text-4xl md:text-6xl lg:text-8xl 
+            <h2 className='text-4xl md:text-5xl lg:text-7xl
                                   /* iPad Pro text sizing */
                                   [@media(min-width:768px)_and_(max-width:1024px)_and_(min-height:1000px)]:text-6xl
                                   [@media(min-width:1024px)_and_(max-width:1366px)_and_(min-height:1300px)]:text-7xl

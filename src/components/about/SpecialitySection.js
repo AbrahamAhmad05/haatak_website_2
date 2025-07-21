@@ -7,7 +7,7 @@ function SpecialitySection() {
         <div className='h-auto w-full text-[#2E0A49] py-16 px-8 pt-24'>
             <div className='flex flex-col gap-4'>
                 <h5 className={`${gilroy.className} text-center text-4xl`}>Are we special...</h5>
-                <h2 className='text-4xl md:text-7xl 2xl:text-8xl font-bold leading-tight text-center'>What Makes Us Different?</h2>
+                <h2 className='text-4xl md:text-5xl lg:text-7xl font-bold leading-tight text-center'>What Makes Us Different?</h2>
                 <h5 className={`${gilroy_semibold.className} text-center text-2xl`}>But why!</h5>
             </div>
             <div className="flex flex-col md:flex-row px-4 md:px-16 justify-center items-center gap-5 mt-20">

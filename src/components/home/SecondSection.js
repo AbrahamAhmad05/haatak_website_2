@@ -30,7 +30,7 @@ const SecondSection = () => {
                                   font-bold text-[#2E0A49]'>
                         Tap. Done.
                     </h3>
-                    <h2 className='text-4xl md:text-6xl lg:text-8xl 
+                    <h2 className='text-4xl md:text-5xl lg:text-7xl
                                   /* iPad Pro text sizing */
                                   [@media(min-width:768px)_and_(max-width:1024px)_and_(min-height:1000px)]:text-6xl
                                   [@media(min-width:1024px)_and_(max-width:1366px)_and_(min-height:1300px)]:text-7xl

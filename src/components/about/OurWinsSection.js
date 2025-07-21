@@ -14,7 +14,7 @@ function OurWinsSection({ ourWins }) {
     return (
         <div className='text-[#2E0A49] w-full py-12 md:pb-12 space-y-16'>
             <div className='flex flex-col gap-4 justify-center items-center'>
-                <h2 className='text-5xl md:text-7xl 2xl:text-8xl font-bold leading-tight text-center'>Our Wins (So Far)</h2>
+                <h2 className='text-4xl md:text-5xl lg:text-7xl font-bold leading-tight text-center'>Our Wins (So Far)</h2>
 
             </div>
             <div >

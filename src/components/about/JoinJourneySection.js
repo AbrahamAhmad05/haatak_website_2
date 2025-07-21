@@ -58,7 +58,7 @@ function JoinJourneySection() {
   return (
     <div className='text-[#2E0A49] py-12 space-y-12'>
       <div className='flex flex-col gap-4 justify-center items-center px-2'>
-        <h2 className='text-4xl md:text-7xl 2xl:text-8xl font-bold leading-tight text-center'>Join the Movement</h2>
+        <h2 className='text-4xl md:text-5xl lg:text-7xl font-bold leading-tight text-center'>Join the Movement</h2>
         <h5 className={`${gilroy_semibold.className} text-center text-2xl md:text-4xl md:w-3xl`}>
           Together, Let’s Make Saving a Way of Life
         </h5>
