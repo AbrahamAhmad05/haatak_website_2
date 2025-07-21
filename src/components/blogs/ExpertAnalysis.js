@@ -77,6 +77,7 @@ const ExpertAnalysis = ({ blogs }) => {
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 px-4 md:px-6 pt-8">
                     {blogs.map((blog) => (
                         // <Link key={blog.id} href={`/blogs/${blog.slug}`} className="group">
+                        <div key={blog.id} >
                         <BlogCard
                             title={blog.content.title}
                             imageUrl={blog.content.image?.url}
@@ -84,6 +85,7 @@ const ExpertAnalysis = ({ blogs }) => {
                             readingTime={`${blog.content.read_time} min`}
                             slug={blog.slug}
                         />
+                        </div>
                         // </Link>
                     ))}
                 </div>
