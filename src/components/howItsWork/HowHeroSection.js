@@ -19,7 +19,7 @@ function HeroSection() {
             {/* Content */}
             <div className="container relative flex justify-center items-center z-10 mx-auto px-2 sm:px-4 md:px-8 text-[#2E0A49] pt-16 md:pt-32">
                 <div className="w-full md:max-w-6xl flex flex-col text-center justify-center items-center">
-                    <h1 className="text-5xl sm:text-7xl md:text-8xl lg:text-9xl font-[700] md:mb-6">
+                    <h1 className="text-5xl sm:text-7xl md:text-8xl lg:text-8xl font-[700] md:mb-6">
                         Invest in Gold with Ease
                     </h1>
                     <p className={`text-lg md:text-2xl font-medium mb-8 md:px-48 ${gotham.className}`}>

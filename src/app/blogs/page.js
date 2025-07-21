@@ -26,13 +26,13 @@ async function Blogs() {
                 {/* Content */}
                 <div className="container relative flex justify-center items-center z-10 mx-auto px-2 sm:px-4 md:px-8 text-[#2E0A49] pt-16 md:pt-32">
                     <div className="flex flex-col text-center justify-center items-center">
-                        <h1 className="text-5xl sm:text-7xl md:text-8xl lg:text-9xl font-[700] md:mb-6 leading-tight">
+                        <h1 className="text-5xl sm:text-7xl md:text-8xl lg:text-8xl font-[700] md:mb-6 leading-tight">
                             Smart Saving & Digital Gold Insights That Build Wealth
                         </h1>
                         <h5 className={`${gilroy_semibold.className} text-center capitalize text-xl md:text-2xl lg:text-3xl font-medium md:px-16 pt-3`}>
                             Learn, grow, and invest wisely — one blog at a time.
                         </h5>
-                        {/* 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 */}
+                        
                         <h6 className={`${gotham.className}  capitalize text-md lg:text-2xl font-medium md:px-16 pt-3`}>Explore tips, stories, and updates on digital gold, investing habits, and how Haatak helps you grow your wealth — Starting from ₹10 at a time. Empower your financial journey with every read.</h6>
                         {/* <div >
                         <ul className={`flex text-xl md:text-3xl font-medium mb-8 md:px-48 gap-4 md:gap-8 ${gotham.className}`}>
