@@ -59,17 +59,17 @@ const Footer = () => {
                         <h5 className={`${helvetica_neue.className} text-lg font-medium  leading-relaxed text-[#2E0A49] uppercase`}>About</h5>
                         <div className="border-t border-[#2E0A49]" />
                         <div className={`${helvetica_neue_th.className} space-y-3`}>
-                            <Link href='/buy-24k-gold' className="block">
-                                <p className="text-[#2E0A49] text-md uppercase">Buy gold</p>
+                            <Link href='/buy-24k-gold' className="block cursor-pointer hover:opacity-70 transition-opacity">
+                                <p className="text-[#2E0A49] text-base uppercase">Buy gold</p>
                             </Link>
-                            <Link href='/about' className="block">
-                                <p className="text-[#2E0A49] text-md uppercase">About us</p>
+                            <Link href='/about' className="block cursor-pointer hover:opacity-70 transition-opacity">
+                                <p className="text-[#2E0A49] text-base uppercase">About us</p>
                             </Link>
-                            <Link href='/how-its-work' className="block">
-                                <p className="text-[#2E0A49] text-md uppercase">Features</p>
+                            <Link href='/how-its-work' className="block cursor-pointer hover:opacity-70 transition-opacity">
+                                <p className="text-[#2E0A49] text-base uppercase">Features</p>
                             </Link>
-                            <Link href='/blogs' className="block">
-                                <p className="text-[#2E0A49] text-md uppercase">Blog</p>
+                            <Link href='/blogs' className="block cursor-pointer hover:opacity-70 transition-opacity">
+                                <p className="text-[#2E0A49] text-base uppercase">Blog</p>
                             </Link>
                         </div>
                     </div>
@@ -79,17 +79,17 @@ const Footer = () => {
                         <h5 className={`${helvetica_neue.className} text-lg font-medium  leading-relaxed text-[#2E0A49] uppercase`}>Help</h5>
                         <div className="border-t border-[#2E0A49]" />
                         <div className={`${helvetica_neue_th.className} space-y-3`}>
-                            <Link href="/terms-of-use" className="block">
-                            <p className="text-[#2E0A49] text-md uppercase ">Terms & Conditions</p>
+                            <Link href="/terms-of-use" className="block cursor-pointer hover:opacity-70 transition-opacity">
+                                <p className="text-[#2E0A49] text-base uppercase">Terms & Conditions</p>
                             </Link>
-                            <Link href="/privacy-policy" className="block">
-                                <p className="text-[#2E0A49] text-md uppercase ">Privacy Policies</p>
+                            <Link href="/privacy-policy" className="block cursor-pointer hover:opacity-70 transition-opacity">
+                                <p className="text-[#2E0A49] text-base uppercase">Privacy Policies</p>
                             </Link>
-                            <Link href="#" className="block">
-                                <p className="text-[#2E0A49] text-md uppercase ">Shipping & Return</p>
+                            <Link href="#" className="block cursor-pointer hover:opacity-70 transition-opacity">
+                                <p className="text-[#2E0A49] text-base uppercase">Shipping & Return</p>
                             </Link>
-                            <Link href="/contact" className="block">
-                                <p className="text-[#2E0A49] text-md uppercase ">Contact Us</p>
+                            <Link href="/contact" className="block cursor-pointer hover:opacity-70 transition-opacity">
+                                <p className="text-[#2E0A49] text-base uppercase">Contact Us</p>
                             </Link>
                         </div>
                     </div>
@@ -102,19 +102,19 @@ const Footer = () => {
                             <div className='pt-[2px]'>
                                 <Phone className="text-[#2E0A49]" size={20} />
                             </div>
-                            <p className="text-[#2E0A49] text-md ">+91 63640 00414</p>
+                            <p className="text-[#2E0A49] text-base">+91 63640 00414</p>
                         </div>
                         <div className="flex items-start gap-3">
                             <div className='pt-[2px]'>
                                 <Mail className="text-[#2E0A49]" size={20} />
                             </div>
-                            <p className="text-[#2E0A49] text-md uppercase ">support@haatak.com</p>
+                            <p className="text-[#2E0A49] text-base uppercase">support@haatak.com</p>
                         </div>
                         <div className="flex items-start gap-3">
                             <div className='pt-[2px]'>
                                 <MapPin className="text-[#2E0A49]" size={20} />
                             </div>
-                            <p className="text-[#2E0A49] text-md uppercase ">
+                            <p className="text-[#2E0A49] text-base uppercase">
                                 #558, 9th Cross, 3rd Phase, J P Nagar, Bengaluru 560078
                             </p>
                         </div>
@@ -122,7 +122,7 @@ const Footer = () => {
 
                     {/* Company Info */}
                     <div className="space-y-6 flex flex-col justify-center md:justify-start md:items-start items-center lg:border-l-2 border-[#2E0A49] sm:w-md lg:pl-12">
-                        <div className="min-w-[200px] md:min-w-[250px] xl:min-w-[350px] ">  {/* Adjusted width */}
+                        <div className="min-w-[200px] md:min-w-[250px] xl:min-w-[350px] ">
                             <Image
                                 src="/home_imgs/haatak_logo.png"
                                 width={537}
@@ -139,19 +139,11 @@ const Footer = () => {
                             <div className="flex gap-5 md:gap-8 pt-4 flex-wrap justify-center md:justify-start">
                                 <Link target='_blank' href='http://www.facebook.com/HaatakOfficial'>
                                     <div className="rounded-md w-9 h-9 md:w-10 md:h-10 overflow-hidden bg-white">
-
                                         <div className="w-full h-full facebook-icon"></div>
                                     </div>
                                 </Link>
                                 <Link target='_blank' href='http://www.instagram.com/haatakofficial'>
                                     <div className="rounded-md w-9 h-9 md:w-10 md:h-10 overflow-hidden bg-white">
-                                        {/* <Image
-                                            src="/icons/instagram_icon.png"
-                                            width={64}
-                                            height={64}
-                                            alt="instagram"
-                                            className="w-full h-full"
-                                        /> */}
                                         <div className="w-full h-full instagram-icon"></div>
                                     </div>
                                 </Link>
@@ -192,7 +184,6 @@ const Footer = () => {
             <div className={`${albra_grotesk.className} text-center mt-12 border-t-2 border-[#2E0A49]/20 py-2 bg-[#E39A35]`}>
                 <p className="text-white text-base sm:text-medium">
                     ©2025 GrowYuga Fintech Private Limited. All rights reserved. 
-                    {/* | <Link href="/privacy-policy"><span className="px-2">Privacy Policy</span></Link> | <Link href="/terms-of-use"><span className="px-2">Terms of Service</span></Link> */}
                 </p>
             </div>
         </div>

@@ -10,7 +10,7 @@ const data = [
     description: "Register with your mobile number and complete KYC using PAN & Aadhaar — secure, RBI‑compliant."
   },
   {
-    quote: "Start with ₹1.",
+    quote: "Start with ₹10.",
     title: "Set & Automate Your Savings",
     image_url: "/how_it_work_imgs/piggy_bank.png",
     description: "Start saving from just ₹10 — daily, weekly, or monthly. Small steps, steady growth."
