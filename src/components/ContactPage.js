@@ -126,7 +126,7 @@ function ContactPage() {
                                     <div className="w-5 h-5 mr-3 text-white flex-shrink-0" >
                                         <Image src="/contact_imgs/message.png" width={32} height={32} alt="Message" />
                                     </div>
-                                    <span className="text-white">hello@haatak.com</span>
+                                    <span className="text-white">support@haatak.com</span>
                                 </div>
 
                                 <div className="w-64 flex items-start gap-4">

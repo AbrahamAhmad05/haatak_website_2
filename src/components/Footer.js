@@ -100,7 +100,7 @@ const Footer = () => {
                             <div className='pt-[2px]'>
                                 <Mail className="text-[#2E0A49]" size={20} />
                             </div>
-                            <p className="text-[#2E0A49] text-md uppercase ">hello@haatak.com</p>
+                            <p className="text-[#2E0A49] text-md uppercase ">support@haatak.com</p>
                         </div>
                         <div className="flex items-start gap-3">
                             <div className='pt-[2px]'>

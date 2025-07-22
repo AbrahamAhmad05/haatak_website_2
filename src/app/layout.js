@@ -6,6 +6,7 @@ import Head from "next/head";
 import { original } from "@/lib/font";
 import LenisProvider from "@/components/LenisProvider";
 import { Toaster } from "react-hot-toast";
+import FloatingQRCode from "@/components/FloatingQRCode";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -42,6 +43,7 @@ export default function RootLayout({ children }) {
         <LenisProvider>
           {children}
           <Toaster position="top-right" />
+          <FloatingQRCode />
         </LenisProvider>
         <Footer />
       </body>

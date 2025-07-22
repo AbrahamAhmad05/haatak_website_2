@@ -107,11 +107,7 @@ const PrivacyPolicyPage = () => {
                                 If you have any questions about our privacy practices and terms, please contact us at our corporate office:
                             </p>
                             <address className="not-italic mt-3">
-                                Unibridg Assets and Vault Private Limited.<br />
-                                Haatak<br />
-                                455 D, 1st Floor, Eshaan Arcade<br />
-                                REMCO BHEL Layout, Rajarajeshwari Nagar<br />
-                                Bengaluru - 560098
+                                #558, 9th Cross, 3rd Phase, J P Nagar, Bengaluru 560078
                             </address>
 
                             <h3 className={`${gilroy_semibold.className} text-lg md:text-xl text-[#2E0A49] mt-6 mb-2`}>
