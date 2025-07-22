@@ -79,10 +79,18 @@ const Footer = () => {
                         <h5 className={`${helvetica_neue.className} text-lg font-medium  leading-relaxed text-[#2E0A49] uppercase`}>Help</h5>
                         <div className="border-t border-[#2E0A49]" />
                         <div className={`${helvetica_neue_th.className} space-y-3`}>
-                            <Link href="/terms-of-use" className="block"><p className="text-[#2E0A49] text-md uppercase ">Terms & Conditions</p></Link>
-                            <Link href="/privacy-policy" className="block"><p className="text-[#2E0A49] text-md uppercase ">Privacy Policies</p></Link>
-                            <Link href="#" className="block"><p className="text-[#2E0A49] text-md uppercase ">Shipping & Return</p></Link>
-                            <Link href="/contact" className="block"><p className="text-[#2E0A49] text-md uppercase ">Contact Us</p></Link>
+                            <Link href="/terms-of-use" className="block">
+                            <p className="text-[#2E0A49] text-md uppercase ">Terms & Conditions</p>
+                            </Link>
+                            <Link href="/privacy-policy" className="block">
+                                <p className="text-[#2E0A49] text-md uppercase ">Privacy Policies</p>
+                            </Link>
+                            <Link href="#" className="block">
+                                <p className="text-[#2E0A49] text-md uppercase ">Shipping & Return</p>
+                            </Link>
+                            <Link href="/contact" className="block">
+                                <p className="text-[#2E0A49] text-md uppercase ">Contact Us</p>
+                            </Link>
                         </div>
                     </div>
 
