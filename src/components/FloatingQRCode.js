@@ -2,6 +2,7 @@
 import { gilroy, gilroy_semibold, mont } from "@/lib/font";
 import { QrCode, X } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 
 import { useState } from "react";
 
@@ -42,12 +43,14 @@ const FloatingQRCode = () => {
                     <div className="text-center">
                         {/* <h3 className="text-lg font-semibold mb-4">Scan QR Code</h3> */}
                         <div className="flex justify-center ">
-                        <Image src={"/qr_code.jpeg"} width={200} height={200} alt="QR Code" className="w-24 h-24" />
-                        <div className='pr-2 flex flex-col items-center justify-center'>
-                            <p className={`${gilroy_semibold.className} text-[#2E0A49] font-bold text-xl`}>download</p>
-                            <h6 className='text-3xl text-[#2E0A49]'>Haatak</h6>
-                        </div>
-                        {/* <QRCodeSVG
+                            <Link href="https://bookurgold.com/app" target="_blank" className="flex items-center justify-center gap-2">
+                                <Image src={"/qr_code.jpeg"} width={200} height={200} alt="QR Code" className="w-24 h-24" />
+                                <div className='pr-2 flex flex-col items-center justify-center'>
+                                    <p className={`${gilroy_semibold.className} text-[#2E0A49] font-bold text-xl`}>download</p>
+                                    <h6 className='text-3xl text-[#2E0A49]'>Haatak</h6>
+                                </div>
+                            </Link>
+                            {/* <QRCodeSVG
                   value={qrData}
                   size={200}
                   bgColor="#ffffff"
