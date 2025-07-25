@@ -3,6 +3,13 @@ import React from 'react'
 import { Button } from '../ui/button'
 import { gilroy_semibold, gotham } from '@/lib/font'
 
+/**
+ * The `HeroSection` function returns a JSX component for a hero section with a background image,
+ * content including a title and description, and a feature bar with icons and text.
+ * @returns The `HeroSection` component is being returned. It consists of a section element with a
+ * background image and gradient overlay, followed by content including a heading, paragraph, and a
+ * feature bar with security, gold, and purity features displayed using icons and text.
+ */
 const HeroSection = () => {
     return (
         <section className="relative min-h-screen min-w-full md:min-h-screen flex items-center">
@@ -22,7 +29,6 @@ const HeroSection = () => {
                         Start Small. Grow Big. Stay Golden. <br/>Build your future with 24K digital gold — safe, simple, and just a tap away.
                     </p>
                     
-                    {/* UPDATED FEATURE BAR - MOBILE OPTIMIZED */}
                     <div className={`${gotham.className} md:w-2xl my-4 md:my-8 py-3 md:py-1 bg-[#FFE4BF]`}>
                         <div className="flex flex-col md:flex-row justify-center items-center px-4">
                             <div className="flex flex-col md:flex-row justify-center items-center gap-4 md:gap-6">

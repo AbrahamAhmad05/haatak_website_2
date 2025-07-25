@@ -29,7 +29,6 @@ export default function Home() {
         <ReferSection />
         <FAQSection />
       </main>
-      
     </div>
   );
 }

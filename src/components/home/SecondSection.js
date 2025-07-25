@@ -86,13 +86,13 @@ const SecondSection = () => {
                               [@media(min-width:1024px)_and_(max-width:1366px)_and_(min-height:1300px)]:w-[180px]
                               [@media(min-width:768px)_and_(max-width:1024px)_and_(min-height:1000px)]:top-[72px]
                               [@media(min-width:1024px)_and_(max-width:1366px)_and_(min-height:1300px)]:top-[72px]
-                              top-8 md:top-[36px] lg:top-[72px] left-[23%] -translate-x-1/2 -translate-y-1/2 z-20">
+                              top-8 md:top-[30px] lg:top-[72px] left-[23%] -translate-x-1/2 -translate-y-1/2 z-20">
                     <Image
-                        src="/home_imgs/card_2.png"
-                        width={300}
-                        height={300}
+                        src="/home_imgs/card_2.svg"
+                        width={250}
+                        height={250}
                         alt="Card 2"
-                        className="object-contain animate-float"
+                        className="object-contain animate-float bg-[#d3cccc] lg:rounded-md rounded-md -rotate-[30deg] md:-rotate-[23deg] lg:-rotate-[16deg]"
                     />
                 </div>
 
@@ -102,13 +102,13 @@ const SecondSection = () => {
                               [@media(min-width:1024px)_and_(max-width:1366px)_and_(min-height:1300px)]:w-[180px]
                               [@media(min-width:768px)_and_(max-width:1024px)_and_(min-height:1000px)]:top-[72px]
                               [@media(min-width:1024px)_and_(max-width:1366px)_and_(min-height:1300px)]:top-[72px]
-                              top-8 md:top-[36px] lg:top-[72px] left-[77%] -translate-x-1/2 -translate-y-1/2 z-20">
+                              top-8 md:top-[30px] lg:top-[72px] left-[77%] -translate-x-1/2 -translate-y-1/2 z-20">
                     <Image
-                        src="/home_imgs/card_1.png"
-                        width={300}
-                        height={300}
+                        src="/home_imgs/card_1.svg"
+                        width={250}
+                        height={250}
                         alt="Card 1"
-                        className="object-contain animate-float"
+                        className="object-contain animate-float rotate-[30deg] md:rotate-[23deg] lg:rotate-[16deg]"
                     />
                 </div>
 
