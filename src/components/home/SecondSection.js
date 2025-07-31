@@ -88,7 +88,7 @@ const SecondSection = () => {
                               [@media(min-width:1024px)_and_(max-width:1366px)_and_(min-height:1300px)]:top-[72px]
                               top-8 md:top-[30px] lg:top-[72px] left-[23%] -translate-x-1/2 -translate-y-1/2 z-20">
                     <Image
-                        src="/home_imgs/card_2.svg"
+                        src="/home_imgs/card_1.svg"
                         width={250}
                         height={250}
                         alt="Card 2"
@@ -104,7 +104,7 @@ const SecondSection = () => {
                               [@media(min-width:1024px)_and_(max-width:1366px)_and_(min-height:1300px)]:top-[72px]
                               top-8 md:top-[30px] lg:top-[72px] left-[77%] -translate-x-1/2 -translate-y-1/2 z-20">
                     <Image
-                        src="/home_imgs/card_1.svg"
+                        src="/home_imgs/card_2.svg"
                         width={250}
                         height={250}
                         alt="Card 1"
