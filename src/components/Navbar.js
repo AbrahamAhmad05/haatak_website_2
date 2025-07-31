@@ -57,9 +57,9 @@ const Navbar = () => {
             ))}
             {/* More menu for tablet */}
             <li className="relative group">
-              <button className="hover:text-gray-600 transition-colors">
+              {/* <button className="hover:text-gray-600 transition-colors">
                 More
-              </button>
+              </button> */}
               <div className="absolute top-full right-0 mt-2 w-32 bg-white rounded-lg shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
                 <Link 
                   href="/contact" 
@@ -128,10 +128,10 @@ const Navbar = () => {
 
 const links = [
   { href: '/', label: 'Home' },
-  { href: '/about', label: 'About us' },
-  { href: '/how-its-work', label: "How it's work" },
-  { href: '/blogs', label: 'Blog' },
-  { href: '/contact', label: 'Contact' },
+  { href: '/about/', label: 'About us' },
+  { href: '/how-its-work/', label: "How it's work" },
+  { href: '/blogs/', label: 'Blog' },
+  { href: '/contact/', label: 'Contact' },
 ];
 
 export default Navbar

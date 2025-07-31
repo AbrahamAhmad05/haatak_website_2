@@ -15,6 +15,7 @@ export const metadata = {
   alternates: {
     canonical: 'https://www.haatak.com/',  // Explicit trailing slash
   },
+  metadataBase: new URL('https://www.haatak.com'),
 }
 
 export default function Home() {
