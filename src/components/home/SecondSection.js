@@ -92,7 +92,7 @@ const SecondSection = () => {
                         width={250}
                         height={250}
                         alt="Card 2"
-                        className="object-contain animate-float bg-[#d3cccc] lg:rounded-md rounded-md -rotate-[30deg] md:-rotate-[23deg] lg:-rotate-[16deg]"
+                        className="object-contain animate-float lg:rounded-md rounded-md -rotate-[30deg] md:-rotate-[23deg] lg:-rotate-[16deg]"
                     />
                 </div>
 
