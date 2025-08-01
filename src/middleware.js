@@ -1,36 +1,42 @@
 // middleware.js
 import { NextResponse } from 'next/server';
 
-const PRODUCTION_HOSTS = ['haatak.com', 'www.haatak.com'];
-const CANONICAL_HOST = 'www.haatak.com';
+const PRODUCTION_DOMAIN = 'www.haatak.com';
+const PRODUCTION_ENV = process.env.NODE_ENV === 'production';
 
 export function middleware(request) {
-  const url = request.nextUrl;
-  const hostname = request.headers.get('host')?.replace(/:\d+$/, '');
+  const url = request.nextUrl.clone(); // Always clone before modifying
+  const hostname = request.headers.get('host')?.replace(/:\d+$/, '') || '';
+  let hasRedirect = false;
 
-  // Redirect HTTP to HTTPS
-  if (url.protocol !== 'https:' && process.env.NODE_ENV === 'production') {
+  // 1. HTTPS Enforcement (works behind proxies)
+  if (PRODUCTION_ENV && request.headers.get('x-forwarded-proto') !== 'https') {
     url.protocol = 'https:';
-    return NextResponse.redirect(url, 301);
+    hasRedirect = true;
   }
 
-  // Redirect non-www to www
-  if (hostname === 'haatak.com' && process.env.NODE_ENV === 'production') {
-    url.host = CANONICAL_HOST;
-    return NextResponse.redirect(url, 301);
+  // 2. WWW Canonicalization
+  if (PRODUCTION_ENV && hostname === 'haatak.com') {
+    url.host = PRODUCTION_DOMAIN;
+    hasRedirect = true;
   }
 
-  // Redirect index.html and index.php to root
-  if (url.pathname.match(/^\/index\.(html|php)$/i)) {
-    url.pathname = '/';
-    return NextResponse.redirect(url, 301);
+  // 3. Index File Redirection (improved regex)
+  const indexPattern = /(^|\/)index\.(html|php)$/i;
+  if (indexPattern.test(url.pathname)) {
+    url.pathname = url.pathname.replace(indexPattern, '$1');
+    hasRedirect = true;
   }
 
-  // Redirect other index files (e.g., /about/index.html → /about/)
-  if (url.pathname.endsWith('/index.html') || url.pathname.endsWith('/index.php')) {
-    url.pathname = url.pathname.replace(/\/index\.(html|php)$/i, '/');
-    return NextResponse.redirect(url, 301);
+  // 4. Trailing Slash Consistency (recommended for Next.js)
+  const hasTrailingSlash = url.pathname.endsWith('/');
+  const isFile = /\.[a-z0-9]+$/i.test(url.pathname);
+  if (!hasTrailingSlash && !isFile && url.pathname !== '') {
+    url.pathname = `${url.pathname}/`;
+    hasRedirect = true;
   }
 
-  return NextResponse.next();
+  return hasRedirect
+    ? NextResponse.redirect(url, 301)
+    : NextResponse.next();
 }
