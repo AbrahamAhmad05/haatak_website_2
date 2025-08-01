@@ -1,3 +1,5 @@
+import { NextResponse } from "next/server";
+
 export function middleware(request) {
   const url = request.nextUrl.clone();
   const allowedParams = ['gclid', 'fbclid', 'utm_source'];
