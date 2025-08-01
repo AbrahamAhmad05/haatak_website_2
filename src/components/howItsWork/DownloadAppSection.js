@@ -1,5 +1,6 @@
 import { gilroy, gotham, mont } from '@/lib/font'
 import Image from 'next/image'
+import Link from 'next/link'
 import React from 'react'
 
 function DownloadAppSection() {
@@ -34,6 +35,7 @@ function DownloadAppSection() {
                 </p>
                 <div className="flex flex-col md:flex-row gap-4 md:gap-8 justify-center items-stretch px-4">
                     {/* Apple Button */}
+                    <Link href='https://apps.apple.com/in/app/haatak/id6670161811' target='_blank' className='w-full md:max-w-md'>
                     <div className="w-full md:max-w-md bg-gradient-to-br from-[#F3C862] via-[#FFE196] to-[#D99A26] p-1 rounded-lg mx-auto">
                         <div className="w-full flex items-center justify-between bg-gradient-to-br from-[#E7CB86] via-[#FFF4DF] to-[#E7CB86] p-3 md:p-4 rounded-[6px] gap-3 md:gap-6">
                             <Image
@@ -49,8 +51,10 @@ function DownloadAppSection() {
                             </div>
                         </div>
                     </div>
+                    </Link>
 
                     {/* Android Button */}
+                    <Link href='https://play.google.com/store/apps/details?id=com.copuchin.jarapp&hl=en_IN' target='_blank' className='w-full md:max-w-md'>
                     <div className="w-full md:max-w-md bg-gradient-to-br from-[#F3C862] via-[#FFE196] to-[#D99A26] p-1 rounded-lg mx-auto">
                         <div className="w-full flex items-center justify-between bg-gradient-to-br from-[#E7CB86] via-[#FFF4DF] to-[#E7CB86] p-3 md:p-4 rounded-[6px] gap-3 md:gap-6">
                             <Image
@@ -66,6 +70,7 @@ function DownloadAppSection() {
                             </div>
                         </div>
                     </div>
+                    </Link>
                 </div>
             </div>
         </div>

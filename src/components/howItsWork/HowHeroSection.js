@@ -29,7 +29,7 @@ function HeroSection() {
                     <div className="w-60 max-w-md bg-gradient-to-br from-[#F3C862] via-[#FFE196] to-[#D99A26] p-1 rounded-lg">
                         <div className="flex items-center justify-center bg-gradient-to-br from-[#E7CB86] via-[#FFF4DF] to-[#E7CB86] px-6 py-1  rounded-[6px] text-3xl md:text-4xl font-semibold gap-6">
                         <Image 
-                            src="/qr_code.jpeg"
+                            src="/qr_code.png"
                             className='w-24 h-24'
                             width={144}
                             height={144}
