@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.haatak.com/
+
+# Sitemaps
+Sitemap: https://www.haatak.com/sitemap.xml
