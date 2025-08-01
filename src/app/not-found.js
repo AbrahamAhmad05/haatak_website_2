@@ -17,10 +17,10 @@ const NotFoundPage = () => {
 
         <div className="text-center mb-12">
           <h1 className={`text-2xl md:text-4xl font-bold text-[#2E0A49] mb-6 ${gotham.className}`}>
-            Page NOT FOUND
+            PAGE NOT FOUND
           </h1>
           <p className={`text-lg md:text-xl text-[#2E0A49] max-w-2xl mb-4 ${gilroy_semibold.className}`}>
-            The Page you're seeking has vanished! It might have been moved, or is currently being polished to perfection.
+            The Page you&apos;re seeking has vanished! It might have been moved, or is currently being polished to perfection.
           </p>
           
           {/* Gold bar separator */}
