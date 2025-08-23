@@ -2,9 +2,9 @@ import { gilroy_semibold, gotham, montserrat, original, poppins } from '@/lib/fo
 import Image from 'next/image'
 
 export const metadata = {
-    title: "Haatak Privacy Policy | How We Protect Your Digital Gold & Data",
-    description: 'Your privacy matters. Read how Haatak protects your data with encryption, compliance, and transparency while enabling secure digital gold savings.',
-    keywords: 'haatak privacy, user data protection, gold app privacy, secure personal data, privacy policy India, gold platform security, RBI app compliance, protect user info, encryption gold app, data storage policy, fintech privacy terms, gold wallet privacy, user rights gold app, privacy commitment haatak, digital finance confidentiality',
+    title: "Haatak Shipping & Return Policy | Secure & Transparent Process",
+    description: 'Read Haatak&apos;s Shipping & Return Policy for secure, transparent digital gold orders. Learn about deliveries, order rules, inspections, and customer care.',
+    keywords: 'Read Haatak Shipping & Return Policy for secure, transparent digital gold orders. Learn about deliveries, order rules, inspections, and customer care. digital gold customer support',
 }
 
 const PrivacyPolicyPage = () => {
