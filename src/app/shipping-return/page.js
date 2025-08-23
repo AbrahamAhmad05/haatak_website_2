@@ -61,7 +61,7 @@ const PrivacyPolicyPage = () => {
                             </p>
 
                             <p>
-                            Customer Responsibility : The delivery will be made only to the registered recipient and will require OTP verification before handover. It is the customer's responsibility to ensure that the delivery address is correct and is available to receive the package. Haatak is not liable for any loss or delay caused by incorrect address details or the recipient's unavailability
+                            Customer Responsibility : The delivery will be made only to the registered recipient and will require OTP verification before handover. It is the customer&apos;s responsibility to ensure that the delivery address is correct and is available to receive the package. Haatak is not liable for any loss or delay caused by incorrect address details or the recipient&apos;s unavailability
                             </p>
 
                             <h3 className={`${gilroy_semibold.className} text-lg md:text-xl text-[#2E0A49] mt-6 mb-2`}>
@@ -77,7 +77,7 @@ const PrivacyPolicyPage = () => {
                             Refunds and Exchanges: Refunds and exchanges are not permitted for any items once the order is confirmed and delivery is accepted. Any requests for refunds due to perceived defects or dissatisfaction after delivery will be handled on a case-by-case basis and may require additional verification.
                             </p>
                             <p>
-                            Transaction Fees: If the refund or exchange is due to an error on Haatak's part, we will cover any associated transaction fees. However, if the request is not due to a mistake on our part, any transaction fees or costs incurred will be paid by the customer.
+                            Transaction Fees: If the refund or exchange is due to an error on Haatak&apos;s part, we will cover any associated transaction fees. However, if the request is not due to a mistake on our part, any transaction fees or costs incurred will be paid by the customer.
                             </p>
                             <p>
                             If you have any questions about our refund policy terms, please contact us at our corporate office:
