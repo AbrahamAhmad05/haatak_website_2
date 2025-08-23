@@ -85,7 +85,7 @@ const Footer = () => {
                             <Link href="/privacy-policy" className="block cursor-pointer hover:opacity-70 transition-opacity">
                                 <p className="text-[#2E0A49] text-base uppercase">Privacy Policies</p>
                             </Link>
-                            <Link href="#" className="block cursor-pointer hover:opacity-70 transition-opacity">
+                            <Link href="/shipping-return" className="block cursor-pointer hover:opacity-70 transition-opacity">
                                 <p className="text-[#2E0A49] text-base uppercase">Shipping & Return</p>
                             </Link>
                             <Link href="/contact" className="block cursor-pointer hover:opacity-70 transition-opacity">
