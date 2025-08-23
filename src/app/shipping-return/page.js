@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 export const metadata = {
     title: "Haatak Shipping & Return Policy | Secure & Transparent Process",
-    description: 'Read Haatak&apos;s Shipping & Return Policy for secure, transparent digital gold orders. Learn about deliveries, order rules, inspections, and customer care.',
+    description: 'Shipping & Return Policy for secure, transparent digital gold orders. Learn about deliveries, order rules, inspections, and customer care.',
     keywords: 'Read Haatak Shipping & Return Policy for secure, transparent digital gold orders. Learn about deliveries, order rules, inspections, and customer care. digital gold customer support',
 }
 
