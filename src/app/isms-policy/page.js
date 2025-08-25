@@ -2,9 +2,9 @@ import { gilroy_semibold, gotham, montserrat, original, poppins } from '@/lib/fo
 import Image from 'next/image';
 
 export const metadata = {
-    title: "Haatak Terms of Service | Secure Digital Gold Investment Platform",
-    description: 'Review the terms and conditions for using the Haatak app. Learn how we ensure compliance, user rights, transaction security, and responsible gold investment.',
-    keywords: 'haatak terms, digital gold terms of use, user agreement haatak, gold SIP policy, refund policy gold app, haatak legal terms, platform usage rules, RBI-compliant app terms, fintech service conditions, Indian gold investment terms, app legal policy, agreement for users, digital assets terms, gold ownership terms, haatak app rules',
+    title: "ISMS Policy | Secure & Encrypted 24K Digital Gold App",
+    description: 'Information Security Management System (ISMS) Policy for 24K Digital Gold savings. Learn how we protect data with encryption, audits, and compliance.',
+    keywords: '24k gold ISMS policy, digital gold app security, secure digital gold platform, 24k gold data protection, digital gold encryption policy, online gold investment security, information security digital gold, secure gold transactions app, 24k gold privacy and compliance, digital gold risk management, data security in gold apps, encrypted 24k gold savings, cyber security digital gold, digital gold fraud prevention, secure gold purchase app, information security for fintech gold, 24k gold ISMS compliance, digital gold security audits, safe digital gold investments, secure gold savings platform',
 }
 
 const TermsConditionsPage = () => {

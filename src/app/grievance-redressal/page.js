@@ -2,9 +2,9 @@ import { gilroy_semibold, gotham, montserrat, original, poppins } from '@/lib/fo
 import Image from 'next/image'
 
 export const metadata = {
-    title: "Haatak Shipping & Return Policy | Secure & Transparent Process",
-    description: 'Shipping & Return Policy for secure, transparent digital gold orders. Learn about deliveries, order rules, inspections, and customer care.',
-    keywords: 'Read Haatak Shipping & Return Policy for secure, transparent digital gold orders. Learn about deliveries, order rules, inspections, and customer care. digital gold customer support',
+    title: "Haatak Grievance Policy | Fair, Transparent Complaint Process",
+    description: 'Grievance Policy for fair, transparent handling of complaints. Learn how to file, escalate, and resolve issues with our digital gold services.',
+    keywords: '24k gold grievance policy, digital gold app grievance, digital gold complaint process, gold savings app support, 24k gold complaint resolution, digital gold escalation matrix, online gold grievance redressal, 24k gold customer care, gold investment app complaint handling, digital gold issue resolution, grievance officer digital gold, secure gold app grievance system, digital gold feedback and complaints, 24k gold complaint helpline, digital gold customer redressal, complaint escalation digital gold app, 24k gold grievance process, online gold purchase complaints, digital gold app transparency policy, 24k gold customer support',
 }
 
 const PrivacyPolicyPage = () => {
