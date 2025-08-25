@@ -35,7 +35,7 @@ const PrivacyPolicyPage = () => {
                                 Introduction
                             </h3>
                             <p>
-                                Welcome to Haatak! We are GrowYuga Fintech Private Limited., located at #558, 2nd Floor, 3rd Phase, JP Nagar, Bengaluru - 560078.. We highly value your trust and are committed to addressing your concerns with transparency and fairness. Your satisfaction is our priority, and we strive to handle grievances with the utmost care and clarity. At Haatak, we are committed to being transparent and fair with our Customers. We understand that there may be times when our products or services fall short of your expectations. If you're not satisfied, we want to hear from you and address your concerns.
+                                Welcome to Haatak! We are GrowYuga Fintech Private Limited., located at #558, 2nd Floor, 3rd Phase, JP Nagar, Bengaluru - 560078.. We highly value your trust and are committed to addressing your concerns with transparency and fairness. Your satisfaction is our priority, and we strive to handle grievances with the utmost care and clarity. At Haatak, we are committed to being transparent and fair with our Customers. We understand that there may be times when our products or services fall short of your expectations. If you’re not satisfied, we want to hear from you and address your concerns.
                             </p>
                             <p>
                                 This policy details the steps for resolving any complaints or issues you may have when using our services through our website, WAP site, or mobile applications. By engaging with our services, you agree to the terms outlined in this Grievance Policy. If you disagree with any part of this policy, we encourage you to let us know. Please note that this policy may be updated periodically, so we recommend reviewing it regularly to stay informed.
@@ -52,7 +52,7 @@ const PrivacyPolicyPage = () => {
                                                 1.2 &nbsp;&nbsp;<b>Open and Courteous Handling:</b> Complaints and concerns are addressed with an open &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; mind, courtesy, and in a timely manner.
                                              </p>
                                              <p className='text-[#000000]' >
-                                                1.3 &nbsp;&nbsp;<b>Clear Communication:</b> We will inform you about how to escalate your concerns if  you're &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; not satisfied with the initial resolution.
+                                                1.3 &nbsp;&nbsp;<b>Clear Communication:</b> We will inform you about how to escalate your concerns if  you’re &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; not satisfied with the initial resolution.
                                              </p>
                                              <p className='text-[#000000]' >
                                                 1.4 &nbsp;&nbsp;<b>Transparent Process:</b> We ensure that all grievances are handled through a clear and &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; transparent process, keeping you informed at every stage.
@@ -104,7 +104,7 @@ const PrivacyPolicyPage = () => {
                                      <li>
                                          Customer Care Escalation Matrix:
                                              <p className='text-[#000000]' >
-                                                4.1 &nbsp;&nbsp;&nbsp;<b>Level 1:</b> Call us at +91 9100450091 for any unresolved issues. If you're not satisfied with &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the response, request to speak with a customer service supervisor. You will either be &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;transferred immediately or receive a call back within 1 working day.
+                                                4.1 &nbsp;&nbsp;&nbsp;<b>Level 1:</b> Call us at +91 9100450091 for any unresolved issues. If you’re not satisfied with &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the response, request to speak with a customer service supervisor. You will either be &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;transferred immediately or receive a call back within 1 working day.
                                              </p>
                                              <p className='text-[#000000]' >
                                                 4.2 &nbsp;&nbsp;<b>Level 2:</b> Email us at grievance@Haatak.com. You will receive a ticket number for your &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;complaint. We aim to respond within 2 working days.
