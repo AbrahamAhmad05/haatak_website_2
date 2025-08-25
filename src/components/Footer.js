@@ -88,6 +88,12 @@ const Footer = () => {
                             <Link href="/shipping-return" className="block cursor-pointer hover:opacity-70 transition-opacity">
                                 <p className="text-[#2E0A49] text-base uppercase">Shipping & Return</p>
                             </Link>
+                            <Link href="/grievance-redressal" className="block cursor-pointer hover:opacity-70 transition-opacity">
+                                <p className="text-[#2E0A49] text-base uppercase">Grievance Redressal</p>
+                            </Link>
+                            <Link href="/isms-policy" className="block cursor-pointer hover:opacity-70 transition-opacity">
+                                <p className="text-[#2E0A49] text-base uppercase">ISMS Policy</p>
+                            </Link>
                             <Link href="/contact" className="block cursor-pointer hover:opacity-70 transition-opacity">
                                 <p className="text-[#2E0A49] text-base uppercase">Contact Us</p>
                             </Link>
@@ -102,7 +108,7 @@ const Footer = () => {
                             <div className='pt-[2px]'>
                                 <Phone className="text-[#2E0A49]" size={20} />
                             </div>
-                            <p className="text-[#2E0A49] text-base">+91 63640 00414</p>
+                            <p className="text-[#2E0A49] text-base">+91 9100450091</p>
                         </div>
                         <div className="flex items-start gap-3">
                             <div className='pt-[2px]'>

@@ -119,7 +119,7 @@ function ContactPage() {
                                     <div className="w-5 h-5 mr-3 text-white flex-shrink-0" >
                                         <Image src="/contact_imgs/phone_icon.png" width={32} height={32} alt="Phone" />
                                     </div>
-                                    <span className="text-white">+91 63640 00414</span>
+                                    <span className="text-white">+91 9100450091</span>
                                 </div>
 
                                 <div className="flex items-start gap-4">

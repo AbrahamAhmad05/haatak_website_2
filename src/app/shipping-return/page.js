@@ -25,7 +25,7 @@ const PrivacyPolicyPage = () => {
 
                         {/* Publication date */}
                         <div className={`${montserrat.className} text-sm sm:text-base md:text-lg py-3 md:py-4 text-[#2E0A49]`}>
-                            23 August 2025
+                            25 August 2025
                         </div>
 
                         {/* Policy content with responsive text sizing */}
@@ -82,7 +82,7 @@ const PrivacyPolicyPage = () => {
                             <p>
                             If you have any questions about our refund policy terms, please contact us at our corporate office:
                             </p>
-                            <address>
+                             <address>
                             GrowYuga Fintech Private Limited<br />  
                             Haatak  <br /> 
                             #558, 2nd Floor, 3rd Phase, <br /> 
