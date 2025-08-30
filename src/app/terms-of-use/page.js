@@ -102,7 +102,7 @@ const TermsConditionsPage = () => {
                                              </p>
                                              <br/>
                                               <p className='text-[#000000]' >
-                                                1.6 You understand that SafeGold handles the purchase and sale of gold. When you buy gold through SafeGold, it will be recorded in your SafeGold customer account. The physical gold will be stored with Brinks India Private Limited ("Custodian").
+                                                1.6 You understand that SafeGold handles the purchase and sale of gold. When you buy gold through SafeGold, it will be recorded in your SafeGold customer account. The physical gold will be stored with Brinks India Private Limited (&quot;Custodian&quot;).
                                              </p>
                                              <br/>
                                              <p className='text-[#000000]' >
