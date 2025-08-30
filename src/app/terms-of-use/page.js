@@ -106,7 +106,7 @@ const TermsConditionsPage = () => {
                                              </p>
                                              <br/>
                                              <p className='text-[#000000]' >
-                                                1.7 To protect your interests, SafeGold has appointed a trustee ("Trustee Administrator"). By using our platform, you agree to this arrangement and accept the terms outlined in the Trustee Administrator agreement. The Trustee Administrator is responsible for overseeing the physical gold stored with the Custodian on your behalf.
+                                                1.7 To protect your interests, SafeGold has appointed a trustee (&quot;Trustee Administrator&quot;). By using our platform, you agree to this arrangement and accept the terms outlined in the Trustee Administrator agreement. The Trustee Administrator is responsible for overseeing the physical gold stored with the Custodian on your behalf.
                                              </p>
                                              <br/>
                                              <p className='text-[#000000]' >
@@ -114,7 +114,7 @@ const TermsConditionsPage = () => {
                                              </p>
                                              <br/>
                                              <p className='text-[#000000]' >
-                                                1.9 Before using our services or purchasing gold, we recommend that you review the terms of service and privacy policy of Digital Gold India Private Limited, available at https://www.safegold.com/terms-and-conditions. In the event of any conflict between these terms and the terms of SafeGold, the terms of SafeGold regarding the purchase and/or sale of gold will take precedence. Please note that these terms, along with SafeGold's terms and conditions, will apply to you once you use our services and make a purchase.
+                                                1.9 Before using our services or purchasing gold, we recommend that you review the terms of service and privacy policy of Digital Gold India Private Limited, available at https://www.safegold.com/terms-and-conditions. In the event of any conflict between these terms and the terms of SafeGold, the terms of SafeGold regarding the purchase and/or sale of gold will take precedence. Please note that these terms, along with SafeGold&apos;s terms and conditions, will apply to you once you use our services and make a purchase.
                                              </p>
                                              <br/>
                                               <p className='text-[#000000]' >
@@ -159,7 +159,7 @@ const TermsConditionsPage = () => {
                                              </p>
                                              <br/>
                                               <p className='text-[#000000]' >
-                                                2.1.6 <b>Force Majeure Event:</b>An event beyond Haatak's control, such as natural disasters, civil disturbances, strikes, war, computer attacks, pandemics, or other unforeseen events that Haatak cannot reasonably manage.
+                                                2.1.6 <b>Force Majeure Event:</b>An event beyond Haatak&apos;s control, such as natural disasters, civil disturbances, strikes, war, computer attacks, pandemics, or other unforeseen events that Haatak cannot reasonably manage.
 
                                              </p>
                                              <br/>
@@ -175,7 +175,7 @@ const TermsConditionsPage = () => {
 
                                              <p className='text-[#000000]' >
                                                 2.1.9 <b>Platform:</b> 
-                                                Refers to our mobile application and website "www.Haatak.com", including all content, services, and technology provided.
+                                                Refers to our mobile application and website &quot;www.Haatak.com&quot;, including all content, services, and technology provided.
 
                                              </p>
                                              <br/>
@@ -226,7 +226,7 @@ const TermsConditionsPage = () => {
                                              </p>
                                              <br/>
                                              <p className='text-[#000000]' >
-                                                3.2 The Precious Metal is being offered for purchase and/or sale by GYFPL under its brand name “Haatak”. The Services are being provided by GYFPL, however GYFPL may utilize any third party external payment gateway service (“Payment Gateway Partner”) for facilitating the collection of payments for the Services on its Platform. The Payment Gateway Partner assumes no liability for the Services except for providing payment services and reasonable customer support in addressing the queries related to payments made. Any and all of the transactions relating to the Services are being rendered by GYFPL in association with the Intermediaries (namely the Security Trustee and Vault Keeper) with whom separate agreements have been entered into by GYFPL.
+                                                3.2 The Precious Metal is being offered for purchase and/or sale by GYFPL under its brand name &quot;Haatak&quot;. The Services are being provided by GYFPL, however GYFPL may utilize any third party external payment gateway service (&quot;Payment Gateway Partner&quot;) for facilitating the collection of payments for the Services on its Platform. The Payment Gateway Partner assumes no liability for the Services except for providing payment services and reasonable customer support in addressing the queries related to payments made. Any and all of the transactions relating to the Services are being rendered by GYFPL in association with the Intermediaries (namely the Security Trustee and Vault Keeper) with whom separate agreements have been entered into by GYFPL.
                                              </p>
                                              <br/>
                                              <p className='text-[#000000]' >
