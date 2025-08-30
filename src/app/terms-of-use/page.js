@@ -222,7 +222,7 @@ const TermsConditionsPage = () => {
                                             Terms and Conditions of Services being provided by Haatak
                                         </h3> 
                                         <p className='text-[#000000]' >
-                                                3.1 GrowYuga Fintech Private Limited, a company incorporated under the Companies Act, 2013 with its registered office at #558, 2nd Floor, 3rd Phase, JP Nagar, Bengaluru - 560078. ("GYFPL") will be selling Precious Metal and providing services in relation to (a) purchase and sale of Precious Metal; (b) safe keeping, vaulting, delivery and fulfillment of Precious Metal; and (c) other such other related services as may notified by Haatak from time to time, to the Customers, on or through the Platform (“Services”).
+                                                3.1 GrowYuga Fintech Private Limited, a company incorporated under the Companies Act, 2013 with its registered office at #558, 2nd Floor, 3rd Phase, JP Nagar, Bengaluru - 560078. (&quot;GYFPL&quot;) will be selling Precious Metal and providing services in relation to (a) purchase and sale of Precious Metal; (b) safe keeping, vaulting, delivery and fulfillment of Precious Metal; and (c) other such other related services as may notified by Haatak from time to time, to the Customers, on or through the Platform (&quot;Services&quot;).
                                              </p>
                                              <br/>
                                              <p className='text-[#000000]' >
@@ -234,7 +234,7 @@ const TermsConditionsPage = () => {
                                              </p>
                                              <br/>
                                              <p className='text-[#000000]' >
-                                                3.4 GYFPL does not guarantee any returns, on any transactions consummated vis-à-vis the Platform, to any person, either directly or indirectly. The Customer (hereinafter referred to as “You”, with the term “Your” being construed accordingly) shall be solely responsible for undertaking appropriate and effective due diligence and related analysis before undertaking any transactions pursuant to these Terms of Use. You further acknowledge and agree that GYFPL and its officers, directors, employees, agents and affiliates will have no liability for Your purchase or other decisions using the Platform.
+                                                3.4 GYFPL does not guarantee any returns, on any transactions consummated vis-à-vis the Platform, to any person, either directly or indirectly. The Customer (hereinafter referred to as &quot;You&quot;, with the term &quot;Your&quot; being construed accordingly) shall be solely responsible for undertaking appropriate and effective due diligence and related analysis before undertaking any transactions pursuant to these Terms of Use. You further acknowledge and agree that GYFPL and its officers, directors, employees, agents and affiliates will have no liability for Your purchase or other decisions using the Platform.
                                              </p>
                                              <br/>
                                              <p className='text-[#000000]' >
@@ -1098,7 +1098,7 @@ const TermsConditionsPage = () => {
                                             <br/>                                                                                                                             
 
                                              <p className='text-[#000000]' >
-                                                20.1 Use of the Platform and/or the Services is available only to Persons who can enter into legally binding contracts under the Indian Contract Act, 1872 and to Persons resident in India. Persons who are "incompetent to contract" within the meaning of the Indian Contract Act, 1872 including minors, undischarged insolvent and persons of unsound mind are not eligible to use the Platform or the Services. Any person under the age of 18 shall not register on the Platform and shall not transact on or use the Platform in relation to or for any Services. If a minor wishes to use or transact on the Platform, such use or transaction may be made by the minor’s legal guardian or parents on the Platform. GYFPL reserves the right to terminate any Person’s membership and/or refuse to provide such Person with access to the Platform and/or any Services if it is brought to GYFPL’s notice or if it is discovered that such Person is not eligible to use the Platform and/or any Service.
+                                                20.1 Use of the Platform and/or the Services is available only to Persons who can enter into legally binding contracts under the Indian Contract Act, 1872 and to Persons resident in India. Persons who are &quot;incompetent to contract&quot; within the meaning of the Indian Contract Act, 1872 including minors, undischarged insolvent and persons of unsound mind are not eligible to use the Platform or the Services. Any person under the age of 18 shall not register on the Platform and shall not transact on or use the Platform in relation to or for any Services. If a minor wishes to use or transact on the Platform, such use or transaction may be made by the minor&apos;s legal guardian or parents on the Platform. GYFPL reserves the right to terminate any Person&apos;s membership and/or refuse to provide such Person with access to the Platform and/or any Services if it is brought to GYFPL&apos;s notice or if it is discovered that such Person is not eligible to use the Platform and/or any Service.
                                              </p>
                                           
 
@@ -1155,7 +1155,7 @@ const TermsConditionsPage = () => {
                                             <br/>
 
                                               <p className='text-[#000000]' >
-                                                23.1 The Platform may allow You to post Your review and experience of using the Platform ("Reviews") in order to improve the Platform and the user experience.
+                                                23.1 The Platform may allow You to post Your review and experience of using the Platform (&quot;Reviews&quot;) in order to improve the Platform and the user experience.
                                              </p>
                                             <br/> 
 
@@ -1247,7 +1247,7 @@ const TermsConditionsPage = () => {
 
                                           
                                              <p className='text-[#000000]' >
-                                                27.1 You hereby agree to indemnify and keep the GYFPL indemnified from and against all actions, claims, demands, proceedings, losses, damages, costs, charges and expenses, directly or indirectly, whatsoever (“Losses”) which GYFPL and/or its employees, agents, workers or representative may at any time incur, sustain, suffer or be put to as a consequence of or by reason of or arising out of: (i) the usage of the Platform and/or any device used by the Customer to access the Platform; (ii) by reason of GYFPL acting in good faith and taking or refusing to take or omitting to take action on the Customer's instructions, and in particular arising directly or indirectly out of the negligence, mistake or misconduct of the Customer; (iii) breach or non-compliance of the Terms and relating to the Customer Account; and/or (iv) fraud or dishonesty relating to any transaction by the Customer.
+                                                27.1 You hereby agree to indemnify and keep the GYFPL indemnified from and against all actions, claims, demands, proceedings, losses, damages, costs, charges and expenses, directly or indirectly, whatsoever (&quot;Losses&quot;) which GYFPL and/or its employees, agents, workers or representative may at any time incur, sustain, suffer or be put to as a consequence of or by reason of or arising out of: (i) the usage of the Platform and/or any device used by the Customer to access the Platform; (ii) by reason of GYFPL acting in good faith and taking or refusing to take or omitting to take action on the Customer's instructions, and in particular arising directly or indirectly out of the negligence, mistake or misconduct of the Customer; (iii) breach or non-compliance of the Terms and relating to the Customer Account; and/or (iv) fraud or dishonesty relating to any transaction by the Customer.
                                              </p>
                                           
                                         </li>
@@ -1288,7 +1288,7 @@ const TermsConditionsPage = () => {
                                              <br>
                                              </br>
                                              <p className='text-[#000000]' >
-                                                29.1.2 is grossly harmful, harassing, blasphemous, defamatory, obscene, pornographic, pedophilic, libelous, invasive of another person's privacy, insulting or harassing on the basis of gender, hateful or racially or ethnically objectionable, relating or encouraging money laundering or gambling, or otherwise inconsistent or contrary to the Applicable Laws in force in any manner whatsoever.
+                                                29.1.2 is grossly harmful, harassing, blasphemous, defamatory, obscene, pornographic, pedophilic, libelous, invasive of another person&apos;s privacy, insulting or harassing on the basis of gender, hateful or racially or ethnically objectionable, relating or encouraging money laundering or gambling, or otherwise inconsistent or contrary to the Applicable Laws in force in any manner whatsoever.
                                              </p>
                                              <br/> 
                                               <p className='text-[#000000]' >
@@ -1302,17 +1302,17 @@ const TermsConditionsPage = () => {
                                               <br/> 
 
                                              <p className='text-[#000000]' >
-                                                29.1.5 involves the transmission of "junk mail", "chain letters", or unsolicited mass mailing or "spamming".
+                                                29.1.5 involves the transmission of &quot;junk mail&quot;, &quot;chain letters&quot;, or unsolicited mass mailing or &quot;spamming&quot;.
                                              </p>
                                               <br/> 
 
                                              <p className='text-[#000000]' >
-                                                29.1.6 infringes upon or violates any third party's rights including, but not limited to, any patent, trademark, copyright or other proprietary rights or intellectual property rights, rights of privacy (including without limitation unauthorized disclosure of a person's name, email address, physical address or phone number).
+                                                29.1.6 infringes upon or violates any third party&apos;s rights including, but not limited to, any patent, trademark, copyright or other proprietary rights or intellectual property rights, rights of privacy (including without limitation unauthorized disclosure of a person&apos;s name, email address, physical address or phone number).
                                              </p>
                                               <br/> 
 
                                                <p className='text-[#000000]' >
-                                                29.1.7 provides instructional information about illegal activities such as violating someone's privacy, or providing or creating computer viruses.
+                                                29.1.7 provides instructional information about illegal activities such as violating someone&apos;s privacy, or providing or creating computer viruses.
                                              </p>
                                               <br/> 
                                                <p className='text-[#000000]' >
@@ -1321,12 +1321,12 @@ const TermsConditionsPage = () => {
                                              <br/> 
 
                                                <p className='text-[#000000]' >
-                                                29.1.9 engages in commercial activities without GYFPL’s prior written consent such as engaging in contests, sweepstakes, barter, advertising etc.
+                                                29.1.9 engages in commercial activities without GYFPL&apos;s prior written consent such as engaging in contests, sweepstakes, barter, advertising etc.
                                              </p>
                                              <br/> 
 
                                                <p className='text-[#000000]' >
-                                                29.1.10 interferes with another person’s use of the Platform.
+                                                29.1.10 interferes with another person&apos;s use of the Platform.
                                              </p>
                                            <br/> 
 
@@ -1401,7 +1401,7 @@ const TermsConditionsPage = () => {
                                              <br></br>                                            
 
                                              <p className='text-[#000000]' >
-                                                30.2 All information, content, materials, and services available through the platform (collectively referred to as "contents") are provided on an "as is" and "as available" basis. GYFPL makes no representations or warranties regarding the operation of the platform, the accuracy or completeness of the contents, or the accuracy of any information. GYFPL will not be liable for any damage to your computer system or loss of data resulting from downloading any content, materials, documents, or information, or for any other losses incurred from using the platform. Your use of the platform is at your own risk. GYFPL will not be liable for any damages arising from the use of the platform, the services, or the contents, including direct, indirect, consequential, punitive, and incidental damages, unless otherwise specified in writing. To the fullest extent permitted by law, GYFPL disclaims all representations and warranties related to the platform and its contents, including, without limitation, warranties of title, merchantability, and fitness for a particular purpose.
+                                                30.2 All information, content, materials, and services available through the platform (collectively referred to as &quot;contents&quot;) are provided on an &quot;as is&quot; and &quot;as available&quot; basis. GYFPL makes no representations or warranties regarding the operation of the platform, the accuracy or completeness of the contents, or the accuracy of any information. GYFPL will not be liable for any damage to your computer system or loss of data resulting from downloading any content, materials, documents, or information, or for any other losses incurred from using the platform. Your use of the platform is at your own risk. GYFPL will not be liable for any damages arising from the use of the platform, the services, or the contents, including direct, indirect, consequential, punitive, and incidental damages, unless otherwise specified in writing. To the fullest extent permitted by law, GYFPL disclaims all representations and warranties related to the platform and its contents, including, without limitation, warranties of title, merchantability, and fitness for a particular purpose.
                                              </p>
                                              <br/>     
                                              
